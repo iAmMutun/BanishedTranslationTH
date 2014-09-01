@@ -1,6 +1,10 @@
+@ECHO off
+FOR %%* IN (.) DO SET "ModDirName=%%~n*"
+
+@ECHO on
 UnicodeFix64.exe Dialog/ Game/Help/ Game/Scenario/
-..\bin\Tools-x64.exe /build Package.rsc:list /pathres ../translation_th /pathdat ../translation_th/bin 
-..\bin\Tools-x64.exe /mod Package.rsc:translationThai /pathres ../translation_th /pathdat ../translation_th/bin 
+..\bin\Tools-x64.exe /build Package.rsc:list /pathres ../%ModDirName% /pathdat ../%ModDirName%/bin 
+..\bin\Tools-x64.exe /mod Package.rsc:translationThai /pathres ../%ModDirName% /pathdat ../%ModDirName%/bin 
 
 @ECHO off
 :: delay hack for win xp
