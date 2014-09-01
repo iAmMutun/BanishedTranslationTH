@@ -15,7 +15,7 @@ GOTO :EOF
 :CLEAN_TH_IF
 SET "dir=%~1"
 SET "file=%~2"
-IF EXIST "%dir%TH_%file%" (CALL :CLEAN_TH_DEL "%dir%%file%")
+IF EXIST "TH\%dir%%file%" (CALL :CLEAN_TH_DEL "%dir%%file%")
 GOTO :EOF
 
 :CLEAN_TH_DEL
