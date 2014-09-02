@@ -165,23 +165,23 @@ StringTable mainMenu
 		{ String _name = "Unbind";				String _text = "Unbind"; }
 		{ String _name = "AlreadyBound";		String _text = "@0 is already bound to @1. Bind it to @2 instead?"; }
 
-		{ String _name = "NewGameTip";			String _text = "Begin a new game"; }
-		{ String _name = "LoadGameTip";			String _text = "Load and resume a previously saved game"; }
-		{ String _name = "SaveGameTip";			String _text = "Save the current game"; }
-		{ String _name = "OptionsTip";			String _text = "Configure the game settings"; }
-		{ String _name = "QuitGameTip";			String _text = "Exit the game."; }
-		{ String _name = "ReturnMenuTip";		String _text = "Return to the main menu."; }
-		{ String _name = "ResumeGameTip";		String _text = "Resume the current game"; }
-		{ String _name = "TutorialTip";			String _text = "Play tutorials that teach how to play the game."; }
-		{ String _name = "AchievementTip";		String _text = "Show achievements and goals that have be been met."; }
-		{ String _name = "ModTip";				String _text = "Show and configure player created additions to the game."; }
+		{ String _name = "NewGameTip";			String _text = "เริ่มเกมใหม่"; }
+		{ String _name = "LoadGameTip";			String _text = "โหลดและเล่นต่อเกมที่เซฟไว้"; }
+		{ String _name = "SaveGameTip";			String _text = "เซฟเกมปัจจุบัน"; }
+		{ String _name = "OptionsTip";			String _text = "ตั้งค่าเกม"; }
+		{ String _name = "QuitGameTip";			String _text = "ออกจากเกม."; }
+		{ String _name = "ReturnMenuTip";		String _text = "กลับสู่เมนูหลัก"; }
+		{ String _name = "ResumeGameTip";		String _text = "เล่นเกมต่อ"; }
+		{ String _name = "TutorialTip";			String _text = "เริ่มต้นเกมฝึกหัดที่จะช่วยสอนวิธีการเล่น"; }
+		{ String _name = "AchievementTip";		String _text = "ดูรายการความสำเร็จและเป้าหมายที่ต้องทำสำหรับรางวัล"; }
+		{ String _name = "ModTip";				String _text = "ดูและปรับแต่งส่วนเสริมที่สร้างโดยผู้เล่นเกม"; }
 
-		{ String _name = "AchievementTip";		String _text = "Show achievements";  }
-		{ String _name = "ScenarioTip";			String _text = "Begin a new game with set starting conditions and goals"; 		}
-		{ String _name = "GoalTip";				String _text = "Show the status of goals"; 		}
-		{ String _name = "MapTip";				String _text = "Show map creation parameters."; }
+		{ String _name = "AchievementTip";		String _text = "ดูรายการความสำเร็จ";  }
+		{ String _name = "ScenarioTip";			String _text = "เริ่มเกมใหม่ด้วยเงื่อนไขและเป้าหมายที่ตั้งไว้ล่วงหน้า"; 		}
+		{ String _name = "GoalTip";				String _text = "ดูสถานะของเป้าหมาย"; 		}
+		{ String _name = "MapTip";				String _text = "ดูการตั้งค่าที่ใช้สร้างแผนที่"; }
 
-		{ String _name = "PercentComplete";		String _text = "เสร็ตแล้ว @0%"; }
+		{ String _name = "PercentComplete";		String _text = "สำเร็จแล้ว @0%"; }
 
 		{ String _name = "VolumeUI";			String _text = "เสียงส่วนติดต่อผู้ใช้"; }
 		{ String _name = "VolumeMusic";			String _text = "เพลงประกอบ"; }
@@ -431,8 +431,8 @@ StringTable objects
 		{ String _name = "StorageBarnLwr";		String _text = "โรงนา"; }
 		{ String _name = "StorageBarnTip";		String _text = "Used to store goods such as food, clothes, textiles, and tools."; }	
 
-		{ String _name = "CutterYard";			String _text = "ลานตัดฟืน"; }
-		{ String _name = "CutterYardLwr";		String _text = "ลานตัดฟืน"; }
+		{ String _name = "CutterYard";			String _text = "โรงตัดฟืน"; }
+		{ String _name = "CutterYardLwr";		String _text = "โรงตัดฟืน"; }
 		{ String _name = "CutterYardTip";		String _text = "Used to chop logs into firewood which are then used to heat homes in the winter."; }	
 
 		{ String _name = "ForesterLodge";		String _text = "เรือนผู้ดูแลป่า"; }
@@ -491,20 +491,20 @@ StringTable objects
 		{ String _name = "SchoolHouseLwr";		String _text = "โรงเรียน"; }
 		{ String _name = "SchoolHouseTip";		String _text = "Used to educate citizens to be more productive."; }	
 
-		{ String _name = "CropField";			String _text = "ไร่"; }
-		{ String _name = "CropFieldLwr";		String _text = "ไร่"; }
+		{ String _name = "CropField";			String _text = "ไร่นา"; }
+		{ String _name = "CropFieldLwr";		String _text = "ไร่นา"; }
 		{ String _name = "CropFieldTip";		String _text = "Used to define an area for farmers to grow crops."; }	
 
-		{ String _name = "Orchard";				String _text = "สวน"; }
-		{ String _name = "OrchardLwr";			String _text = "สวน"; }
+		{ String _name = "Orchard";				String _text = "สวนผลไม้"; }
+		{ String _name = "OrchardLwr";			String _text = "สวนผลไม้"; }
 		{ String _name = "OrchardTip";			String _text = "Used to define an area in which to grow fruit trees."; }	
 
 		{ String _name = "StorageYard";			String _text = "ลานเก็บของ"; }
 		{ String _name = "StorageYardLwr";		String _text = "ลานเก็บของ"; }
 		{ String _name = "StorageYardTip";		String _text = "Used to store raw materials such as logs, firewood, stone, coal, and iron."; }	
 
-		{ String _name = "Pasture";				String _text = "ปศุสัตว์"; }
-		{ String _name = "PastureLwr";			String _text = "ปศุสัตว์"; }
+		{ String _name = "Pasture";				String _text = "คอกปศุสัตว์"; }
+		{ String _name = "PastureLwr";			String _text = "คอกปศุสัตว์"; }
 		{ String _name = "PastureTip";			String _text = "Provides an area for livestock to graze."; }	
 
 		{ String _name = "DirtRoad";			String _text = "ถนนลูกรัง"; }
@@ -616,7 +616,7 @@ StringTable gameDialogs
 
 		{ String _name = "TownNameTip";			String _text = "ชื่อของเมือง"; }
 		
-		{ String _name = "Clearing";			String _text = "This area is being cleared of obstructions."; }
+		{ String _name = "Clearing";			String _text = "พื้นที่นี้กำลังถูกรื้อถอนเพื่อนำสิ่งกีดขวางออก"; }
 		{ String _name = "PercentFull";			String _text = "เต็ม @0%"; }
 		{ String _name = "PercentRemove";		String _text = "เหลือพื้นที่ @0%"; }
 		{ String _name = "PercentDestroy";		String _text = "รื้อถอนแล้ว @0%"; }
@@ -762,25 +762,25 @@ StringTable gameDialogs
 
 		{ String _name = "PastureEmpty";		String _text = "นำออก"; }
 		{ String _name = "PastureSplit";		String _text = "แบ่งแยก"; }
-		{ String _name = "PastureEmptyTip";		String _text = "Remove all animals from this pasture. Requires another pasture capable of holding the animals."; }
-		{ String _name = "PastureSplitTip";		String _text = "Move half the animals into another pasture. Requires another pasture capable of holding the animals."; }
-		{ String _name = "PastureSelectTip";	String _text = "Select the animal that will be kept in this pasture. This can only be done when the pasture is empty."; }
+		{ String _name = "PastureEmptyTip";		String _text = "นำสัตว์ออกจากคอกนี้ทั้งหมด จำเป็นต้องมีคอกอื่นมารองรับสัตว์จากคอกนี้"; }
+		{ String _name = "PastureSplitTip";		String _text = "ย้ายสัตว์ครึ่งหนึ่งออกจากคอกนี้ไปไว้คอกอื่นๆ จำเป็นต้องมีคอกอื่นมารองรับสัตว์จากคอกนี้"; }
+		{ String _name = "PastureSelectTip";	String _text = "เลือกชนิดของสัตว์ที่จะนำมาเลี้ยงในคอกนี้ จำเป็นต้องทำให้คอกว่างก่อน"; }
 
 		{ String _name = "HerdSize";			String _text = "ขนาดฝูง"; }
-		{ String _name = "HerdSizeTip";			String _text = "Controls number of animals to keep in the pasture. Exceeding this count will result in livestock being slaughtered for food."; }
+		{ String _name = "HerdSizeTip";			String _text = "ควบคุมจำนวนสัตว์ที่จะเลี้ยงในคอกนี้ หากสัตว์แพร่พันธุ์เกินจำนวนจะถูกนำไปเป็นอาหาร"; }
 
-		{ String _name = "Trade";				String _text = "Trade"; }
-		{ String _name = "Dismiss";				String _text = "Dismiss"; }
-		{ String _name = "DismissTip";			String _text = "Dismiss the merchant if they have nothing you wish to buy."; }
-		{ String _name = "Total";				String _text = "Total"; }
-		{ String _name = "DesiredTradeTip";		String _text = "Desired number of items to store at the trading post."; }
-		{ String _name = "TradeStoredTip";		String _text = "Number of items available for trade."; }
-		{ String _name = "TradeSellValueTip";	String _text = "Value that the item will be sold at."; }
-		{ String _name = "TradeBuyValueTip";	String _text = "Cost of the item."; }
-		{ String _name = "TradeCountTip";		String _text = "Number of items to trade."; }
-		{ String _name = "TradeNotEnough";		String _text = "You must trade an additional @0 units to complete this trade."; }
-		{ String _name = "TradeTooMuch";		String _text = "You are overpaying by @0 units."; }
-		{ String _name = "TradeNoStorage";		String _text = "There is not enough space to store all items in this trade."; }
+		{ String _name = "Trade";				String _text = "แลกเปลี่ยน"; }
+		{ String _name = "Dismiss";				String _text = "เลิก"; }
+		{ String _name = "DismissTip";			String _text = "ยุติการค้าขายกับพ่อค้าในรอบนี้เมื่อไม่มีสิ่งที่คุณสนใจแล้ว"; }
+		{ String _name = "Total";				String _text = "ทั้งหมด"; }
+		{ String _name = "DesiredTradeTip";		String _text = "ปริมาณสินค้าที่จะจัดเก็บไว้สำหรับการค้าขาย"; }
+		{ String _name = "TradeStoredTip";		String _text = "ปริมาณสินค้าที่พร้อมนำไปขาย"; }
+		{ String _name = "TradeSellValueTip";	String _text = "มูลค่าของสินค้าเมื่อถูกขาย"; }
+		{ String _name = "TradeBuyValueTip";	String _text = "มูลค่าของสินค้า"; }
+		{ String _name = "TradeCountTip";		String _text = "ปริมาณสินค้าที่จะแลกเปลี่ยน"; }
+		{ String _name = "TradeNotEnough";		String _text = "คุณต้องเพิ่มปริมาณสินค้าเป็นมูลค่าอีก @0 หน่วยจึงจะทำการแลกเปลี่ยนได้"; }
+		{ String _name = "TradeTooMuch";		String _text = "มูลค่าสินค้าของคุณสูงกว่าของพ่อค้าอยู่ @0 หน่วย"; }
+		{ String _name = "TradeNoStorage";		String _text = "พื้นที่ในคลังของท่าเรือไม่เพียงพอต่อการแลกเปลี่ยนครั้งนี้"; }
 
 		{ String _name = "TradeDesired";		String _text = "ต้องการ"; }
 		{ String _name = "TradeCount";			String _text = "จำนวน"; }

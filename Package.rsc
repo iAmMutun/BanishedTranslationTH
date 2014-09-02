@@ -5,7 +5,7 @@ PackageFile translationThai
 	String _description = "Thai language translation mod. TH Bai Jamjuree CP (TH Baijam) font by PITA team.";
 							//"ม็อดแปลภาษาไทย ฟอนต์ TH Bai Jamjuree CP (TH Baijam) โดยทีม PITA";
 	String _icon = "icon.png";
-	int _userVersion = 2;
+	int _userVersion = 3;
 
 	// all files in resource directory
 	String _includeList
