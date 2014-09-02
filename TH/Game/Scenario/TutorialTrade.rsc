@@ -1,4 +1,4 @@
-﻿Scenario resource : "ScenarioList.rsc:scenario"
+Scenario resource : "ScenarioList.rsc:scenario"
 {
 	String _sprite = "TutorialTrade";
 	String _text = "TutorialTrade";

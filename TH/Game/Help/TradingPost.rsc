@@ -1,4 +1,4 @@
-﻿StringTable resource
+StringTable resource
 {
 	Entry _strings
 	[ 

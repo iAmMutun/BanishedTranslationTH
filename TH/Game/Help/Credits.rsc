@@ -1,4 +1,4 @@
-﻿StringTable resource
+StringTable resource
 {
 	Entry _strings
 	[ 
@@ -16,7 +16,7 @@
 		^f2 Joseph Hodorowicz
 		^p
 		^i0Logo ^n
-		^f0 Banished ɠ2014 Shining Rock Software LLC. All Rights Reserved. ^n
+		^f0 Banished © 2014 Shining Rock Software LLC. All Rights Reserved. ^n
 		www.shiningrocksoftware.com
 
 	  "; }

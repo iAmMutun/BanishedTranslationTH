@@ -1,4 +1,4 @@
-﻿Scenario resource : "ScenarioList.rsc:scenario"
+Scenario resource : "ScenarioList.rsc:scenario"
 {
 	String _sprite = "TutorialGettingStarted";
 	String _text = "TutorialGettingStarted";

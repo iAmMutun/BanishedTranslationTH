@@ -1,4 +1,4 @@
-﻿StringTable general
+StringTable general
 {
 	Entry _strings
 	[ 

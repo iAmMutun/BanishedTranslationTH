@@ -1,4 +1,4 @@
-﻿// generic setups
+// generic setups
 TutorialSetupDialog setupExitOnly
 {
 	String _exclusions
