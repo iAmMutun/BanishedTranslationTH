@@ -107,10 +107,10 @@ StringTable mainMenu
 		{ String _name = "ModTop";				String _text = "สูงสุด"; 		}
 		{ String _name = "ModDetails";			String _text = "..."; 		}
 
-		{ String _name = "ModConflictTitle";	String _text = "^jl^f1^c0Conflicts^f0^n This mod potentially conflicts with the mods listed below. Items ^c1highlighted in orange^c0 are currently active conflicts."; }
-		{ String _name = "ModResourceTitle";	String _text = "^jl^f1^c0Resources^f0^n The resources contained in the mod are below. 
-																Items ^c1highlighted in orange^c0 are files are conflicting with another mod, but the files from this mod will be loaded. 
-																Items ^c2highlighted in bright yellow^c0 are conflicting with another mod, but won't be loaded."; }
+		{ String _name = "ModConflictTitle";	String _text = "^jl^f1^c0ความขัดแย้ง^f0^n ส่วนเสริมนี้มีส่วนขัดแย้งกันกับส่วนเสริมอื่นตามรายการด้านล่าง ส่วนเสริม^c1ที่แสดงเป็นสีส้ม^c0คือส่วนเสริมที่ขัดแย้งกันและเปิดใช้งานอยู่"; }
+		{ String _name = "ModResourceTitle";	String _text = "^jl^f1^c0ทรัพยากร^f0^n ทรัพยากรที่ใช้ในส่วนเสริมนี้อยู่ในรายการด้านล่าง 
+																ทรัพยากร^c1ที่แสดงเป็นสีส้ม^c0คือทรัพยากรที่ขัดแย้งกับส่วนเสริมอื่น แต่ทรัพยากรของส่วนเสริมนี้จะถูกโหลด 
+																ทรัพยากร^c2ที่แสดงเป็นสีเหลือง^c0คือทรัพยากรที่ขัดแย้งกับส่วนเสริมอื่น และทรัพยากรของส่วนเสริมนี้จะไม่ถูกโหลด"; }
 
 		{ String _name = "ModDetailsTip";		String _text = "ดูรายละเอียดส่วนเสริม รวมทั้งรายชื่อไฟล์ และความขัดแย้งกับส่วนเสริมอื่นๆ"; 		}
 		{ String _name = "ModTopTip";			String _text = "กำหนดความสำคัญสูงสุดให้ส่วนเสริม"; 		}
@@ -161,9 +161,9 @@ StringTable mainMenu
 		{ String _name = "ShadowQuality";		String _text = "คุณภาพเงา"; }
 		{ String _name = "ReflectionQuality";	String _text = "การสะท้อน"; }
 
-		{ String _name = "Bind";				String _text = "Press a key to bind it to @0"; }
-		{ String _name = "Unbind";				String _text = "Unbind"; }
-		{ String _name = "AlreadyBound";		String _text = "@0 is already bound to @1. Bind it to @2 instead?"; }
+		{ String _name = "Bind";				String _text = "กดปุ่มบนคีย์บอร์ดเพื่อผูกกับคำสั่ง@0"; }
+		{ String _name = "Unbind";				String _text = "เลิกผูก"; }
+		{ String _name = "AlreadyBound";		String _text = "ปุ่ม @0 ผูกกับ @1 ไปแล้ว ต้องการผูกกับ @2 แทนหรือไม่?"; }
 
 		{ String _name = "NewGameTip";			String _text = "เริ่มเกมใหม่"; }
 		{ String _name = "LoadGameTip";			String _text = "โหลดและเล่นต่อเกมที่เซฟไว้"; }
@@ -392,196 +392,196 @@ StringTable objects
 
 		{ String _name = "Well";				String _text = "บ่อน้ำ"; }
 		{ String _name = "WellLwr";				String _text = "บ่อน้ำ"; }
-		{ String _name = "WellTip";				String _text = "Provides water for putting out fires."; }	
+		{ String _name = "WellTip";				String _text = "แหล่งน้ำสำหรับการดับเพลิง"; }	
 
 		{ String _name = "Hostel";				String _text = "บ้านพัก"; }
 		{ String _name = "HostelLwr";			String _text = "บ้านพัก"; }
-		{ String _name = "HostelTip";			String _text = "Provides a temporary place for the homeless to live."; }	
+		{ String _name = "HostelTip";			String _text = "บ้านพักชั่วคราวสำหรับชาวเมืองที่ไร้บ้านได้อยู่อาศัย"; }	
 
 		{ String _name = "Chapel";				String _text = "โบสถ์"; }
 		{ String _name = "ChapelLwr";			String _text = "โบสถ์"; }
-		{ String _name = "ChapelTip";			String _text = "Provides happiness for the devout and a place to meet and worship."; }	
+		{ String _name = "ChapelTip";			String _text = "สถานที่ทำพิธีทางศาสนาและมอบความสุขทางใจให้แก่ชาวเมือง"; }	
 
-		{ String _name = "BathHouse";			String _text = "Bath House"; }
-		{ String _name = "BathHouseLwr";		String _text = "bath house"; }
-		{ String _name = "BathHouseTip";		String _text = "Promotes cleanliness, good health, and happiness."; }	
+		{ String _name = "BathHouse";			String _text = "โรงอาบน้ำ"; }
+		{ String _name = "BathHouseLwr";		String _text = "โรงอาบน้ำ"; }
+		{ String _name = "BathHouseTip";		String _text = "ให้ความสะอาด เพิ่มระดับสุขภาพและความสุขของชาวเมือง"; }	
 
 		{ String _name = "Tavern";				String _text = "โรงเหล้า"; }
 		{ String _name = "TavernLwr";			String _text = "โรงเหล้า"; }
-		{ String _name = "TavernTip";			String _text = "Brews alcohol and makes citizens happy."; }	
+		{ String _name = "TavernTip";			String _text = "ผลิตเหล้าเพื่อการสังสรรค์และมอบความสุขแก่ชาวเมือง"; }	
 
 		{ String _name = "Cemetery";			String _text = "สุสาน"; }
 		{ String _name = "CemeteryLwr";			String _text = "สุสาน"; }
-		{ String _name = "CemeteryTip";			String _text = "Prevents citizens from becoming sad when their elders die."; }	
+		{ String _name = "CemeteryTip";			String _text = "ลดความเศร้าในหมู่คนใกล้ชิดของของชาวเมืองที่จากไป"; }	
 
 		{ String _name = "StorageCart";			String _text = "เกวียน"; }
 		{ String _name = "StorageCartLwr";		String _text = "เกวียน"; }
-		{ String _name = "StorageCartTip";		String _text = "Provides initial supplies while a town is being built."; }	
+		{ String _name = "StorageCartTip";		String _text = "แหล่งทรัพยากรเริ่มต้นสำหรับเมืองที่เพิ่งก่อตั้ง"; }	
 
 		{ String _name = "WoodHome";			String _text = "บ้านไม้"; }
 		{ String _name = "WoodHomeLwr";			String _text = "บ้านไม้"; }
-		{ String _name = "WoodHomeTip";			String _text = "Provides a place for citizens to live, eat, store food, and stay warm."; }	
-		{ String _name = "WoodHomeUpgradeTip";	String _text = "Upgrade to a stone home. Stone homes provide more warmth than wooden homes. Some resources from the existing building will be reclaimed."; }
+		{ String _name = "WoodHomeTip";			String _text = "ที่อยู่อาศัยของชาวเมือง กักเก็บเสบียงอาหาร และให้ความอบอุ่น"; }	
+		{ String _name = "WoodHomeUpgradeTip";	String _text = "อัพเกรดเป็นบ้านหินที่ให้ความอบอุ่นมากกว่าบ้านไม้ ผู้อยู่อาศัยและข้าวของภายในบ้านจะถูกย้ายออก"; }
 
 		{ String _name = "StoneHome";			String _text = "บ้านหิน"; }
 		{ String _name = "StoneHomeLwr";		String _text = "บ้านหิน"; }
-		{ String _name = "StoneHomeTip";		String _text = "Provides a place for citizens to live, eat, store food, and stay warm. Provides more warmth than wooden homes."; }	
+		{ String _name = "StoneHomeTip";		String _text = "ที่อยู่อาศัยของชาวเมือง กักเก็บเสบียงอาหาร และให้ความอบอุ่นได้มากกว่าย้านไม้"; }	
 
 		{ String _name = "StorageBarn";			String _text = "โรงนา"; }
 		{ String _name = "StorageBarnLwr";		String _text = "โรงนา"; }
-		{ String _name = "StorageBarnTip";		String _text = "Used to store goods such as food, clothes, textiles, and tools."; }	
+		{ String _name = "StorageBarnTip";		String _text = "ใช้กักเก็บเสบียงต่างๆ อาหาร เสื้อผ้า สิ่งทอ และเครื่องมือ"; }	
 
 		{ String _name = "CutterYard";			String _text = "โรงตัดฟืน"; }
 		{ String _name = "CutterYardLwr";		String _text = "โรงตัดฟืน"; }
-		{ String _name = "CutterYardTip";		String _text = "Used to chop logs into firewood which are then used to heat homes in the winter."; }	
+		{ String _name = "CutterYardTip";		String _text = "ตัดไม้ซุงให้เป็นฟืน เพื่อนำไปสร้างความอบอุ่นแภายในบ้านช่วงฤดูหนาว"; }	
 
 		{ String _name = "ForesterLodge";		String _text = "เรือนผู้ดูแลป่า"; }
 		{ String _name = "ForesterLodgeLwr";	String _text = "เรือนผู้ดูแลป่า"; }
-		{ String _name = "ForesterLodgeTip";	String _text = "Used to define an area to selectively cut down trees and plant new seedlings."; }	
+		{ String _name = "ForesterLodgeTip";	String _text = "เลือกสถานที่โดยรอบเพื่อให้ผู้ดูแลป่าปลูกหรือตัดไม้"; }	
 
 		{ String _name = "FishermansDock";		String _text = "ท่าเรือประมง"; }
 		{ String _name = "FishermansDockLwr";	String _text = "ท่าเรือประมง"; }
-		{ String _name = "FishermansDockTip";	String _text = "Placed on a river to define an area for catching fish."; }	
+		{ String _name = "FishermansDockTip";	String _text = "สร้างท่าเรือประมงริมแม่น้ำให้ชาวประมงได้จับปลามาเป็นอาหาร"; }	
 
 		{ String _name = "ToolMaker";			String _text = "โรงตีเหล็ก"; }
 		{ String _name = "ToolMakerLwr";		String _text = "โรงตีเหล็ก"; }
-		{ String _name = "ToolMakerTip";		String _text = "Used to create new tools from wood and iron."; }	
+		{ String _name = "ToolMakerTip";		String _text = "แปรรูปไม้และแร่เหล็กให้เป็นเครื่องมือ"; }	
 
 		{ String _name = "HunterLodge";			String _text = "เรือนนายพราน"; }
 		{ String _name = "HunterLodgeLwr";		String _text = "เรือนนายพราน"; }
-		{ String _name = "HunterLodgeTip";		String _text = "Used to define an area for hunting wild game."; }	
+		{ String _name = "HunterLodgeTip";		String _text = "เลือกสถานที่โดยรอบเพื่อให้นายพรานออกล่าสัตว์ป่าเป็นอาหาร"; }	
 
 		{ String _name = "Herbalist";			String _text = "เรือนสมุนไพร"; }
 		{ String _name = "HerbalistLwr";		String _text = "เรือนสมุนไพร"; }
-		{ String _name = "HerbalistTip";		String _text = "Used to gather herbs and provide simple health and healing for citizens."; }	
+		{ String _name = "HerbalistTip";		String _text = "เก็บเกี่ยวสมุนไพรจากป่า ช่วยรักษาสุขภาพระดับพื้นฐานแก่ชาวเมือง"; }	
 
 		{ String _name = "Doctor";				String _text = "โรงพยาบาล"; }
 		{ String _name = "DoctorLwr";			String _text = "โรงพยาบาล"; }
-		{ String _name = "DoctorTip";			String _text = "Used to heal diseases."; }	
+		{ String _name = "DoctorTip";			String _text = "ช่วยรักษาโรคระบาด"; }	
 
 		{ String _name = "TownHall";			String _text = "ศาลาเมือง"; }
 		{ String _name = "TownHallLwr";			String _text = "ศาลาเมือง"; }
-		{ String _name = "TownHallTip";			String _text = "Used to record and show census data."; }	
+		{ String _name = "TownHallTip";			String _text = "เก็บบันทึกประวัติและสถิติต่างๆภายในเมือง"; }	
 
 		{ String _name = "Market";				String _text = "ตลาด"; }
 		{ String _name = "MarketLwr";			String _text = "ตลาด"; }
-		{ String _name = "MarketTip";			String _text = "Used to provide a localized area for citizens to collect food, tools, and fuel."; }	
+		{ String _name = "MarketTip";			String _text = "สถานที่กักเก็บและแจกจ่ายอาหาร เครื่องมือ และเชื้อเพลิงแก่ชาวเมืองในบริเวณโดยรอบ"; }	
 
 		{ String _name = "TradingPost";			String _text = "ท่าเรือสินค้า"; }
 		{ String _name = "TradingPostLwr";		String _text = "ท่าเรือสินค้า"; }
-		{ String _name = "TradingPostTip";		String _text = "Allows for the trade of resources with merchants."; }	
+		{ String _name = "TradingPostTip";		String _text = "เปิดเส้นทางการเจรจาซื้อขายสินค้ากับพ่อค้าต่างเมือง"; }	
 
 		{ String _name = "IronMine";			String _text = "เหมืองแร่"; }
 		{ String _name = "IronMineLwr";			String _text = "เหมืองแร่"; }
-		{ String _name = "IronMineTip";			String _text = "Used to mine iron and coal out of the ground. Mines cannot be removed once placed."; }	
+		{ String _name = "IronMineTip";			String _text = "ขุดแร่เหล็กและถ่านหินจากใต้ผืนภูเขา เหมืองแร่ไม่สามารถถูกรื้อถอนได้เมื่อสร้างไปแล้ว"; }	
 
 		{ String _name = "Quarry";				String _text = "เหมืองหิน"; }
 		{ String _name = "QuarryLwr";			String _text = "เหมืองหิน"; }
-		{ String _name = "QuarryTip";			String _text = "Used to mine stone from the ground. Quarries cannot be removed once placed."; }	
+		{ String _name = "QuarryTip";			String _text = "ขุดกินจากใต้พื้นดินมาใช้งาน เหมืองหินไม่สามารถถูกรื้อถอนได้เมื่อสร้างไปแล้ว"; }	
 
 		{ String _name = "GathererShelter";		String _text = "เรือนนักหาของป่า"; }
 		{ String _name = "GathererShelterLwr";	String _text = "เรือนนักหาของป่า"; }
-		{ String _name = "GathererShelterTip";	String _text = "Used to define an area for collection of roots and berries."; }	
+		{ String _name = "GathererShelterTip";	String _text = "เลือกสถานที่โดยรอบเพื่อให้นักหาของป่าเก็บเกี่ยวรากไม้และผลเบอร์รี่มาเป็นอาหาร"; }	
 
 		{ String _name = "Tailor";				String _text = "เรือนช่างตัดเสื้อ"; }
 		{ String _name = "TailorLwr";			String _text = "เรือนช่างตัดเสื้อ"; }
-		{ String _name = "TailorTip";			String _text = "Used to make warm clothes to ward off the effects of winter."; }	
+		{ String _name = "TailorTip";			String _text = "ตัดเย็บเสื้อผ้าเพื่อสร้างความอบอุ่นและขับไล่ความหนาวในฤดูหนาว"; }	
 
 		{ String _name = "SchoolHouse";			String _text = "โรงเรียน"; }
 		{ String _name = "SchoolHouseLwr";		String _text = "โรงเรียน"; }
-		{ String _name = "SchoolHouseTip";		String _text = "Used to educate citizens to be more productive."; }	
+		{ String _name = "SchoolHouseTip";		String _text = "ให้การศึกษาเพื่อยกระดับการทำงานของชาวเมือง"; }	
 
 		{ String _name = "CropField";			String _text = "ไร่นา"; }
 		{ String _name = "CropFieldLwr";		String _text = "ไร่นา"; }
-		{ String _name = "CropFieldTip";		String _text = "Used to define an area for farmers to grow crops."; }	
+		{ String _name = "CropFieldTip";		String _text = "กำหนดบริเวณที่จะให้เกษตรกรปลูกพืชไร่ ผักต่างๆ"; }	
 
 		{ String _name = "Orchard";				String _text = "สวนผลไม้"; }
 		{ String _name = "OrchardLwr";			String _text = "สวนผลไม้"; }
-		{ String _name = "OrchardTip";			String _text = "Used to define an area in which to grow fruit trees."; }	
+		{ String _name = "OrchardTip";			String _text = "กำหนดบริเวณที่จะให้เกษตรกรปลูกพืชสวน ผลไม้ต่างๆ"; }	
 
 		{ String _name = "StorageYard";			String _text = "ลานเก็บของ"; }
 		{ String _name = "StorageYardLwr";		String _text = "ลานเก็บของ"; }
-		{ String _name = "StorageYardTip";		String _text = "Used to store raw materials such as logs, firewood, stone, coal, and iron."; }	
+		{ String _name = "StorageYardTip";		String _text = "ใช้เก็ยทรัพยากรเช่นไม้ซุง ฟืน หิน ถ่านหินและเหล็ก"; }	
 
 		{ String _name = "Pasture";				String _text = "คอกปศุสัตว์"; }
 		{ String _name = "PastureLwr";			String _text = "คอกปศุสัตว์"; }
-		{ String _name = "PastureTip";			String _text = "Provides an area for livestock to graze."; }	
+		{ String _name = "PastureTip";			String _text = "สร้างคอกให้ปศุสัตว์อยู่อาศัย"; }	
 
 		{ String _name = "DirtRoad";			String _text = "ถนนลูกรัง"; }
 		{ String _name = "DirtRoadLwr";			String _text = "ถนนลูกรัง"; }
-		{ String _name = "DirtRoadTip";			String _text = "Provides faster travel for citizens."; }	
+		{ String _name = "DirtRoadTip";			String _text = "ให้การเดินทางที่สะดวกรวดเร็วแก่ชาวเมือง"; }	
 
 		{ String _name = "StoneRoad";			String _text = "ถนนหิน"; }
 		{ String _name = "StoneRoadLwr";		String _text = "ถนนหิน"; }
-		{ String _name = "StoneRoadTip";		String _text = "Provides much faster travel for citizens."; }	
+		{ String _name = "StoneRoadTip";		String _text = "ให้การเดินทางที่สะดวกรวดเร็วยิ่งกว่าแก่ชาวเมือง"; }	
 
 		{ String _name = "Bridge";				String _text = "สะพานไม้"; }
 		{ String _name = "BridgeLwr";			String _text = "สะพานไม้"; }
-		{ String _name = "BridgeTip";			String _text = "Allows citizens to cross rivers."; }	
+		{ String _name = "BridgeTip";			String _text = "สร้างเส้นทางสัญจรข้ามน้ำแก่ชาวเมือง"; }	
 
 		{ String _name = "Tunnel";				String _text = "อุโมงค์"; }
 		{ String _name = "TunnelLwr";			String _text = "อุโมงค์"; }
-		{ String _name = "TunnelTip";			String _text = "Allows citizens to move tunnel through mountains."; }	
+		{ String _name = "TunnelTip";			String _text = "สร้างเส้นทางลอดใต้ภูเขาแก่ชาวเเมือง"; }	
 
-		{ String _name = "ClearResources";		String _text = "เก็บเกี่ยวทรัพยากร"; }
-		{ String _name = "ClearResourcesTip";	String _text = "Remove anything in the selected area."; }	
+		{ String _name = "ClearResources";		String _text = "รื้อถอนทรัพยากร"; }
+		{ String _name = "ClearResourcesTip";	String _text = "เก็บเกี่ยว/รื้อถอนทรัพยากรในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearBuildings";		String _text = "รื้อถอนสิ่งปลูกสร้าง"; }
-		{ String _name = "ClearBuildingsTip";	String _text = "Remove structures in the selected area."; }	
+		{ String _name = "ClearBuildingsTip";	String _text = "รื้อถอนสิ่งปลูกสร้างในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearTree";			String _text = "รื้อถอนต้นไม้"; }
-		{ String _name = "ClearTreeTip";		String _text = "Cut down trees in the selected area."; }	
+		{ String _name = "ClearTreeTip";		String _text = "ตัดต้นไม้ทั้งหมดในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearIron";			String _text = "เก็บโลหะ"; }
-		{ String _name = "ClearIronTip";		String _text = "Collect all iron in the selected area."; }	
+		{ String _name = "ClearIronTip";		String _text = "เก็บเกี่ยวแร่เหล็กทั้งหมดในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearStone";			String _text = "เก็บหิน"; }
-		{ String _name = "ClearStoneTip";		String _text = "Collect all stone in the selected area."; }	
+		{ String _name = "ClearStoneTip";		String _text = "เก็บเกี่ยวหินทั้งหมดในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearRoad";			String _text = "รื้อถอนถนน"; }
-		{ String _name = "ClearRoadTip";		String _text = "Remove roads in the selected area."; }	
+		{ String _name = "ClearRoadTip";		String _text = "รื้อถอนถนนในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearMushroom";		String _text = "เก็บเกี่ยวสมุนไพร"; }
-		{ String _name = "ClearMushroomTip";	String _text = "Pick all herbs in the selected area."; }	
+		{ String _name = "ClearMushroomTip";	String _text = "เก็บเกี่ยวสมุนไรทั้งหมดในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearWild";			String _text = "เก็บเกี่ยวอาหารป่า"; }
-		{ String _name = "ClearWildTip";		String _text = "Pick all wild foods in the selected area."; }	
+		{ String _name = "ClearWildTip";		String _text = "เก็บเกี่ยวอาหารป่าทั้งหมดในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearPriority";		String _text = "ยกระดับความสำคัญ"; }
-		{ String _name = "ClearPriorityTip";	String _text = "Increase the priority of the work being done in an area."; }	
+		{ String _name = "ClearPriorityTip";	String _text = "ยกระดับความสำคัญของงานที่อยู่ในบริเวณที่เลือก"; }	
 
 		{ String _name = "ClearCancel";			String _text = "ยกเลิกการรื้อถอน"; }
-		{ String _name = "ClearCancelTip";		String _text = "Stop removal tasks in the selected area."; }	
+		{ String _name = "ClearCancelTip";		String _text = "หยุดการรื้อถอนในบริเวณที่เลือก"; }	
 
 		{ String _name = "ToolProfession";		String _text = "อาชีพ"; }
-		{ String _name = "ToolProfessionTip";	String _text = "Assign jobs to citizens."; }	
+		{ String _name = "ToolProfessionTip";	String _text = "เลือกอาชีพให้แก่ชาวเมือง"; }	
 
 		{ String _name = "ToolMap";				String _text = "แผนที่"; }
-		{ String _name = "ToolMapTip";			String _text = "Shows an overhead map of the area."; }	
+		{ String _name = "ToolMapTip";			String _text = "แสดงแผนที่มุมสูงรอบๆบริเวณเมือง"; }	
 
 		{ String _name = "ToolPath";			String _text = "เส้นทาง"; }
-		{ String _name = "ToolPathTip";			String _text = "Shows the paths citizens take between homes and workplaces."; }	
+		{ String _name = "ToolPathTip";			String _text = "แสดงเส้นทางที่ชาวเมืองใช้สัญจรไปมาระหว่างที่อยู่อาศัยและที่ทำงาน"; }	
 
 		{ String _name = "ToolDebug";			String _text = "ดีบัก"; }
-		{ String _name = "ToolDebugTip";		String _text = "Show debug options."; }	
+		{ String _name = "ToolDebugTip";		String _text = "แสดงตัวเลือกการดีบัก"; }	
 
 		{ String _name = "ToolCapture";			String _text = "จับภาพ"; }
-		{ String _name = "ToolCaptureTip";		String _text = "Show capture tool."; }	
+		{ String _name = "ToolCaptureTip";		String _text = "ตัวเลือกการถ่ายภาพ"; }	
 
 		{ String _name = "ToolHelp";			String _text = "ช่วยเหลือ"; }
-		{ String _name = "ToolHelpTip";			String _text = "Show help and reference material."; }	
+		{ String _name = "ToolHelpTip";			String _text = "ดูข้อมูลและวิธีการเล่น"; }	
 
 		{ String _name = "ToolNoise";			String _text = "Noise"; }
 		{ String _name = "ToolNoiseTip";		String _text = "Generate Perlin Noise."; }	
 
 		{ String _name = "ToolStatusBar";		String _text = "ภาพรวม"; }
-		{ String _name = "ToolStatusBarTip";	String _text = "Shows general statistics about the town."; }
+		{ String _name = "ToolStatusBarTip";	String _text = "แสดงข้อมูลทั่วไปเกี่ยวกับเมือง"; }
 		
 		{ String _name = "ToolEventLog";		String _text = "บันทึกเหตุการณ์"; }
-		{ String _name = "ToolEventLogTip";		String _text = "Shows a log of events that have occurred."; }
+		{ String _name = "ToolEventLogTip";		String _text = "แสดงบันทึกเหตุการณ์ที่เกิดขึ้นในเมือง"; }
 
-		{ String _name = "ToolLimit";			String _text = "จำกัดทรัพยากร"; }
-		{ String _name = "ToolLimitTip";		String _text = "Shows limits placed on resource production."; }
+		{ String _name = "ToolLimit";			String _text = "การจำกัดทรัพยากร"; }
+		{ String _name = "ToolLimitTip";		String _text = "แสดงและปรับแต่งการจำกัดปริมาณทรัพยากรภายในเมือง"; }
 
 		{ String _name = "ToolTutorial";		String _text = "แบบฝึกหัด"; }
 
@@ -639,7 +639,7 @@ StringTable gameDialogs
 
 		{ String _name = "Labor";				String _text = "สร้าง"; }
 		{ String _name = "ClearArea";			String _text = "รื้อถอน"; }
-		{ String _name = "PauseBuildTip";		String _text = "Pause or unpause collection of materials and construction of this building"; }
+		{ String _name = "PauseBuildTip";		String _text = "หยุดหรือดำเนินการรวบรวมทรัพยากรและการก่อสร้างนี้"; }
 
 		{ String _name = "CloseTip";			String _text = "ปิดหน้าต่างนี้"; }
 		{ String _name = "PinTip";				String _text = "Toggle pinning this window so that it stays open and doesn't track the selection."; }
