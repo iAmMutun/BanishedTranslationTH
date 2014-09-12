@@ -3,7 +3,7 @@ StringTable resource
 	Entry _strings
 	[ 
 		{ String _name = "Topic"; String _text = "Cemetery"; }
-		{ String _name = "Title"; String _text = "Cemeteries"; }
+		{ String _name = "Title"; String _text = "สุสาน"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleCemetery
@@ -11,23 +11,23 @@ StringTable resource
 		^i0Stone x1 (per unit of length) ^me
 
 		^f1 ^c0 ^jl ^vb
-		A cemetery is used as a resting place for citizens that have passed away. When a citizen dies, if there is room,
-		a grave will appear in the cemetery. Cemeteries are variable sized - you can have large cemeteries with many graves, or 
-		small plots wherever you like.
+		สุสานเป็นสถานที่พักผ่อนแห่งสุดท้ายสำหรับชาวเมืองที่เสียชีวิต
+		เมื่อชาวเมืองเสียชีวิตและมีพื้นที่ว่างในสุสาน หลุมศพและป้ายหลุมศพจะปรากฏขึ้นในสุสาน
+		ขนาดของสุสานขึ้นอยู่กับพื้นที่ที่คุณกำหนด ยิ่งใหญ่มากก็ยิ่งรองรับชาวเมืองที่เสียชีวิตได้มาก
 		^p
-		When a citizen dies, their children and spouse lose happiness. If a spot for a grave in a cemetery is available,
-		the happiness loss won't be as severe. This happiness loss will be recovered over time if the citizen is in a 
-		happy environment. 
+		เมื่อชาวเมืองเสียชีวิต คนใกล้ชิดในครอบครัวจะสูญเสียความสุข และลดระดับความสุขโดยรวมในเมือง
+		แต่ถ้าหากพวกเขาสามารถหาพื้นที่ฝังศพให้ผู้เสียชีวิตในสุสานได้ จะช่วยให้พวกเขาไม่เป็นทุกข์มากนัก
+		ทั้งนี้เมื่อเวลาผ่านไป พวกเขาสามารถคืนสู่ความสุขได้หากอยู่ในสภาพแวดล้อมที่ดี
 		^p
-		Tombstones will decay after many years, allowing reuse of a full cemetery. 	Care must be taken in placement 
-		of a cemetery. If a cemetery is removed, the tombstones will remain and decay naturally. Only then can the 
-		area be used for other purposes.
+		หลุมศพจะหายไปเมื่อเวลาผ่านไปหลายปี เพื่อเปิดทางให้กับผู้เสียชีวิตรุ่นใหม่
+		ระมัดระวังในการเลือกที่ตั้งของสุสาน การรื้อถอนสุสานจะทิ้งป้ายหลุมศพไว้
+		ซึ่งจะหายไปเองเมื่อเวลาผ่านไป แต่ในระหว่างนั้นพื้นที่ดังกล่าวจะไม่สามารถใช้งานได้.
 		^p
-		Citizens living near a cemetery will get a slight happiness boost. 
+		ชาวเมืองที่อาศัยใกล้สุสานจะได้รับความสุขเล็กน้อย
 		^p
 		^mb ^mc ^dDialogCemetery
 		^ml308 ^mc
-		Clicking on a cemetery will show how many graves are in the cemetery and the maximum number of tombstones.
+		คลิกที่สุสานเพื่อดูจำนวนหลุมศพที่มีอยู่ในสุสาน และจำนวนหลุมศพที่สุสานจะรองรับได้สูงสุด
 		^ml0 ^me
 	  "; }
 	]

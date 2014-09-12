@@ -3,23 +3,23 @@ StringTable resource
 	Entry _strings
 	[ 
 		{ String _name = "Topic"; String _text = "Tunnel"; }
-		{ String _name = "Title"; String _text = "Tunnels"; }
+		{ String _name = "Title"; String _text = "อุโมงค์"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleTunnel
 		^mc	^f3 ^jl ^c0 ^dUIRoads ^i0ArrowRight ^dUITunnel ^s Tunnel ^c0 ^f1 ^n 
 		^i0Stone x4 (per unit of length) ^me
 		^f1 ^c0 ^jl ^vb
-		A tunnel is used to cross under mountains and ridges. It allow citizens to shorten walking distance and
-		reach otherwise inaccessible areas.
+		ชาวเมืองใช้อุโมงค์เพื่อเป็นทางลัดลอดใต้ภูเขาและเนินสูง ช่วยลดระยะในการเดินอ้อมไกลๆ
+		หรือเพื่อใช้เข้าถึงพื้นที่ทปิด
 		^p
-		The longer a tunnel is, the more expensive it is to build. Tunnels give the same walking 
-		speed increase as ^abDirtRoad dirt roads.^ae
+		ยิ่งอุโมงค์ยาวเท่าใด ก็ยิ่งใช้ทรัพยากรในการสร้างมากเท่านั้น
+		อุโมงค์ช่วยให้ชาวเมืองสัญจรที่ความเร็วเดียวกับ^abDirtRoad ถนนลูกรัง^ae
 		^p
 		^mb ^mc ^dDialogTunnel
 		^ml308 ^mc 
-		Clicking on a tunnel will show its details, however it has no editable properties in its normal state. Only
-		when the tunnel is being ^abBuildings built^ae or ^abRemoveStructure destroyed^ae can you interact with it.
+		คลิกที่อุโมงค์เพื่อดูรายละเอียด แต่ทั้งนี้อุโมงค์ไม่มีรายละเอียดที่คุณจะปรับแต่งได้
+		นอกเสียจากว่าอุโมงค์นั้นกำลังถูก^abBuildings สร้าง^aeหรือกำลังถูก^abRemoveStructure รื้อถอน^ae
 		^me
 	  "; 
 	  }
