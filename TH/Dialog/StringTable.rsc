@@ -805,19 +805,19 @@ StringTable gameDialogs
 		{ String _name = "HealthTip";			String _text = "สุขภาพโดยเฉลี่ยของชาวเมือง"; }
 		{ String _name = "HappyTip";			String _text = "ความสุขโดยเฉลี่ยของชาวเมือง"; }
 
-		{ String _name = "StatusHomeTip";		String _text = "There are citizens without homes! Click here to select and cycle through them."; }
-		{ String _name = "StatusFoodTip";		String _text = "There are citizens that are hungry! Click here to select and cycle through them."; }
-		{ String _name = "StatusColdTip";		String _text = "There are citizens that are freezing! Click here to select and cycle through them."; }
-		{ String _name = "StatusJobTip";		String _text = "There are citizens without jobs. Click here to select and cycle through them."; }
-		{ String _name = "StatusToolTip";		String _text = "There are citizens without tools! Click here to select and cycle through them."; }
-		{ String _name = "StatusDiseaseTip";	String _text = "There are citizens with diseases! Click here to select and cycle through them."; }
+		{ String _name = "StatusHomeTip";		String _text = "มีชาวเมืองที่ไร้บ้าน! คลิกที่นี่เพื่อวนดูพวกเขา"; }
+		{ String _name = "StatusFoodTip";		String _text = "มีชาวเมืองกำลังหิว! คลิกที่นี่เพื่อวนดูพวกเขา"; }
+		{ String _name = "StatusColdTip";		String _text = "มีชาวเมืองกำลังหนาว! คลิกที่นี่เพื่อวนดูพวกเขา"; }
+		{ String _name = "StatusJobTip";		String _text = "ชาวเมืองไม่มีงานทำ คลิกที่นี่เพื่อวนดูพวกเขา"; }
+		{ String _name = "StatusToolTip";		String _text = "มีชาวเมืองขาดเครื่องมือ! คลิกที่นี่เพื่อวนดูพวกเขา"; }
+		{ String _name = "StatusDiseaseTip";	String _text = "มีชาวเมืองเป็นโรค! คลิกที่นี่เพื่อวนดูพวกเขา"; }
 			
-		{ String _name = "StatusHome2Tip";		String _text = "This citizens doesn't have a home!"; }
-		{ String _name = "StatusFood2Tip";		String _text = "This citizen is starving!"; }
-		{ String _name = "StatusCold2Tip";		String _text = "This citizen is freezing!"; }
-		{ String _name = "StatusJob2Tip";		String _text = "This citizen has no job!"; }
-		{ String _name = "StatusTool2Tip";		String _text = "This citizen's tool is broken!"; }
-		{ String _name = "StatusDisease2Tip";	String _text = "This citizen is sick!"; }
+		{ String _name = "StatusHome2Tip";		String _text = "ชาวเมืองคนนี้ไม่มีบ้าน!"; }
+		{ String _name = "StatusFood2Tip";		String _text = "ชาวเมืองคนนี้หิวโซ!"; }
+		{ String _name = "StatusCold2Tip";		String _text = "ชาวเมืองคนนี้หนาวจัด!"; }
+		{ String _name = "StatusJob2Tip";		String _text = "ชาวเมืองคนนี้ตกงาน!"; }
+		{ String _name = "StatusTool2Tip";		String _text = "ชาวเมืองคนนี้เครื่องมือพัง!"; }
+		{ String _name = "StatusDisease2Tip";	String _text = "ชาวเมืองคนนี้ป่วย!"; }
 
 		{ String _name = "FemaleTip";			String _text = "หญิง"; }
 		{ String _name = "MaleTip";				String _text = "ชาย"; }
