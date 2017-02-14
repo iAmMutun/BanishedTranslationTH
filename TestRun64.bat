@@ -1,4 +1,4 @@
-START ..\bin\Application-x64-profile.exe /onlypkg
+START ..\bin\x64\Application-x64-profile.exe /onlypkg
 
 @ECHO off
 :: delay hack for win xp
