@@ -2,8 +2,7 @@ PackageFile translationThai
 {
 	String _name = "Thai Language Translation";
 	String _author = "Banished Thai Team";
-	String _description = "Thai language translation mod. TH Bai Jamjuree CP (TH Baijam) font by PITA team.";
-							//"ม็อดแปลภาษาไทย ฟอนต์ TH Bai Jamjuree CP (TH Baijam) โดยทีม PITA";
+	String _description = "Thai language translation mod. ส่วนเสริมแปลภาษาไทย -- ผู้แปล: i.am.mutun, Panithan Tangchit -- ใช้ฟอนต์ TH Bai Jamjuree CP (TH Baijam) โดยทีม PITA";
 	String _icon = "icon.png";
 	String _preview = "preview.jpg";
 	int _userVersion = 3;
