@@ -1,12 +1,22 @@
-$data = ".\data\"
-Get-ChildItem -Path $data -Include "*.rsc" -Name -Recurse | ForEach-Object{
+$res = ".\res\"
+Get-ChildItem -Path $res -Include "*.rsc" -Name -Recurse | ForEach-Object{
 	if(Test-Path ".\TH\$_"){
-		Write-Host "Removing $data$_"
-		Remove-Item "$data$_"
+		Write-Host "Removing $res$_"
+		Remove-Item "$res$_"
 	}
 }
-$pkm = ".\data\bin\translationThai.pkm"
-if(Test-Path $pkm){
-	Write-Host "Removing $pkm"
-	Remove-Item $pkm
+$Build = "${res}Build"
+if(Test-Path $Build){
+	Write-Host "Removing $Build"
+	Remove-Item -Recurse -Force "$Build"
+}
+$dat = ".\dat"
+if(Test-Path $dat){
+	Write-Host "Removing $dat"
+	Remove-Item -Recurse -Force "$dat"
+}
+$pkg = ".\pkg"
+if(Test-Path $pkg){
+	Write-Host "Removing $pkg"
+	Remove-Item -Recurse -Force "$pkg"
 }
