@@ -10,6 +10,3 @@ if(Test-Path $pkm){
 	Write-Host "Removing $pkm"
 	Remove-Item $pkm
 }
-
-Write-Host "Press any key to continue ..."
-$x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
