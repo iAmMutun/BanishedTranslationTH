@@ -35,7 +35,6 @@ StringTable loadingDetails
 {
 	Entry _strings
 	[ 
-		// These strings should be somewhat funny!
 		{ String _name = "Loading0";			String _text = " "; 	}
 		{ String _name = "Loading1";			String _text = "(กำลังยกระดับภูเขา)"; 	}
 		{ String _name = "Loading2";			String _text = "(วางแนวแม่น้ำและทะเลสาบ)"; 	}
@@ -78,6 +77,46 @@ StringTable loadingDetails
 	]
 }
 
+StringTable modUpload
+{
+	Entry _strings
+	[
+		{ String _name = "UserAgreement";		String _text = "By submitting this item, you agree to the Steam Workshop terms of service. Click the link below to view and agree to the agreement."; }
+
+		{ String _name = "BeginSearch";			String _text = "Searching for previously published mods..."; }
+		{ String _name = "Searching";			String _text = "Searching for previously published mods..."; }
+		{ String _name = "SearchFailed";		String _text = "No previously published mods could be found, or an error ocurred while searching."; }
+		{ String _name = "SearchComplete";		String _text = "Select the mod on Steam Workshop that you'd like to update."; }
+
+		{ String _name = "SearchConfirm";		String _text = "Are you sure you want to replace the content on Steam Workshop named '@1' with the current local content named '@0'?"; }
+
+		{ String _name = "ChangeNote";			String _text = "You can add a change note describing whats changed about this version of the mod."; }
+
+		{ String _name = "BeginCreate";			String _text = "Creating '@0'..."; }
+		{ String _name = "Creating";			String _text = "Creating '@0'..."; }
+		{ String _name = "CreateFailed";		String _text = "An error occurred while attempting to publish the mod to Steam Workshop."; }
+		{ String _name = "CreateComplete";		String _text = "Creating '@0'..."; }
+
+		{ String _name = "BeginUpdate";			String _text = "Uploading '@0' to workshop..."; }
+		{ String _name = "Updating";			String _text = "Uploading '@0' to workshop..."; }
+		{ String _name = "UpdateFailed";		String _text = "An error occurred while attempting to update the mod on Steam Workshop."; }
+		{ String _name = "UpdateComplete";		String _text = "Uploading '@0' to workshop..."; }
+
+		{ String _name = "FinishedCreate";		String _text = "'@0' was successfully created and uploaded to the Steam Workshop.~n~nTo view and configure your item on the Steam Workshop website, visit the link below."; }
+		{ String _name = "FinishedUpdate";		String _text = "'@0' was successfully updated on the Steam Workshop.~n~nTo view and configure your item on the Steam Workshop website, visit the link below."; }
+	]
+}
+
+StringTable modBrowserSort
+{
+	Entry _strings
+	[
+		{ String _name = "Sort0";			String _text = "Most Popular"; }
+		{ String _name = "Sort1";			String _text = "Most Recent"; }
+		{ String _name = "Sort2";			String _text = "Subscribed"; }
+	]
+}
+
 StringTable mainMenu
 {
 	Entry _strings
@@ -106,20 +145,40 @@ StringTable mainMenu
 		{ String _name = "ModOrder";			String _text = "ลำดับการโหลด"; 		}
 		{ String _name = "ModTop";				String _text = "สูงสุด"; 		}
 		{ String _name = "ModDetails";			String _text = "..."; 		}
+		{ String _name = "ModUpload";			String _text = "อัพโหลด"; 		}
+		{ String _name = "ModBrowse";			String _text = "เลือกดูเวิร์คช็อป"; }
+		{ String _name = "ModAdd";				String _text = "เพิ่ม"; }
+		{ String _name = "ModUpdate";			String _text = "อัพเดทส่วนเสริมบนเวิร์คช็อป"; }
+		{ String _name = "ModCreate";			String _text = "เพิ่มลงเวิร์คช็อป"; }
+		{ String _name = "ModUpdating";			String _text = "กำลังอัพเดทส่วนเสริม @0..."; }
+		{ String _name = "ModInstalled";		String _text = "ส่วนเสริมที่ติดตั้ง"; }
+		{ String _name = "ModDefaultTip";		String _text = ""; }
+		{ String _name = "ModUpdateAvailable";	String _text = "ส่วนเสริมพร้อมสำหรับการอัพเดท"; }
+		{ String _name = "ModSubscribeTip";		String _text = "ลงชื่อเพื่อดาวน์โหลดส่วนเสริมนี้"; }
+		{ String _name = "ModSearchError";		String _text = "An error has occured while searching. Please try again later."; }
+		{ String _name = "ModSearchNone";		String _text = "No results were found. Please modify your search criteria."; }
+		{ String _name = "ModUnsubscribeTip";	String _text = "Unsubscribe from this mod. After unsubscribing, mods won't be removed until the game is fully exited."; }
+		{ String _name = "ModUpdateReload";		String _text = "One or more mods have been downloaded or updated. Pressing this button will reload the game and allow the mods to be used. Otherwise the
+																new mods will become available next time a game or the main menu is loaded."; }
 
 		{ String _name = "ModConflictTitle";	String _text = "^jl^f1^c0ความขัดแย้ง^f0^n ส่วนเสริมนี้มีส่วนขัดแย้งกันกับส่วนเสริมอื่นตามรายการด้านล่าง ส่วนเสริม^c1ที่แสดงเป็นสีส้ม^c0คือส่วนเสริมที่ขัดแย้งกันและเปิดใช้งานอยู่"; }
 		{ String _name = "ModResourceTitle";	String _text = "^jl^f1^c0ทรัพยากร^f0^n ทรัพยากรที่ใช้ในส่วนเสริมนี้อยู่ในรายการด้านล่าง 
 																ทรัพยากร^c1ที่แสดงเป็นสีส้ม^c0คือทรัพยากรที่ขัดแย้งกับส่วนเสริมอื่น แต่ทรัพยากรของส่วนเสริมนี้จะถูกโหลด 
 																ทรัพยากร^c2ที่แสดงเป็นสีเหลือง^c0คือทรัพยากรที่ขัดแย้งกับส่วนเสริมอื่น และทรัพยากรของส่วนเสริมนี้จะไม่ถูกโหลด"; }
 
+		{ String _name = "ModUserAgreement";	String _text = "^jc^f1^c0^abhttp://steamcommunity.com/sharedfiles/workshoplegalagreement http://steamcommunity.com/sharedfiles/workshoplegalagreement ^ae"; }
+		{ String _name = "ModWorkshopLink";		String _text = "^jc^f1^c0^abLink http://steamcommunity.com/sharedfiles/filedetails/?id=309885816.^ae"; }
+
 		{ String _name = "ModDetailsTip";		String _text = "ดูรายละเอียดส่วนเสริม รวมทั้งรายชื่อไฟล์ และความขัดแย้งกับส่วนเสริมอื่นๆ"; 		}
 		{ String _name = "ModTopTip";			String _text = "กำหนดความสำคัญสูงสุดให้ส่วนเสริม"; 		}
 		{ String _name = "ModUpTip";			String _text = "เพิ่มความสำคัญส่วนเสริมขึ้น"; 		}
 		{ String _name = "ModDownTip";			String _text = "ลดความสำคัญส่วนเสริมลง"; 		}
 		{ String _name = "ModLoadedTip";		String _text = "เปิดหรือปิดการใช้งานมอด"; 		}
+		{ String _name = "ModUploadTip";		String _text = "อัพโหลดส่วนเสริมไปยังสตีมเวิร์คช็อป";	}
 		
 		{ String _name = "ModCreatedBy";		String _text = "สร้างโดย: @0"; }
 		{ String _name = "ModPath";				String _text = "ไฟล์: @0"; }
+		{ String _name = "ModPage";				String _text = "หน้า:"; }
 
 		{ String _name = "ModMissing";			String _text = "The following mod can not be found or cannot be loaded.~n~n@0 [@1]~nSaved with version @2~n~nLoading this save game may have unexpected results or crashes. Do you still want to load the save game?"; }
 		{ String _name = "ModOutOfDate";		String _text = "The following mod is out of date. It's data format may no longer supported.~n~n@0 [@1]~nSaved with version @2~n~nLoading this save game may have unexpected results or crashes. Do you still want to load the save game?"; }
@@ -161,6 +220,7 @@ StringTable mainMenu
 		{ String _name = "ShadowQuality";		String _text = "คุณภาพเงา"; }
 		{ String _name = "ReflectionQuality";	String _text = "การสะท้อน"; }
 
+		{ String _name = "SoftwareMouse";		String _text = "ใช้เมาส์ซอฟต์แวร์"; }
 		{ String _name = "Bind";				String _text = "กดปุ่มบนคีย์บอร์ดเพื่อผูกกับคำสั่ง@0"; }
 		{ String _name = "Unbind";				String _text = "เลิกผูก"; }
 		{ String _name = "AlreadyBound";		String _text = "ปุ่ม @0 ผูกกับ @1 ไปแล้ว ต้องการผูกกับ @2 แทนหรือไม่?"; }
@@ -800,6 +860,7 @@ StringTable gameDialogs
 		{ String _name = "ClothesTip";			String _text = "ปริมาณเสื้อผ้าในคลัง"; }
 		{ String _name = "AlcoholTip";			String _text = "ปริมาณเครื่องดื่มแอลกอฮอล์ในคลัง"; }
 		{ String _name = "CoalTip";				String _text = "ปริมาณถ่านหินในคลัง"; }
+		{ String _name = "TextileTip";			String _text = "ปริมาณเครื่องทอในคลัง"; }
 
 		{ String _name = "SeasonTip";			String _text = "ฤดูกาลปัจจุบันและจำนวนปีที่เมืองนึ้เริ่มก่อตั้งขึ้น"; }
 		{ String _name = "HealthTip";			String _text = "สุขภาพโดยเฉลี่ยของชาวเมือง"; }
@@ -922,6 +983,7 @@ StringTable startConditions
 		{ String _name = "MediumDesc";			String _text = "เกมระดับปานกลางเริ่มต้นที่ 5 ครอบครัว พร้อมเสื้อผ้า อาหาร ฟืน เครื่องมือ
 																และวัสดุก่อสร้าง โรงนาถูกสร้างไว้แล้ว มีเมล็ดพันธุ์สำหรับการเกษตรอีกเล็กน้อย"; }
 
+																
 		{ String _name = "EasyName";			String _text = "ง่าย"; }
 		{ String _name = "EasyDesc";			String _text = "เกมระดับง่ายเริ่มต้นที่ 6 ครอบครัว  พร้อมเสื้อผ้า อาหาร ฟืน เครื่องมือ
 																และวัสดุก่อสร้างจำนวนมาก โรงนาและบ้านจำนวนหนึ่งถูกสร้างไว้แล้ว
@@ -1398,6 +1460,10 @@ StringTable graphKeys
 		{ String _name = "Record34";		String _text = "ผลิตขึ้น"; }
 
 		{ String _name = "Record35";		String _text = "ถ่านหิน"; }
+		{ String _name = "Record36";		String _text = "ใช้ไป"; }
+		{ String _name = "Record37";		String _text = "ผลิตขึ้น"; }
+	
+		{ String _name = "Record35";		String _text = "เครื่องทอ"; }
 		{ String _name = "Record36";		String _text = "ใช้ไป"; }
 		{ String _name = "Record37";		String _text = "ผลิตขึ้น"; }
 	]
