@@ -723,7 +723,7 @@ StringTable gameDialogs
 		
 		{ String _name = "Order";				String _text = "สั่งซื้อ"; }
 		{ String _name = "Purchase";			String _text = "ซื้อ"; }
-		{ String _name = "MerchantName";		String _text = "@0@1"; }
+		{ String _name = "MerchantName";		String _text = "@0‌@1"; } // There's a zero-width space (U+200B) between @0 and @1 to prevent game from crashing.
 		{ String _name = "MerchantOrderName";	String _text = "สินค้าสั่งซื้อจาก@0"; }
 		{ String _name = "Autobuy";				String _text = "ซื้ออัตโนมัติ"; }
 
