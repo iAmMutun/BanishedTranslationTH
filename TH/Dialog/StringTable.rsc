@@ -270,113 +270,113 @@ StringTable achievement
 {
 	Entry _strings
 	[
-		{ String _name = "Settlement";				String _text = "Settlement"; }
-		{ String _name = "SettlementDesc";			String _text = "Reach a population of 300 citizens."; }
+		{ String _name = "Settlement";				String _text = "ก่อตั้ง"; }
+		{ String _name = "SettlementDesc";			String _text = "มีประชากรครบ 300 คน"; }
 
-		{ String _name = "Village";					String _text = "Village"; }
-		{ String _name = "VillageDesc";				String _text = "Reach a population of 600 citizens."; }
+		{ String _name = "Village";					String _text = "หมู่บ้าน"; }
+		{ String _name = "VillageDesc";				String _text = "มีประชากรครบ 600 คน"; }
 
-		{ String _name = "Town";					String _text = "Town"; }
-		{ String _name = "TownDesc";				String _text = "Reach a population of 900 citizens."; }
+		{ String _name = "Town";					String _text = "เมือง"; }
+		{ String _name = "TownDesc";				String _text = "มีประชากรครบ 900 คน"; }
 
-		{ String _name = "Educated";				String _text = "Educated"; }
-		{ String _name = "EducatedDesc";			String _text = "Have a fully educated population with 200 adults for 4 years."; }
+		{ String _name = "Educated";				String _text = "มีการศึกษา"; }
+		{ String _name = "EducatedDesc";			String _text = "มีประชากรที่ผ่านการศึกษาแล้วอย่างน้อย 200 คนเป็นระยะเวลา 4 ปี"; }
 
-		{ String _name = "Uneducated";				String _text = "Uneducated"; }
-		{ String _name = "UneducatedDesc";			String _text = "Reach a population of 300 citizens without building schools."; }
+		{ String _name = "Uneducated";				String _text = "ไร้การศึกษา"; }
+		{ String _name = "UneducatedDesc";			String _text = "มีประชาการถครบ 300 คนโดยไม่มีการสร้างโรงเรียน"; }
 
-		{ String _name = "JackofallTrades";			String _text = "Jack of all Trades"; }
-		{ String _name = "JackofallTradesDesc";		String _text = "Build a town of over 200 people that has someone working in every profession for at least 5 years."; }
+		{ String _name = "JackofallTrades";			String _text = "ผู้บริหารมือหนึ่ง"; }
+		{ String _name = "JackofallTradesDesc";		String _text = "มีประชากรครบ 200 คน โดยมีคนทำงานอยู่ในทุกๆ อาชีพอย่างน้อยคนหนึ่ง เป็นระยะเวลา 5 ปี"; }
 
-		{ String _name = "MountainMen";				String _text = "Mountain Men"; }
-		{ String _name = "MountainMenDesc";			String _text = "Using a harsh climate and a small mountainous map, maintain a population of 50 people for 20 years."; }
+		{ String _name = "MountainMen";				String _text = "ชาวเขาชาวดอย"; }
+		{ String _name = "MountainMenDesc";			String _text = "เล่นบนแผนที่ขนาดเล็ก ภูมิประเทศเป็นภูเขา และสภาพอากาศแห้งแล้ง รักษาจำนวนประชากรไม่ให้น้อยกว่า 50 คน เป็นระยะเวลา 20 ปี"; }
 
-		{ String _name = "Tombstone";				String _text = "Tombstone"; }
-		{ String _name = "TombstoneDesc";			String _text = "Fill graveyards with at least 400 graves."; }
+		{ String _name = "Tombstone";				String _text = "ป้ายหลุมศพ"; }
+		{ String _name = "TombstoneDesc";			String _text = "สะสมจำนวนป้ายหลุมศพในสุสานกี่แห่งก็ได้ ให้ครบ 400 ป้าย"; }
 
-		{ String _name = "Blacksmith";				String _text = "Blacksmith"; }
-		{ String _name = "BlacksmithDesc";			String _text = "Equip a population of over 200 adults with steel tools for 4 years."; }
+		{ String _name = "Blacksmith";				String _text = "ช่างตีเหล็ก"; }
+		{ String _name = "BlacksmithDesc";			String _text = "มีประชากรอย่างน้อย 200 คนใช้เครื่องมือเหล็กกล้า เป็นระยะเวลา 4 ปี"; }
 
-		{ String _name = "Stylish";					String _text = "Stylish"; }
-		{ String _name = "StylishDesc";				String _text = "Cloth a population of over 200 with warm coats for 4 years."; }
+		{ String _name = "Stylish";					String _text = "นำสมัย"; }
+		{ String _name = "StylishDesc";				String _text = "มีประชากรอย่างน้อย 200 คน สวมเสื้อกันหนาว เป็นระยะเวลา 4 ปี"; }
 
-		{ String _name = "Isolationist";			String _text = "Isolationist"; }
-		{ String _name = "IsolationistDesc";		String _text = "Reach 300 citizens without building a trading post."; }
+		{ String _name = "Isolationist";			String _text = "แปลกแยก"; }
+		{ String _name = "IsolationistDesc";		String _text = "มีประชากรครบ 300 คนโดยไม่มีการสร้างท่าเรือสินค้า"; }
 
-		{ String _name = "OnewithNature";			String _text = "One with Nature"; }
-		{ String _name = "OnewithNatureDesc";		String _text = "Reach 400 citizens without building crops fields, orchards, or pastures."; }
+		{ String _name = "OnewithNature";			String _text = "หนึ่งเดียวกับธรรมชาติ"; }
+		{ String _name = "OnewithNatureDesc";		String _text = "มีประชากรครบ 400 คน โดยไม่มีการสร้าง ไร่นา สวนผลไม้ หรือคอกปศุสัตว์"; }
 
-		{ String _name = "Trader";					String _text = "Trader"; }
-		{ String _name = "TraderDesc";				String _text = "Use trading posts to trade 50,000 units of goods in a single town."; }
+		{ String _name = "Trader";					String _text = "นักธุรกิจ"; }
+		{ String _name = "TraderDesc";				String _text = "ซื้อขายสินค้าจากท่าเรือสินค้าเป็นจำนวน 50,000 หน่วยภายในเมืองๆ เดียว"; }
 
-		{ String _name = "MasterTrader";			String _text = "Master Trader"; }
-		{ String _name = "MasterTraderDesc";		String _text = "Use trading posts to trade 100,000 units of goods in a single town."; }
+		{ String _name = "MasterTrader";			String _text = "นักธุรกิจมือหนึ่ง"; }
+		{ String _name = "MasterTraderDesc";		String _text = "ซื้อขายสินค้าจากท่าเรือสินค้าเป็นจำนวน 100,000 หน่วยภายในเมืองๆ เดียว"; }
 
-		{ String _name = "Exports";					String _text = "Exports"; }
-		{ String _name = "ExportsDesc";				String _text = "Stock the trading post with at least 500 ale, 300 steel tools, and 200 warm coats."; }
+		{ String _name = "Exports";					String _text = "ส่งออก"; }
+		{ String _name = "ExportsDesc";				String _text = "มีเหล้า 500 หน่วย เครื่องมือเหล็กกล้า 300 ชิ้น และเสื้อกันหนาว 200 ตัว เก็บอยู่ในท่าเรือสินค้า"; }
 
-		{ String _name = "Firefighter";				String _text = "Firefighter"; }
-		{ String _name = "FirefighterDesc";			String _text = "Build 20 wells in a single town."; }
+		{ String _name = "Firefighter";				String _text = "นักผจญเพลิง"; }
+		{ String _name = "FirefighterDesc";			String _text = "สร้างบ่อน้ำ 20 บ่อภายในเมืองๆ เดียว"; }
 
-		{ String _name = "Farmer";					String _text = "Farmer"; }
-		{ String _name = "FarmerDesc";				String _text = "Acquire 3 livestock types, 8 crop seed types, and 8 orchard seed types."; }
+		{ String _name = "Farmer";					String _text = "เกษตรกร"; }
+		{ String _name = "FarmerDesc";				String _text = "มีปศุสัตว์ครบ 3 ชนิด เมล็ดพันธุ์พืชไร่ครบ 8 ชนิด และเมล็ดพันธุ์พืชสวนครบ 8 ชนิด"; }
 
-		{ String _name = "Livestock";				String _text = "Livestock"; }
-		{ String _name = "LivestockDesc";			String _text = "Build a town that contains 60 cattle, 75 sheep, and 180 chickens."; }
+		{ String _name = "Livestock";				String _text = "ปศุสัตว์"; }
+		{ String _name = "LivestockDesc";			String _text = "ขยายพันธุ์ปศุสัตว์จนมีวัวครบ 60 ตัว แกะครบ 75 ตัว และไก่ครบ 180 ตัว"; }
 
-		{ String _name = "PlantVariety";			String _text = "Food Variety"; }
-		{ String _name = "PlantVarietyDesc";		String _text = "Grow and harvest 8 different plants and 8 different orchard tree types in a single year."; }
+		{ String _name = "PlantVariety";			String _text = "หลากโภชนาการ"; }
+		{ String _name = "PlantVarietyDesc";		String _text = "ปลูกและเก็บเกี่ยวพืชไร่ครบ 8 ชนิด และพืชสวนครบ 8 ชนิดภายในปีเดียว"; }
 
-		{ String _name = "Miner";					String _text = "Miner"; }
-		{ String _name = "MinerDesc";				String _text = "Maintain 2 mines with 30 workers each for 3 years."; }
+		{ String _name = "Miner";					String _text = "คนเหมือง"; }
+		{ String _name = "MinerDesc";				String _text = "มีจำนวนคนขุดแร่ 30 คนทำงานในเหมืองแร่ 2 แห่ง เป็นระยะเวลา 3 ปี"; }
 
-		{ String _name = "Mason";					String _text = "Mason"; }
-		{ String _name = "MasonDesc";				String _text = "Maintain 2 quarries with 30 workers each for 3 years."; }
+		{ String _name = "Mason";					String _text = "ช่างหิน"; }
+		{ String _name = "MasonDesc";				String _text = "มีจำนวนช่างตัดหิน 30 คนทำงานในเหมืองหิน 2 แห่ง เป็นระยะเวลา 3 ปี"; }
 
-		{ String _name = "Foodie";					String _text = "Foodie"; }
-		{ String _name = "FoodieDesc";				String _text = "In a single year, produce at least 2000 food each from hunters, gatherers, fisherman, pastures, fields, and orchards."; }
+		{ String _name = "Foodie";					String _text = "อู่ข้าวอู่น้ำ"; }
+		{ String _name = "FoodieDesc";				String _text = "ในเวลา 1 ปี เก็บเกี่ยวผลผลิตให้ได้แหล่งละ 2000 หน่วย จากนายพราน คนหาของป่า ชาวประมง คอกปศุสัตว์ ไร่นา และสวนผลไม้"; }
 
-		{ String _name = "Lumberjack";				String _text = "Lumberjack"; }
-		{ String _name = "LumberjackDesc";			String _text = "Produce 50,000 logs within a 100 year period."; }
+		{ String _name = "Lumberjack";				String _text = "ช่างตัดไม้"; }
+		{ String _name = "LumberjackDesc";			String _text = "ตัดไม้ให้ได้ไม้ซุง 50,000 ท่อน ภายในเวลา 100 ปี"; }
 
-		{ String _name = "Stonework";				String _text = "Stonework"; }
-		{ String _name = "StoneworkDesc";			String _text = "Produce 10,000 stone within a 100 year period."; }
+		{ String _name = "Stonework";				String _text = "ศิลาจารึก"; }
+		{ String _name = "StoneworkDesc";			String _text = "ขุดหินให้ได้ 10,000 หน่วย ภายในเวลา 100 ปี"; }
 
-		{ String _name = "Smelter";					String _text = "Smelter"; }
-		{ String _name = "SmelterDesc";				String _text = "Produce 10,000 iron within a 100 year period."; }
+		{ String _name = "Smelter";					String _text = "โรงหลอม"; }
+		{ String _name = "SmelterDesc";				String _text = "ขุดแร่เหล็กให้ได้ 10,000 หน่วย ภายในเวลา 100 ปี"; }
 
-		{ String _name = "Highwaymen";				String _text = "Highwaymen"; }
-		{ String _name = "HighwaymenDesc";			String _text = "Build a town with 2000 stone paved road tiles."; }
+		{ String _name = "Highwaymen";				String _text = "นักเดินทาง"; }
+		{ String _name = "HighwaymenDesc";			String _text = "สร้างถนนหินครบ 2000 ตารางหน่วย"; }
 
-		{ String _name = "GoldenGate";				String _text = "Golden Gate"; }
-		{ String _name = "GoldenGateDesc";			String _text = "Build a bridge that is at least 50 units long."; }
+		{ String _name = "GoldenGate";				String _text = "โกลเดนเกต"; }
+		{ String _name = "GoldenGateDesc";			String _text = "สร้างสะพานยาวอย่างน้อย 50 หน่วย"; }
 
-		{ String _name = "Immigrants";				String _text = "Immigrants"; }
-		{ String _name = "ImmigrantsDesc";			String _text = "Allow 200 nomads into a single town."; }
+		{ String _name = "Immigrants";				String _text = "ผู้ลี้ภัย"; }
+		{ String _name = "ImmigrantsDesc";			String _text = "อนุญาตให้ชนเร่ร่อน 200 คนเข้ามาอาศัยในเมือง"; }
 
-		{ String _name = "Smilesallaround";			String _text = "Smiles all Around"; }
-		{ String _name = "SmilesallaroundDesc";		String _text = "Maintain high happiness for 10 years in a town with at least 100 citizens."; }
+		{ String _name = "Smilesallaround";			String _text = "นครแห่งยิ้ม"; }
+		{ String _name = "SmilesallaroundDesc";		String _text = "รักษาระดับความสุขสูงสุด เป็นระยะเวลา 10 ปี ในเมืองที่มีประชากรไอย่างน้อย 100 คน"; }
 
-		{ String _name = "Healthy";					String _text = "Healthy"; }
-		{ String _name = "HealthyDesc";				String _text = "Maintain high health for 10 years in a town with at least 100 citizens."; }
+		{ String _name = "Healthy";					String _text = "นครอนามัย"; }
+		{ String _name = "HealthyDesc";				String _text = "รักษาระดับสุขภาพสูงสุด  เป็นระยะเวลา 10 ปี ในเมืองที่มีประชากรไอย่างน้อย 100 คน"; }
 
-		{ String _name = "BuiltfromStone";			String _text = "Built from Stone"; }
-		{ String _name = "BuiltfromStoneDesc";		String _text = "Build a town with 100 stone houses."; }
+		{ String _name = "BuiltfromStone";			String _text = "นครศิลา"; }
+		{ String _name = "BuiltfromStoneDesc";		String _text = "สร้างเมืองที่ีมีบ้านหินครบ 100 หลัง"; }
 
-		{ String _name = "ReadyforAnything";		String _text = "Ready for Anything"; }
-		{ String _name = "ReadyforAnythingDesc";	String _text = "Simultaneously store 2000 fuel, 2000 wood, 500 stone, 500 iron, 200 tools, 200 coats, and 30000 food."; }
+		{ String _name = "ReadyforAnything";		String _text = "พร้อมสำหรับทุกสิ่ง"; }
+		{ String _name = "ReadyforAnythingDesc";	String _text = "มีฟืน 2000 หน่วย ไม้ซุง 2000 ท่อน หิน 500 หน่วย เหล็ก 500 หน่วย เครื่องมือ 200 ชิ้น เสื้อผ้า 200 ตัว และอาหาร 30000 หน่วย"; }
 
-		{ String _name = "Builder";					String _text = "Builder"; }
-		{ String _name = "BuilderDesc";				String _text = "Build a town that has at least one of every possible structure. "; }
+		{ String _name = "Builder";					String _text = "ผู้รับเหมา"; }
+		{ String _name = "BuilderDesc";				String _text = "สร้างเมืองที่มีสิ่งก่อสร้างอย่างน้อยน้อยหนึ่งแห่งในทุกๆ ประเภท"; }
 
-		{ String _name = "MasterBuilder";			String _text = "Master Builder"; }
-		{ String _name = "MasterBuilderDesc";		String _text = "Build a town with 3 churches, 5 boarding houses, 4 markets, 5 hospitals, 2 trading posts, 6 taverns, and a town hall."; }
+		{ String _name = "MasterBuilder";			String _text = "ผู้รับเหมามือหนึ่ง"; }
+		{ String _name = "MasterBuilderDesc";		String _text = "สร้างโบสถ์ 3 หลัง บ้านพักรวม 5 แห่ง ตลาด 4 แห่ง โรงพยาบาล 5 โรง ท่าเรือสินค้า 2 ท่า  โรงเหล้า 6 โรง และศาลาเมือง"; }
 
-		{ String _name = "Established";				String _text = "Established"; }
-		{ String _name = "EstablishedDesc";			String _text = "Build a town that has a population of 300 after 100 years."; }
+		{ String _name = "Established";				String _text = "ลงหลักปักฐาน"; }
+		{ String _name = "EstablishedDesc";			String _text = "มีประชากรอย่างน้อย 300 คน เมื่อระยะเวลาผ่านไป 100 ปี"; }
 
-		{ String _name = "Tenure";					String _text = "Tenure"; }
-		{ String _name = "TenureDesc";				String _text = "Build a town that has a population of 500 after 200 years."; }
+		{ String _name = "Tenure";					String _text = "ครอบครอง"; }
+		{ String _name = "TenureDesc";				String _text = "มีประชากรอย่างน้อย 500 คน เมื่อระยะเวลาผ่านไป 200 ปี"; }
 	]
 }
 
