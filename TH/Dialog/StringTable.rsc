@@ -131,12 +131,12 @@ StringTable mainMenu
 		{ String _name = "Options";				String _text = "ตัวเลือก"; 		}
 		{ String _name = "QuitGame";			String _text = "ออกจากเกม"; 		}
 		{ String _name = "Achievement";			String _text = "ความสำเร็จ"; 		}
-		{ String _name = "Scenario";			String _text = "Scenario"; 		}
+		{ String _name = "Scenario";			String _text = "บทบาท"; 		}
 		{ String _name = "Mod";					String _text = "ส่วนเสริม"; 		}
 		{ String _name = "Goal";				String _text = "เป้าหมาย"; 		}
 		{ String _name = "Map";					String _text = "แผนที่"; 		}
 		{ String _name = "Tutorial";			String _text = "ฝึกหัดเล่น"; 		}
-		{ String _name = "ScenarioParam";		String _text = "Scenario: @0"; 		}
+		{ String _name = "ScenarioParam";		String _text = "บทบาท: @0"; 		}
 
 		{ String _name = "ModName";				String _text = "ชื่อ/ผู้สร้าง"; 		}
 		{ String _name = "ModDescription";		String _text = "คำอธิบาย"; 		}
@@ -454,9 +454,9 @@ StringTable objects
 		{ String _name = "WellLwr";				String _text = "บ่อน้ำ"; }
 		{ String _name = "WellTip";				String _text = "แหล่งน้ำสำหรับการดับเพลิง"; }	
 
-		{ String _name = "Hostel";				String _text = "บ้านพัก"; }
-		{ String _name = "HostelLwr";			String _text = "บ้านพัก"; }
-		{ String _name = "HostelTip";			String _text = "บ้านพักชั่วคราวสำหรับชาวเมืองที่ไร้บ้านได้อยู่อาศัย"; }	
+		{ String _name = "Hostel";				String _text = "บ้านพักรวม"; }
+		{ String _name = "HostelLwr";			String _text = "บ้านพักรวม"; }
+		{ String _name = "HostelTip";			String _text = "บ้านพักแบบรวมสำหรับชาวเมืองที่ไร้บ้านเดี่ยวได้อยู่อาศัยชั่วคราว"; }	
 
 		{ String _name = "Chapel";				String _text = "โบสถ์"; }
 		{ String _name = "ChapelLwr";			String _text = "โบสถ์"; }
@@ -1077,7 +1077,7 @@ StringTable rawMaterial
 		{	String _name = "Peach";				String _text = "พีช";	}
 		{	String _name = "Plum";				String _text = "พลัม";	}
 		{	String _name = "Chestnut";			String _text = "เชสท์นัต";	}
-		{	String _name = "Pecan";				String _text = "Pecan";	}
+		{	String _name = "Pecan";				String _text = "พีแคน";	}
 		{	String _name = "Walnut";			String _text = "วอลนัต";	}
 		{	String _name = "Fish";				String _text = "ปลา"; }				
 		{	String _name = "Chicken";			String _text = "ไก่"; }		
@@ -1095,7 +1095,7 @@ StringTable rawMaterial
 		{	String _name = "WinterCoat";		String _text = "เสื้อกันหนาว";	}			
 		{	String _name = "WoolCoat";			String _text = "เสื้อขนแกะ";	}			
 		{	String _name = "LeatherCoat";		String _text = "เสื้อหนังสัตว์";	}	
-		{	String _name = "Ale";				String _text = "เสื้อ";	}	
+		{	String _name = "Ale";				String _text = "เหล้า";	}	
 
 		{	String _name = "Chickens";			String _text = "ไก่"; }
 		{	String _name = "Cows";				String _text = "วัว"; }
