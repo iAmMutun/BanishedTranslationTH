@@ -54,7 +54,7 @@ StringTable loadingDetails
 		{ String _name = "Loading16";			String _text = "(กำลังพิจารณาวงจรสภาพอากาศ)"; 	}
 		{ String _name = "Loading17";			String _text = "(ตรวจสอบระบบสุ่มหมายเลข)"; 	}
 		{ String _name = "Loading18";			String _text = "(ตรวจสอบระบบป้องกันอัคคีภัย)"; 	}
-		{ String _name = "Loading19";			String _text = "(หลบหลีดทอร์นาโด)"; 	}
+		{ String _name = "Loading19";			String _text = "(หลบหลีกทอร์นาโด)"; 	}
 		{ String _name = "Loading20";			String _text = "(คำนวณเงาตกกระทบ)"; 	}
 		{ String _name = "Loading21";			String _text = "(ทักทอเสื้อผ้าเริ่มต้นให้ชาวเมือง)"; 	}
 		{ String _name = "Loading22";			String _text = "(กำลังหว่านเมล็ดพันธุ์แอปเปิ้ล)"; 	}
