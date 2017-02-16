@@ -1,11 +1,11 @@
 PackageFile translationThai
 {
 	String _name = "Thai Language Translation";
-	String _author = "Banished Thai Team";
-	String _description = "Thai language translation mod. ส่วนเสริมแปลภาษาไทย -- ผู้แปล: i.am.mutun, Panithan Tangchit -- ใช้ฟอนต์ TH Bai Jamjuree CP (TH Baijam) โดยทีม PITA";
+	String _author = "i.am.mutun";
+	String _description = "Thai language translation mod. ส่วนเสริมแปลภาษาไทย~n• ผู้แปล: i.am.mutun, Panithan Tangchit ใช้ฟอนต์ TH Bai Jamjuree CP (TH Baijam) โดยทีม PITA~n• เว็บไซต์ https://github.com/iAmMutun/BanishedTranslationTH";
 	String _icon = "icon.png";
 	String _preview = "preview.jpg";
-	int _userVersion = 3;
+	int _userVersion = 4;
 
 	// all files in resource directory
 	String _includeList
