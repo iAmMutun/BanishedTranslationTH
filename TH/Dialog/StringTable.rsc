@@ -81,29 +81,29 @@ StringTable modUpload
 {
 	Entry _strings
 	[
-		{ String _name = "UserAgreement";		String _text = "By submitting this item, you agree to the Steam Workshop terms of service. Click the link below to view and agree to the agreement."; }
+		{ String _name = "UserAgreement";		String _text = "คุณจำเป็นต้องยอมรับข้อตกลงการใช้งานสตีมเวิร์คช็อปก่อนทำการอัพโหลดส่วนเสริม คลิกลิงก์ด้านล่างเพื่ออ่านและยอมรับข้อตกลงดังกล่าว"; }
 
-		{ String _name = "BeginSearch";			String _text = "Searching for previously published mods..."; }
-		{ String _name = "Searching";			String _text = "Searching for previously published mods..."; }
-		{ String _name = "SearchFailed";		String _text = "No previously published mods could be found, or an error ocurred while searching."; }
-		{ String _name = "SearchComplete";		String _text = "Select the mod on Steam Workshop that you'd like to update."; }
+		{ String _name = "BeginSearch";			String _text = "กำลังค้นหาส่วนเสริมที่เคยอัพโหลดก่อนหน้านี้..."; }
+		{ String _name = "Searching";			String _text = "กำลังค้นหาส่วนเสริมที่เคยอัพโหลดก่อนหน้านี้..."; }
+		{ String _name = "SearchFailed";		String _text = "ไม่พบส่วนเสริมที่เคยอัพโหลดก่อนหน้านี้ หรือมีความผิดพลาดในการค้นหา"; }
+		{ String _name = "SearchComplete";		String _text = "เลือกส่วนเสริมในสตีมเวิร์คช็อปที่คุณต้องการอัพเดท"; }
 
-		{ String _name = "SearchConfirm";		String _text = "Are you sure you want to replace the content on Steam Workshop named '@1' with the current local content named '@0'?"; }
+		{ String _name = "SearchConfirm";		String _text = "คุณแน่ใจหรือไม่ว่าจะแทนที่ข้อมูลบนสตีมเวิร์คช็อปชื่อ '@1' ด้วยข้อมูลจากในเครื่องชื่อ '@0'?"; }
 
-		{ String _name = "ChangeNote";			String _text = "You can add a change note describing whats changed about this version of the mod."; }
+		{ String _name = "ChangeNote";			String _text = "คุณสามารถเพิ่้มรายละเอียด เพื่ออธิบายว่ามีอะไรเปลี่ยนแปลงบ้างในส่วนเสริมนี้"; }
 
-		{ String _name = "BeginCreate";			String _text = "Creating '@0'..."; }
-		{ String _name = "Creating";			String _text = "Creating '@0'..."; }
-		{ String _name = "CreateFailed";		String _text = "An error occurred while attempting to publish the mod to Steam Workshop."; }
-		{ String _name = "CreateComplete";		String _text = "Creating '@0'..."; }
+		{ String _name = "BeginCreate";			String _text = "กำลังสร้าง '@0'..."; }
+		{ String _name = "Creating";			String _text = "กำลังสร้าง '@0'..."; }
+		{ String _name = "CreateFailed";		String _text = "มีความผิดพลาดในการอัพโหลดส่วนเสริมไปยังสตีมเวิร์คช็อป"; }
+		{ String _name = "CreateComplete";		String _text = "กำลังสร้าง '@0'..."; }
 
-		{ String _name = "BeginUpdate";			String _text = "Uploading '@0' to workshop..."; }
-		{ String _name = "Updating";			String _text = "Uploading '@0' to workshop..."; }
-		{ String _name = "UpdateFailed";		String _text = "An error occurred while attempting to update the mod on Steam Workshop."; }
-		{ String _name = "UpdateComplete";		String _text = "Uploading '@0' to workshop..."; }
+		{ String _name = "BeginUpdate";			String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์คช็อป..."; }
+		{ String _name = "Updating";			String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์คช็อป..."; }
+		{ String _name = "UpdateFailed";		String _text = "มีความผิดพลาดในการอัพเดทส่วนเสริมบนสตีมเวิร์คช็อป"; }
+		{ String _name = "UpdateComplete";		String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์คช็อป..."; }
 
-		{ String _name = "FinishedCreate";		String _text = "'@0' was successfully created and uploaded to the Steam Workshop.~n~nTo view and configure your item on the Steam Workshop website, visit the link below."; }
-		{ String _name = "FinishedUpdate";		String _text = "'@0' was successfully updated on the Steam Workshop.~n~nTo view and configure your item on the Steam Workshop website, visit the link below."; }
+		{ String _name = "FinishedCreate";		String _text = "'@0' ถูกสร้างสำเร็จและอัพโหลดไปยังสตีมเวิร์คช็อปแล้ว~n~nหากต้องการตรวจสอบ หรือแก้ไขรายละเอียดบนสตีมเวิร์คช็อป คลิกด้านล่างนี้"; }
+		{ String _name = "FinishedUpdate";		String _text = "'@0' ได้รับการอัพเดทบนสตีมเวิร์คช็อปแล้ว~n~nหากต้องการตรวจสอบ หรือแก้ไขรายละเอียดบนสตีมเวิร์คช็อป คลิกด้านล่างนี้"; }
 	]
 }
 
@@ -111,9 +111,9 @@ StringTable modBrowserSort
 {
 	Entry _strings
 	[
-		{ String _name = "Sort0";			String _text = "Most Popular"; }
-		{ String _name = "Sort1";			String _text = "Most Recent"; }
-		{ String _name = "Sort2";			String _text = "Subscribed"; }
+		{ String _name = "Sort0";			String _text = "เป็นที่นิยม"; }
+		{ String _name = "Sort1";			String _text = "ใหม่ล่าสุด"; }
+		{ String _name = "Sort2";			String _text = "ลงชื่อแล้ว"; }
 	]
 }
 
@@ -144,7 +144,7 @@ StringTable mainMenu
 		{ String _name = "ModLoaded";			String _text = "เปิดใช้"; 		}
 		{ String _name = "ModOrder";			String _text = "ลำดับการโหลด"; 		}
 		{ String _name = "ModTop";				String _text = "สูงสุด"; 		}
-		{ String _name = "ModDetails";			String _text = "..."; 		}
+		{ String _name = "ModDetails";			String _text = "...."; 		}
 		{ String _name = "ModUpload";			String _text = "อัพโหลด"; 		}
 		{ String _name = "ModBrowse";			String _text = "เลือกดูเวิร์คช็อป"; }
 		{ String _name = "ModAdd";				String _text = "เพิ่ม"; }
@@ -155,16 +155,16 @@ StringTable mainMenu
 		{ String _name = "ModDefaultTip";		String _text = ""; }
 		{ String _name = "ModUpdateAvailable";	String _text = "ส่วนเสริมพร้อมสำหรับการอัพเดท"; }
 		{ String _name = "ModSubscribeTip";		String _text = "ลงชื่อเพื่อดาวน์โหลดส่วนเสริมนี้"; }
-		{ String _name = "ModSearchError";		String _text = "An error has occured while searching. Please try again later."; }
-		{ String _name = "ModSearchNone";		String _text = "No results were found. Please modify your search criteria."; }
-		{ String _name = "ModUnsubscribeTip";	String _text = "Unsubscribe from this mod. After unsubscribing, mods won't be removed until the game is fully exited."; }
-		{ String _name = "ModUpdateReload";		String _text = "One or more mods have been downloaded or updated. Pressing this button will reload the game and allow the mods to be used. Otherwise the
-																new mods will become available next time a game or the main menu is loaded."; }
+		{ String _name = "ModSearchError";		String _text = "พบปัญหาในการค้นหา โปรดลองใหม่อีกครั้งในภายหลัง"; }
+		{ String _name = "ModSearchNone";		String _text = "ไม่พบสิ่งที่ค้นหา โปรดลองเปลี่ยนคำค้น"; }
+		{ String _name = "ModUnsubscribeTip";	String _text = "ยกเลิกการลงชื่อส่วนเสริมนี้ หลังจากนี้ส่วนเสริมนจะยังคงทำงานอยู่จนกว่าคุณจะออกจากเกม"; }
+		{ String _name = "ModUpdateReload";		String _text = "มีส่วนเสริมบางตัวเพิ่งได้รับการอัพเดทหรือดาวน์โหลดเสร็จสิ้น กดปุ่มนี้เพื่อโหลดเกมใหม่เพื่อให้ส่วนเสริมทำงานได้สมบูรณ์
+																ไม่เช่นนั้นส่วนเสริมใหม่จะไม่ทำงานจนกว่าคุณจะโหลดเกมหรือเมนูหลักอีกครั้ง"; }
 
 		{ String _name = "ModConflictTitle";	String _text = "^jl^f1^c0ความขัดแย้ง^f0^n ส่วนเสริมนี้มีส่วนขัดแย้งกันกับส่วนเสริมอื่นตามรายการด้านล่าง ส่วนเสริม^c1ที่แสดงเป็นสีส้ม^c0คือส่วนเสริมที่ขัดแย้งกันและเปิดใช้งานอยู่"; }
 		{ String _name = "ModResourceTitle";	String _text = "^jl^f1^c0ทรัพยากร^f0^n ทรัพยากรที่ใช้ในส่วนเสริมนี้อยู่ในรายการด้านล่าง 
-																ทรัพยากร^c1ที่แสดงเป็นสีส้ม^c0คือทรัพยากรที่ขัดแย้งกับส่วนเสริมอื่น แต่ทรัพยากรของส่วนเสริมนี้จะถูกโหลด 
-																ทรัพยากร^c2ที่แสดงเป็นสีเหลือง^c0คือทรัพยากรที่ขัดแย้งกับส่วนเสริมอื่น และทรัพยากรของส่วนเสริมนี้จะไม่ถูกโหลด"; }
+																ทรัพยากร^c1ที่แสดงเป็นสีส้ม^c0คือทรัพยากรที่ขัดแย้งกับส่วนเสริมอื่น แต่ทรัพยากรของส่วนเสริมนี้จะถูกโหลด
+																ส่วนทรัพยากร^c2ที่แสดงเป็นสีเหลือง^c0คือทรัพยากรที่ขัดแย้งกับส่วนเสริมอื่น และทรัพยากรของส่วนเสริมนี้จะไม่ถูกโหลด"; }
 
 		{ String _name = "ModUserAgreement";	String _text = "^jc^f1^c0^abhttp://steamcommunity.com/sharedfiles/workshoplegalagreement http://steamcommunity.com/sharedfiles/workshoplegalagreement ^ae"; }
 		{ String _name = "ModWorkshopLink";		String _text = "^jc^f1^c0^abLink http://steamcommunity.com/sharedfiles/filedetails/?id=309885816.^ae"; }
@@ -173,21 +173,21 @@ StringTable mainMenu
 		{ String _name = "ModTopTip";			String _text = "กำหนดความสำคัญสูงสุดให้ส่วนเสริม"; 		}
 		{ String _name = "ModUpTip";			String _text = "เพิ่มความสำคัญส่วนเสริมขึ้น"; 		}
 		{ String _name = "ModDownTip";			String _text = "ลดความสำคัญส่วนเสริมลง"; 		}
-		{ String _name = "ModLoadedTip";		String _text = "เปิดหรือปิดการใช้งานมอด"; 		}
+		{ String _name = "ModLoadedTip";		String _text = "เปิดหรือปิดการใช้งานส่วนเสริม"; 		}
 		{ String _name = "ModUploadTip";		String _text = "อัพโหลดส่วนเสริมไปยังสตีมเวิร์คช็อป";	}
 		
 		{ String _name = "ModCreatedBy";		String _text = "สร้างโดย: @0"; }
 		{ String _name = "ModPath";				String _text = "ไฟล์: @0"; }
 		{ String _name = "ModPage";				String _text = "หน้า:"; }
 
-		{ String _name = "ModMissing";			String _text = "The following mod can not be found or cannot be loaded.~n~n@0 [@1]~nSaved with version @2~n~nLoading this save game may have unexpected results or crashes. Do you still want to load the save game?"; }
-		{ String _name = "ModOutOfDate";		String _text = "The following mod is out of date. It's data format may no longer supported.~n~n@0 [@1]~nSaved with version @2~n~nLoading this save game may have unexpected results or crashes. Do you still want to load the save game?"; }
-		{ String _name = "ModDifferentVersion";	String _text = "The following mod has had a version change.~n~n@0 [@1]~nnSaved with version @2~n~nWhile the author may have just simply updated the mod with bug fixes or new features, loading this save game may still have unexpected results or crashes. Do you still want to load the save game?"; }
-		{ String _name = "ModChanged";			String _text = "The following mod is different from when the game was saved.~n~n@0 [@1]~nSaved with version @2~n~nIt's possible the author updated the mod without changing the version number. Or, a mod with the same name on disk has overwritten the mod. Loading this save game may have unexpected results or crashes. Do you still want to load the save game?"; }
+		{ String _name = "ModMissing";			String _text = "ส่วนเสริมต่อไปนี้สูญหายหรือไม่สามารถโหลดได้~n~n@0 [@1]~nเซฟจากเวอร์ชัน @2~n~nการโหลดเกมที่เซฟไว้นี้ อาจจะทำให้มีปัญหาได้ คุณยืนยันที่จะดำเนินการต่อหรือไม่?"; }
+		{ String _name = "ModOutOfDate";		String _text = "ส่วนเสริมต่อไปนี้ไม่ได้รับการอัพเดท รูปแบบข้อมูลที่เซฟไว้อาจมีการเปลี่ยนแปลง~n~n@0 [@1]~nเซฟจากเวอร์ชัน @2~n~nการโหลดเกมที่เซฟไว้นี้ อาจจะทำให้มีปัญหาได้ คุณยืนยันที่จะดำเนินการต่อหรือไม่?"; }
+		{ String _name = "ModDifferentVersion";	String _text = "ส่วนเสริมต่อไปนี้มีการเปลี่ยนแปลงเลขเวอร์ชัน~n~n@0 [@1]~nเซฟจากเวอร์ชัน @2~n~nผู้สร้างส่วนเสริมอาจแค่ทำการอัพเดทหรือแก้ไขบั๊ก การโหลดเกมที่เซฟไว้นี้ อาจจะทำให้มีปัญหาได้ คุณยืนยันที่จะดำเนินการต่อหรือไม่?"; }
+		{ String _name = "ModChanged";			String _text = "ส่วนเสริมต่อไปนี้มีการเปลี่ยนแปลงไปจากส่วนเสริมที่ใช้เมื่อเซฟเกม~n~n@0 [@1]~nเซฟจากเวอร์ชัน @2~n~nู้สร้างส่วนเสริมอาจแค่ทำการอัพเดท โดยไม่ได้แก้ไขเลขเวอร์ชัน หรือมีการซ้อนทับของส่วนเสริมที่ใช้ชื่อเดียวกัน การโหลดเกมที่เซฟไว้นี้ อาจจะทำให้มีปัญหาได้ คุณยืนยันที่จะดำเนินการต่อหรือไม่?"; }
 
-		{ String _name = "ReloadMenu";			String _text = "Changes to the loaded mods require the menu to be reloaded.~n~nDo you want to apply changes and reload now?"; }
-		{ String _name = "ReloadGame";			String _text = "Changes to the loaded mods require the game to be reloaded.~n~nReloading with different mods in a game already in progress may have undesirable effects such as unexpected behavior or crashes.~n~nDo you want to apply changes and reload now?"; }
-		{ String _name = "ModConflict";			String _text = "This mod contains resources that conflict with another mod that is loaded (highlighted red). This can cause unexpected behavior.~n~nThe resources from the mod highest in the list will be loaded."; }
+		{ String _name = "ReloadMenu";			String _text = "การเปลี่ยนแปลงส่วนเสริมจำเป็นต้องโหลดเมนูหลักใหม่อีกครั้ง~n~nคุณต้องการโหลดใหม่เดี๋ยวนี้หรือไม่?"; }
+		{ String _name = "ReloadGame";			String _text = "การเปลี่ยนแปลงส่วนเสริมจำเป็นต้องโหลดเกมใหม่อีกครั้ง~n~nการโหลดเกมใหม่ด้วยส่วนเสริมที่เปลี่ยนไปในระหว่างการเล่น อาจจะทำให้มีปัญหาได้~n~nคุณต้องการโหลดใหม่เดี๋ยวนี้หรือไม่?"; }
+		{ String _name = "ModConflict";			String _text = "ส่วนเสริมนี้มีการใช้งานทรัพยากรซ้อนทับกับส่วเสริมอื่นที่เปิดใช้งานอยู่ (แสดงเป็นสีแดง)  นี่อาจจะทำให้มีปัญหาได้~n~nทรัพยากรที่ถูกแก้ไขโดยส่วนเสริมที่มีลำดับความสำคัญสูงสุดในรายการจะถูกนำมาใช้"; }
 
 		{ String _name = "ResumeGame";			String _text = "เล่นต่อ"; 		}
 		{ String _name = "ReturnMenu";			String _text = "เลิกเล่น"; 		}
