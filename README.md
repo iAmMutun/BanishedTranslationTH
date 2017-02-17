@@ -6,9 +6,9 @@ This is a Thai language translation mod repository for the game [Banished by Shi
 
 Download
 ========
-สำหรับเกมเมอร์ คุณสามารถดาวน์โหลดอัพเดทล่าสุดได้จากหน้า [Release](https://github.com/iAmMutun/BanishedTranslationTH/releases)
+สำหรับเกมเมอร์ คุณสามารถดาวน์โหลดอัพเดทล่าสุดได้จากหน้า [Releases](https://github.com/iAmMutun/BanishedTranslationTH/releases)
 
-For normal gamers, you can download the latest release or older releases on the [Release](https://github.com/iAmMutun/BanishedTranslationTH/releases) page.
+For normal gamers, you can download the latest release or older releases on the [Releases](https://github.com/iAmMutun/BanishedTranslationTH/releases) page.
 
 Contribute
 ==========
