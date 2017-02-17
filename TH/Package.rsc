@@ -61,6 +61,8 @@ ExternalList list
 		"Dialog/StringTable.rsc:loadingDetails"
 		"Dialog/StringTable.rsc:mainMenu"
 		"Dialog/StringTable.rsc:merchant"
+		"Dialog/StringTable.rsc:modUpload"
+		"Dialog/StringTable.rsc:modBrowserSort"
 		"Dialog/StringTable.rsc:multiSample"
 		"Dialog/StringTable.rsc:objects"
 		"Dialog/StringTable.rsc:orderTypes"
