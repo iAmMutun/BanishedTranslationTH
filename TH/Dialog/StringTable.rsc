@@ -694,7 +694,7 @@ StringTable gameDialogs
 		{ String _name = "FollowCitizen";		String _text = "ติดตาม"; }
 		{ String _name = "FollowCitizenTip";	String _text = "ติดตามการเดินทางของชาวเมืองคนนี้"; }
 		{ String _name = "FollowCitizenEnd";	String _text = "ออกจากการติดตาม"; }
-		{ String _name = "FollowCitizenInfo";	String _text = "@0‌@1กำลัง"; }
+		{ String _name = "FollowCitizenInfo";	String _text = "@0@1กำลัง"; }
 		{ String _name = "FollowCitizenInfoNameOnly"; String _text = "@0กำลัง"; }
 
 		{ String _name = "Labor";				String _text = "สร้าง"; }
@@ -723,7 +723,7 @@ StringTable gameDialogs
 		
 		{ String _name = "Order";				String _text = "สั่งซื้อ"; }
 		{ String _name = "Purchase";			String _text = "ซื้อ"; }
-		{ String _name = "MerchantName";		String _text = "@0‌@1"; } // There's a zero-width space (U+200B) between @0 and @1 to prevent game from crashing.
+		{ String _name = "MerchantName";		String _text = "@0@1"; }
 		{ String _name = "MerchantOrderName";	String _text = "สินค้าสั่งซื้อจาก@0"; }
 		{ String _name = "Autobuy";				String _text = "ซื้ออัตโนมัติ"; }
 
