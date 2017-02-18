@@ -1,1 +1,1 @@
-powershell -ExecutionPolicy Bypass -File Clean.ps1
+powershell -ExecutionPolicy Bypass -File Clean.ps1 %*
