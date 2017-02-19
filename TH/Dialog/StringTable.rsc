@@ -214,16 +214,16 @@ StringTable mainMenu
 		{ String _name = "Resolution";			String _text = "ความละเอียด"; }
 		{ String _name = "Antialiasing";		String _text = "ความนุ่มนวล";	}
 		{ String _name = "Fullscreen";			String _text = "เต็มจอ";	}
-		{ String _name = "VSync";				String _text = "วีซิงก์";	}
+		{ String _name = "VSync";				String _text = "VSync";	}
 		{ String _name = "TextureFilter";		String _text = "เท็กซ์เจอร์ฟิลเตอร์";	}
 		{ String _name = "ShadowResolution";	String _text = "ความละเอียดเงา";	}
 		{ String _name = "ShadowQuality";		String _text = "คุณภาพเงา"; }
 		{ String _name = "ReflectionQuality";	String _text = "การสะท้อน"; }
 
 		{ String _name = "SoftwareMouse";		String _text = "ใช้เมาส์ซอฟต์แวร์"; }
-		{ String _name = "Bind";				String _text = "กดปุ่มบนคีย์บอร์ดเพื่อผูกกับคำสั่ง@0"; }
+		{ String _name = "Bind";				String _text = "กดปุ่มบนคีย์บอร์ดเพื่อผูกกับ '@0'"; }
 		{ String _name = "Unbind";				String _text = "เลิกผูก"; }
-		{ String _name = "AlreadyBound";		String _text = "ปุ่ม @0 ผูกกับ @1 ไปแล้ว ต้องการผูกกับ @2 แทนหรือไม่?"; }
+		{ String _name = "AlreadyBound";		String _text = "ปุ่ม @0 ผูกกับ '@1' ไปแล้ว ต้องการผูกกับ '@2' แทนหรือไม่?"; }
 
 		{ String _name = "NewGameTip";			String _text = "เริ่มเกมใหม่"; }
 		{ String _name = "LoadGameTip";			String _text = "โหลดและเล่นต่อเกมที่เซฟไว้"; }
@@ -1545,9 +1545,9 @@ StringTable gameKeys
 		{ String _name = "Mouse_DeltaX";			String _text = "Unmappable"; }
 		{ String _name = "Mouse_DeltaY";			String _text = "Unmappable"; }
 		{ String _name = "Mouse_Wheel";				String _text = "Unmappable"; }
-		{ String _name = "Mouse_Left";				String _text = "Primary Action"; }
-		{ String _name = "Mouse_Right";				String _text = "Cancel Action"; }
-		{ String _name = "Mouse_Middle";			String _text = "Mouse Rotate Camera"; }
+		{ String _name = "Mouse_Left";				String _text = "คำสั่งหลัก"; }
+		{ String _name = "Mouse_Right";				String _text = "ยกเลิกคำสั่ง"; }
+		{ String _name = "Mouse_Middle";			String _text = "หมุนมุมกล้อง"; }
 
 		{ String _name = "Cancel";					String _text = "เมนู/หยุดเกม"; }
 		{ String _name = "Camera_RotateLeft";		String _text = "หมุนไปทางซ้าย"; }
