@@ -434,12 +434,12 @@ StringTable toolBar
 
 		{ String _name = "ToolTownHallTip";		String _text = "เรียกดูข้อมูลที่ศาลาเมือง ศาลาเมืองต้องถูกสร้างไว้แล้ว"; }
 
-		{ String _name = "CameraTip";			String _text = "Save camera locations for fast navigation of important town locations."; }
-		{ String _name = "Camera0Tip";			String _text = "Click to save the current camera view in slot 1. Restore the view by pressing the hot key "; }
-		{ String _name = "Camera1Tip";			String _text = "Click to save the current camera view in slot 2. Restore the view by pressing the hot key "; }
-		{ String _name = "Camera2Tip";			String _text = "Click to save the current camera view in slot 3. Restore the view by pressing the hot key "; }
-		{ String _name = "Camera3Tip";			String _text = "Click to save the current camera view in slot 4. Restore the view by pressing the hot key "; }
-		{ String _name = "Camera4Tip";			String _text = "Click to save the current camera view in slot 5. Restore the view by pressing the hot key "; }
+		{ String _name = "CameraTip";			String _text = "บันทึกมุมมองกล้องเพื่อให้เข้าถึงจุดสำคัญๆ ของเมืองได้เร็วขึ้น"; }
+		{ String _name = "Camera0Tip";			String _text = "คลิกเพื่อบันทึกมุมมองปัจจุบันของกล้องลำดับที่ 1 เพื่อเรียกใช้มุมมองนี้ ให้กดคีย์ลัด"; }
+		{ String _name = "Camera1Tip";			String _text = "คลิกเพื่อบันทึกมุมมองปัจจุบันของกล้องลำดับที่ 2 เพื่อเรียกใช้มุมมองนี้ ให้กดคีย์ลัด"; }
+		{ String _name = "Camera2Tip";			String _text = "คลิกเพื่อบันทึกมุมมองปัจจุบันของกล้องลำดับที่ 3 เพื่อเรียกใช้มุมมองนี้ ให้กดคีย์ลัด"; }
+		{ String _name = "Camera3Tip";			String _text = "คลิกเพื่อบันทึกมุมมองปัจจุบันของกล้องลำดับที่ 4 เพื่อเรียกใช้มุมมองนี้ ให้กดคีย์ลัด"; }
+		{ String _name = "Camera4Tip";			String _text = "คลิกเพื่อบันทึกมุมมองปัจจุบันของกล้องลำดับที่ 5 เพื่อเรียกใช้มุมมองนี้ ให้กดคีย์ลัด"; }
 	]
 }
 
