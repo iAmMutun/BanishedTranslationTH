@@ -702,13 +702,13 @@ StringTable gameDialogs
 		{ String _name = "PauseBuildTip";		String _text = "หยุดหรือดำเนินการรวบรวมทรัพยากรและการก่อสร้างนี้"; }
 
 		{ String _name = "CloseTip";			String _text = "ปิดหน้าต่างนี้"; }
-		{ String _name = "PinTip";				String _text = "Toggle pinning this window so that it stays open and doesn't track the selection."; }
-		{ String _name = "CenterTip";			String _text = "Center the view on the selection."; }
-		{ String _name = "ProductionTip";		String _text = "Show or hide production statistics at this location."; }
+		{ String _name = "PinTip";				String _text = "ปิดเหรือเปิดการปักหมุด เพื่อให้หน้าต่างนี้คงอยู่บนหน้าจอ แม้ไม่ได้เลือกสิ่งก่อสร้างอยู่"; }
+		{ String _name = "CenterTip";			String _text = "ไปยังสิ่งก่อสร้างนี้"; }
+		{ String _name = "ProductionTip";		String _text = "เปิดหรือปิดการแสดงสถิติการผลิตจากที่นี่"; }
 
-		{ String _name = "ClearAreaTip";		String _text = "Trees, rocks, and other obstructions need to be removed from the area."; }
-		{ String _name = "ResourceTip";			String _text = "Resource that needs to be gathered before construction can begin."; }
-		{ String _name = "LaborTip";			String _text = "Work needs to be done before use."; }
+		{ String _name = "ClearAreaTip";		String _text = "ต้นไม้ หิน และสิ่งกีดขวางอื่นๆ จำเป็นต้องถูกรื้อถอนไปจากบริเวณนี้"; }
+		{ String _name = "ResourceTip";			String _text = "จำนวนทรัพยากรที่จำเป็นต้องถูกรื้อถอนก่อนการก่อสร้างจะเริ่มได้"; }
+		{ String _name = "LaborTip";			String _text = "จำนวนสิ่งที่ต้องทำก่อนจะเริ่มใช้งานได้"; }
 
 		{ String _name = "Details";				String _text = "รายละเอียด"; }
 		{ String _name = "Occupants";			String _text = "อาชีพ"; }
@@ -727,8 +727,8 @@ StringTable gameDialogs
 		{ String _name = "MerchantOrderName";	String _text = "สินค้าสั่งซื้อจาก@0"; }
 		{ String _name = "Autobuy";				String _text = "ซื้ออัตโนมัติ"; }
 
-		{ String _name = "PurchasePriorityTip";	String _text = "Move the item to purchase up or down in priority."; }
-		{ String _name = "PurchaseCountTip";	String _text = "The number of items to automatically purchase."; }
+		{ String _name = "PurchasePriorityTip";	String _text = "เลื่อนลำดับความสำคัญสินค้าที่จะทำการซื้อ"; }
+		{ String _name = "PurchaseCountTip";	String _text = "จำนวนสินค้าที่ต้องการซื้อโดยอัตโนมัติ"; }
 		
 
 		{ String _name = "TimeRange";			String _text = "ระยะเวลา"; }
@@ -738,32 +738,32 @@ StringTable gameDialogs
 		{ String _name = "InventoryStored";		String _text = "จำนวน"; }
 
 		{ String _name = "EnableWork";			String _text = "ทำงาน"; }
-		{ String _name = "EnableWorkTip";		String _text = "Enable or disable production at this location."; }
-		{ String _name = "WorkerCountTip";		String _text = "The number of citizens working at this location. Click to select and cycle through the workers."; }
-		{ String _name = "EnableSchoolTip";		String _text = "Enable or disable education at this school."; }
-		{ String _name = "ProfessionCountTip";	String _text = "The total number of workers in this profession."; }
-		{ String _name = "ProfessionJobsTip";	String _text = "The total number of jobs available in this profession."; }
-		{ String _name = "ProfessionGotoTip";   String _text = "Select and cycle through the citizens assigned to this profession."; }
-		{ String _name = "CitizenGotoTip";		String _text = "Focus the view on this citizen."; }
+		{ String _name = "EnableWorkTip";		String _text = "เปิดหรือปิดการทำงานผลิตที่นี่"; }
+		{ String _name = "WorkerCountTip";		String _text = "จำนวนประชากรที่ทำงานอยู่ที่นี่ คลิกเพื่อดูคนงานทีละคน"; }
+		{ String _name = "EnableSchoolTip";		String _text = "เปิดหรือปิดการสอนที่โรงเรียนแห่งนี้"; }
+		{ String _name = "ProfessionCountTip";	String _text = "จำนวนประชากรทั้งหมดที่ประกอบอาชีพนี้"; }
+		{ String _name = "ProfessionJobsTip";	String _text = "จำนวนตำแหน่งงานทั้งหมดที่เปิดรับในอาชีพนี้"; }
+		{ String _name = "ProfessionGotoTip";   String _text = "คลิกเพื่อดูชาวเมืองที่ประกอบอาชีพนี้ทีละคน"; }
+		{ String _name = "CitizenGotoTip";		String _text = "คลิกเพื่อไปยังชาวเมืองคนนี้"; }
 
-		{ String _name = "EnablePriestTip";		String _text = "Enable or disable use of this chapel."; }
+		{ String _name = "EnablePriestTip";		String _text = "เปิดหรือปิดการให้บริการโบสถ์แห่งนี้"; }
 
 		{ String _name = "ForesterCut";			String _text = "ตัด"; }
 		{ String _name = "ForesterPlant";		String _text = "ปลูก"; }
-		{ String _name = "ForesterCutTip";		String _text = "Enable or disable the cutting down nearby mature trees."; }
-		{ String _name = "ForesterPlantTip";	String _text = "Enable or disable the planting of new saplings."; }
+		{ String _name = "ForesterCutTip";		String _text = "เปิดหรือปิดการตัดต้นไม้ที่โตเต็มที่รอบๆบริเวณนี้"; }
+		{ String _name = "ForesterPlantTip";	String _text = "เปิดหรือปิดการปลูกกล้าไม้ต้นใหม่รอบๆบริเวณนี้"; }
 		
-		{ String _name = "CropFieldCutTip";		String _text = "Harvest the crop field immediately."; }
-		{ String _name = "CropFieldAutoTip";	String _text = "Enable or disable automatic planting and harvesting at this location."; }
-		{ String _name = "CropFieldSelectTip";	String _text = "Select the crop that is planted in this location."; }
+		{ String _name = "CropFieldCutTip";		String _text = "เก็บเกี่ยวผลผลิตในไร่นาแปลงนี้ทันที"; }
+		{ String _name = "CropFieldAutoTip";	String _text = "เปิดหรือปิดกการเก็บเกี่ยวอัตโนมัติในไร่นาแปลงนี้"; }
+		{ String _name = "CropFieldSelectTip";	String _text = "เลือกชนิดของเมล็ดพันธุ์ที่จะปลูกในไร่นาแปลงนี้"; }
 
 		{ String _name = "CropFieldPlant";		String _text = "เมล็ดพันธุ์"; }
 		{ String _name = "CropFieldHarvest";	String _text = "เก็บเกี่ยว"; }
 		{ String _name = "CropFieldAuto";		String _text = "ทำงาน"; }
 		{ String _name = "CropFieldSelect";		String _text = "เลือก"; }
 
-		{ String _name = "ReturnToStorage";		String _text = "Pickup"; }
-		{ String _name = "ReturnToStorageTip";	String _text = "If enabled, any goods produced by workers will be picked up immediately and moved to storage. If not, goods will be left to be picked up by general laborers."; }
+		{ String _name = "ReturnToStorage";		String _text = "เก็บลงคลัง"; }
+		{ String _name = "ReturnToStorageTip";	String _text = "เปิดเพื่อให้คนงานประจำนำผลผลิตไปเก็บในคลัง ปิดเพื่อให้คนงานทั่วไปเป็นผู้นำผลผลิตไปเก็บ"; }
 
 		{ String _name = "ProductionCurrent";	String _text = "ปัจจุบัน"; }
 		{ String _name = "ProductionUsed";		String _text = "ใช้ไป"; }
@@ -814,10 +814,10 @@ StringTable gameDialogs
 
 		{ String _name = "SoilQuality";			String _text = "ดิน"; }
 		
-		{ String _name = "OrchardHarvestTip";	String _text = "Harvest the orchard immediately."; }
-		{ String _name = "OrchardAutoTip";		String _text = "Enable or disable automatic harvesting at this location."; }
-		{ String _name = "OrchardSelectTip";	String _text = "Select the type of fruit tree that is planted in this location."; }
-		{ String _name = "OrchardCutTip";		String _text = "Cut down all the trees in this orchard."; }
+		{ String _name = "OrchardHarvestTip";	String _text = "เก็บเกี่ยวผลผลิตในสวนผลไม้แปลงนี้ทันที"; }
+		{ String _name = "OrchardAutoTip";		String _text = "เปิดหรือปิดกการเก็บเกี่ยวอัตโนมัติในสวนผลไม้แปลงนี้"; }
+		{ String _name = "OrchardSelectTip";	String _text = "เลือกชนิดของเมล็ดพันธุ์ที่จะปลูกในสวนผลไม้แปลงนี้"; }
+		{ String _name = "OrchardCutTip";		String _text = "ตัดต้นไม้ที่อยู่ในสวนทิ้งทั้งหมด"; }
 		{ String _name = "OrchardCut";			String _text = "ตัด"; }
 
 		{ String _name = "PastureEmpty";		String _text = "นำออก"; }
@@ -1107,7 +1107,7 @@ StringTable rawMaterial
 		{	String _name = "SeedPeach";			String _text = "เมล็ดพันธุ์พีช";	}
 		{	String _name = "SeedPlum";			String _text = "เมล็ดพันธุ์พลัม";	}
 		{	String _name = "SeedChestnut";		String _text = "เมล็ดพันธุ์เชสท์นัต";	}
-		{	String _name = "SeedPecan";			String _text = "เมล็ดพันธุ์Pecan";	}
+		{	String _name = "SeedPecan";			String _text = "เมล็ดพันธุ์พีแคน";	}
 		{	String _name = "SeedWalnut";		String _text = "เมล็ดพันธุ์วอลนัต";	}
 
 		{	String _name = "SeedCabbage";		String _text = "เมล็ดพันธุ์กะหล่ำปลี"; }
@@ -1241,7 +1241,7 @@ StringTable professions
 
 		{	String _name = "ProfessionBuilder";			String _text = "ช่างก่อสร้าง";	}
 		{	String _name = "ProfessionBuilderTip";		String _text = "ช่างก่อสร้างทำหน้าที่สร้างสิ่งปลูกสร้างต่างๆ ถนน และสะพาน";	}
-		{	String _name = "ProfessionBuilderDeath";	String _text = "ตกบรรไดตาย";	}
+		{	String _name = "ProfessionBuilderDeath";	String _text = "ตกบันไดตาย";	}
 
 		{	String _name = "ProfessionFarmer";			String _text = "เกษตรกร";	}
 		{	String _name = "ProfessionFarmerTip";		String _text = "เกษตกรทำหน้าที่ดูแลไร่นาและสวนผลไม้";	}
