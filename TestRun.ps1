@@ -1,15 +1,21 @@
 param([switch]$package, [switch]$norebuild)
 
-$ModDirName = Split-Path(Split-Path $MyInvocation.MyCommand.Path) -Leaf
 $Arch = If ([Environment]::Is64BitProcess) {64} Else {32}
+
+$ModKitVer = "1_0_6_160521"
+$ModKitDir = "..\BanishedKit_$ModKitVer\"
+$ModKitAppExe = "$ModKitDir\bin\x$Arch\Application-x$Arch-profile.exe"
+
+$ModDirName = Split-Path(Split-Path $MyInvocation.MyCommand.Path) -Leaf
+$ModDirRelToKit = "../../$ModDirName"
 
 If ($package)
 {
 	If (-Not $norebuild) { .\Build.ps1 }
-	& ..\bin\x$Arch\Application-x$Arch-profile.exe /onlypkg
+	& $ModKitAppExe /onlypkg
 }
 Else
 {
 	If (-Not $norebuild) { .\Build.ps1 -unicodefixonly }
-	& ..\bin\x$Arch\Application-x$Arch-profile.exe /ref Package.rsc:translationThai /pathres ../$ModDirName/res /pathdat ../$ModDirName/dat
+	& $ModKitAppExe /ref Package.rsc:translationThai /pathres $ModDirRelToKit/res /pathdat $ModDirRelToKit/dat
 }
