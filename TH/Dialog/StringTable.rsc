@@ -131,12 +131,12 @@ StringTable mainMenu
 		{ String _name = "Options";				String _text = "ตัวเลือก"; 		}
 		{ String _name = "QuitGame";			String _text = "ออกจากเกม"; 		}
 		{ String _name = "Achievement";			String _text = "ความสำเร็จ"; 		}
-		{ String _name = "Scenario";			String _text = "บทบาท"; 		}
+		{ String _name = "Scenario";			String _text = "ภารกิจ"; 		}
 		{ String _name = "Mod";					String _text = "ส่วนเสริม"; 		}
 		{ String _name = "Goal";				String _text = "เป้าหมาย"; 		}
 		{ String _name = "Map";					String _text = "แผนที่"; 		}
 		{ String _name = "Tutorial";			String _text = "ฝึกหัดเล่น"; 		}
-		{ String _name = "ScenarioParam";		String _text = "บทบาท: @0"; 		}
+		{ String _name = "ScenarioParam";		String _text = "ภารกิจ: @0"; 		}
 
 		{ String _name = "ModName";				String _text = "ชื่อ/ผู้สร้าง"; 		}
 		{ String _name = "ModDescription";		String _text = "คำอธิบาย"; 		}
@@ -392,16 +392,16 @@ StringTable scenario
 		{ String _name = "TutorialGoal";				String _text = "ทำแบบฝึกหัดให้เสร็จ"; }
 
 		{ String _name = "TutorialGettingStarted";		String _text = "เริ่มต้น"; }
-		{ String _name = "TutorialGettingStartedDesc";	String _text = "Learn the basics of the game, including camera movement, constructing basic buildings, assigning workers to jobs, and starting a new town."; }
+		{ String _name = "TutorialGettingStartedDesc";	String _text = "เรียนรู้พื้นฐานของเกม การควบคุมกล้อง การก่อสร้างสิ่งต่างๆ การจัดสรรคนงาน และเริ่มต้นสร้างเมือง"; }
 		
 		{ String _name = "TutorialSurvival";			String _text = "เอาชีวิตรอด"; }
-		{ String _name = "TutorialSurvivalDesc";		String _text = "Learn to build buildings that produce goods that can help increase chances of survival, such as blacksmiths, tailors, and foresters."; }
+		{ String _name = "TutorialSurvivalDesc";		String _text = "เรียนรู้การสร้างสิ่งก่อสร้างเพื่อผลิตสิ่งของต่างๆ ที่ใช้ในการเอาชีวิตรอด เช่นโรงตีเหล็ก เรือนช่างตัดเสื้อ และเรือนผู้ดูแลป่า"; }
 
 		{ String _name = "TutorialFood";				String _text = "ผลิตอาหาร"; }
-		{ String _name = "TutorialFoodDesc";			String _text = "Learn to produce food from fishing, hunting, gathering, farming crops, growing fruit trees, and raising livestock."; }
+		{ String _name = "TutorialFoodDesc";			String _text = "เรียนรู้การผลิตอาหารจากการประมง การล่าสัตว์ การหาของป่า ปลูกพืชไร่หรือพืชสวน และการเลี้ยงปศุสัตว์"; }
 
 		{ String _name = "TutorialTrade";				String _text = "ค้าขาย"; }
-		{ String _name = "TutorialTradeDesc";			String _text = "Learn how to trade produced goods for new crop seeds, orchard seeds, livestock, food, tools, and other resources."; }
+		{ String _name = "TutorialTradeDesc";			String _text = "เรียนรู้การค้าขายสินค้าที่ผลิตได้ เพื่อแลกกับเมล็ดพันธุ์ใหม่ๆ ปศุสัตว์ อาหาร เครื่องมือ และทรัพยากรอื่นๆ"; }
 
 	]
 }
@@ -928,21 +928,21 @@ StringTable gameDialogs
 		{ String _name = "HelpBackTip";			String _text = "คลิกเพื่อกลับไป"; }
 		{ String _name = "HelpForwardTip";		String _text = "คลิกเพื่อไปต่อ"; }
 
-		{ String _name = "BuildingStatusPausedTip";		String _text = "Construction of this structure is paused."; }
-		{ String _name = "BuildingStatusDisabledTip";	String _text = "Work is disabled at this location."; }
-		{ String _name = "BuildingStatusLimitTip";		String _text = "The production limit for this resource has been reached"; }
-		{ String _name = "BuildingStatusNoWorkTip";		String _text = "The materials required to perform work are not available."; }
-		{ String _name = "BuildingStatusNoWorkersTip";	String _text = "No citizens are available to work at this location."; }
-		{ String _name = "BuildingStatusDestroyTip";	String _text = "This structure is being removed."; }
+		{ String _name = "BuildingStatusPausedTip";		String _text = "การก่อสร้างถูกหยุดชั่วคราว"; }
+		{ String _name = "BuildingStatusDisabledTip";	String _text = "การทำงานถูกหยุดชั่วคราว"; }
+		{ String _name = "BuildingStatusLimitTip";		String _text = "ทรัพยากรนี้มีปริมาณสูงถึงจุดที่จำกัดไว้แล้ว"; }
+		{ String _name = "BuildingStatusNoWorkTip";		String _text = "ทรัพยากรที่จำเป็นต้องใช้งานมีไม่เพียงพอ"; }
+		{ String _name = "BuildingStatusNoWorkersTip";	String _text = "ไม่มีประชากรทำงานอยู่ที่นี่"; }
+		{ String _name = "BuildingStatusDestroyTip";	String _text = "สิ่งก่อสร้างกำลังถูกรื้อ"; }
 
 		{ String _name = "ThisYear";			String _text = "ฤดูกาลปัจจุบัน"; }
 		{ String _name = "PrevYear";			String _text = "ฤดูกาลก่อนหน้า"; }
 
-		{ String _name = "EventNotifyDeathOldTip";		String _text = "Toggle popup notifications of death by old age."; }
-		{ String _name = "EventNotifyDeathTip";			String _text = "Toggle popup notifications of death."; }
-		{ String _name = "EventNotifyDisasterTip";		String _text = "Toggle popup notifications of disasters."; }
-		{ String _name = "EventNotifyStorageTip";		String _text = "Toggle popup notifications of resource and storage values."; }
-		{ String _name = "EventNotifyTownTip";			String _text = "Toggle popup notifications of town events."; }
+		{ String _name = "EventNotifyDeathOldTip";		String _text = "เปิดหรือปิดการแจ้งเตือนเมื่อมีประชากรตายจากความชรา"; }
+		{ String _name = "EventNotifyDeathTip";			String _text = "เปิดหรือปิดการแจ้งเตือนเมื่อมีประชากรตาย"; }
+		{ String _name = "EventNotifyDisasterTip";		String _text = "เปิดหรือปิดการแจ้งเตือนเมื่อมีเหตุภัยพิบัติ"; }
+		{ String _name = "EventNotifyStorageTip";		String _text = "เปิดหรือปิดการแจ้งเตือนเกี่ยวกับปริมาณของทรัพยากร"; }
+		{ String _name = "EventNotifyTownTip";			String _text = "เปิดหรือปิดการแจ้งเตือนเกี่ยวกับเหตุการณ์สำคัญของเมือง"; }
 	]
 }
 
@@ -1192,8 +1192,8 @@ StringTable events
 		{ String _name = "Event24";	String _text = "@0 @1: คลังเก็บไม้ซุง หิน และเหล็กใกล้เต็มแล้ว!"; }
 
 		{ String _name = "Event25";	String _text = "คุณได้รับรางวัล! @2"; }
-		{ String _name = "Event26";	String _text = "ยินดีด้วย! คุณได้ทำตามเป้าหมายที่กำหนดใน scenario '@2'"; }
-		{ String _name = "Event27";	String _text = "คุณไม่ได้ทำตามเป้าหมายที่กำหนดใน scenario '@2'!"; }
+		{ String _name = "Event26";	String _text = "ยินดีด้วย! คุณได้ทำตามเป้าหมายที่กำหนดในภารกิจ '@2'"; }
+		{ String _name = "Event27";	String _text = "คุณไม่ได้ทำตามเป้าหมายที่กำหนดในหารกิจ '@2'!"; }
 		{ String _name = "Event28";	String _text = "ยินดีด้วย! คุณได้ทำตามเป้าหมายทั้งหมดแล้ว!"; }
 		{ String _name = "Event29";	String _text = "คุณไม่ได้ทำตามเป้าหมายทั้งหมด!"; }
 
