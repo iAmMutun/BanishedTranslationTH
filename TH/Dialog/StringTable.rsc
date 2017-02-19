@@ -214,8 +214,8 @@ StringTable mainMenu
 		{ String _name = "Resolution";			String _text = "ความละเอียด"; }
 		{ String _name = "Antialiasing";		String _text = "ความนุ่มนวล";	}
 		{ String _name = "Fullscreen";			String _text = "เต็มจอ";	}
-		{ String _name = "VSync";				String _text = "VSync";	}
-		{ String _name = "TextureFilter";		String _text = "เท็กซ์เจอร์ฟิลเตอร์";	}
+		{ String _name = "VSync";				String _text = "วีซิงก์ (VSync)";	}
+		{ String _name = "TextureFilter";		String _text = "ฟิลเตอร์พื้นผิววัตถุ";	}
 		{ String _name = "ShadowResolution";	String _text = "ความละเอียดเงา";	}
 		{ String _name = "ShadowQuality";		String _text = "คุณภาพเงา"; }
 		{ String _name = "ReflectionQuality";	String _text = "การสะท้อน"; }
