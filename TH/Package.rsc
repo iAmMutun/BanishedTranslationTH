@@ -2,10 +2,10 @@ PackageFile translationThai
 {
 	String _name = "Thai Language Translation";
 	String _author = "i.am.mutun";
-	String _description = "Thai language translation mod. ส่วนเสริมแปลภาษาไทย~n• ผู้แปล: i.am.mutun, Panithan Tangchit ใช้ฟอนต์ TH Bai Jamjuree CP (TH Baijam) โดยทีม PITA~n• เว็บไซต์ https://github.com/iAmMutun/BanishedTranslationTH";
+	String _description = "Thai language translation mod.~n• ส่วนเสริมแปลภาษาไทย • ผู้แปล: i.am.mutun, Panithan Tangchit • ใช้ฟอนต์ TH Bai Jamjuree CP (TH Baijam) โดยทีม PITA • รายงานข้อผิดพลาด ช่วยเพิ่มคำแปล หรือแวะชมและติดตามการอัพเดทได้ที่ https://git.io/vDHb2";
 	String _icon = "icon.png";
 	String _preview = "preview.jpg";
-	int _userVersion = 4;
+	int _userVersion = 5;
 
 	// all files in resource directory
 	String _includeList
