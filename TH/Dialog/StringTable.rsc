@@ -229,7 +229,7 @@ StringTable mainMenu
 		{ String _name = "LoadGameTip";			String _text = "โหลดและเล่นต่อเกมที่เซฟไว้"; }
 		{ String _name = "SaveGameTip";			String _text = "เซฟเกมปัจจุบัน"; }
 		{ String _name = "OptionsTip";			String _text = "ตั้งค่าเกม"; }
-		{ String _name = "QuitGameTip";			String _text = "ออกจากเกม."; }
+		{ String _name = "QuitGameTip";			String _text = "ออกจากเกม"; }
 		{ String _name = "ReturnMenuTip";		String _text = "กลับสู่เมนูหลัก"; }
 		{ String _name = "ResumeGameTip";		String _text = "เล่นเกมต่อ"; }
 		{ String _name = "TutorialTip";			String _text = "เริ่มต้นเกมฝึกหัดที่จะช่วยสอนวิธีการเล่น"; }
@@ -1165,7 +1165,7 @@ StringTable events
 		{ String _name = "Event0";	String _text = "@0 @1: @2@3ตายจากความอดอยาก"; }
 		{ String _name = "Event1";	String _text = "@0 @1: @2@3ตายจากความหนาว";	}
 		{ String _name = "Event2";	String _text = "@0 @1: @2@3ตายจากความชรา";	}
-		{ String _name = "Event3";	String _text = "@0 @1: @2@3ตายด้วย@4."; }
+		{ String _name = "Event3";	String _text = "@0 @1: @2@3ตายด้วย@4"; }
 		{ String _name = "Event4";	String _text = "@0 @1: @2เด็กน้อยได้ตาย"; }
 		{ String _name = "Event5";	String _text = "@0 @1: @2@3ตายจากทอร์นาโด"; }
 		{ String _name = "Event6";	String _text = "@0 @1: @2@3ตายขณะคลอดลูก"; }
