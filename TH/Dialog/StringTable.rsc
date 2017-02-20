@@ -81,29 +81,29 @@ StringTable modUpload
 {
 	Entry _strings
 	[
-		{ String _name = "UserAgreement";		String _text = "คุณจำเป็นต้องยอมรับข้อตกลงการใช้งานสตีมเวิร์คช็อปก่อนทำการอัพโหลดส่วนเสริม คลิกลิงก์ด้านล่างเพื่ออ่านและยอมรับข้อตกลงดังกล่าว"; }
+		{ String _name = "UserAgreement";		String _text = "คุณจำเป็นต้องยอมรับข้อตกลงการใช้งานสตีมเวิร์กชอปก่อนทำการอัพโหลดส่วนเสริม คลิกลิงก์ด้านล่างเพื่ออ่านและยอมรับข้อตกลงดังกล่าว"; }
 
 		{ String _name = "BeginSearch";			String _text = "กำลังค้นหาส่วนเสริมที่เคยอัพโหลดก่อนหน้านี้..."; }
 		{ String _name = "Searching";			String _text = "กำลังค้นหาส่วนเสริมที่เคยอัพโหลดก่อนหน้านี้..."; }
 		{ String _name = "SearchFailed";		String _text = "ไม่พบส่วนเสริมที่เคยอัพโหลดก่อนหน้านี้ หรือมีความผิดพลาดในการค้นหา"; }
-		{ String _name = "SearchComplete";		String _text = "เลือกส่วนเสริมในสตีมเวิร์คช็อปที่คุณต้องการอัพเดท"; }
+		{ String _name = "SearchComplete";		String _text = "เลือกส่วนเสริมในสตีมเวิร์กชอปที่คุณต้องการอัพเดท"; }
 
-		{ String _name = "SearchConfirm";		String _text = "คุณแน่ใจหรือไม่ว่าจะแทนที่ข้อมูลบนสตีมเวิร์คช็อปชื่อ '@1' ด้วยข้อมูลจากในเครื่องชื่อ '@0'?"; }
+		{ String _name = "SearchConfirm";		String _text = "คุณแน่ใจหรือไม่ว่าจะแทนที่ข้อมูลบนสตีมเวิร์กชอปชื่อ '@1' ด้วยข้อมูลจากในเครื่องชื่อ '@0'?"; }
 
 		{ String _name = "ChangeNote";			String _text = "คุณสามารถเพิ่้มรายละเอียด เพื่ออธิบายว่ามีอะไรเปลี่ยนแปลงบ้างในส่วนเสริมนี้"; }
 
 		{ String _name = "BeginCreate";			String _text = "กำลังสร้าง '@0'..."; }
 		{ String _name = "Creating";			String _text = "กำลังสร้าง '@0'..."; }
-		{ String _name = "CreateFailed";		String _text = "มีความผิดพลาดในการอัพโหลดส่วนเสริมไปยังสตีมเวิร์คช็อป"; }
+		{ String _name = "CreateFailed";		String _text = "มีความผิดพลาดในการอัพโหลดส่วนเสริมไปยังสตีมเวิร์กชอป"; }
 		{ String _name = "CreateComplete";		String _text = "กำลังสร้าง '@0'..."; }
 
-		{ String _name = "BeginUpdate";			String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์คช็อป..."; }
-		{ String _name = "Updating";			String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์คช็อป..."; }
-		{ String _name = "UpdateFailed";		String _text = "มีความผิดพลาดในการอัพเดทส่วนเสริมบนสตีมเวิร์คช็อป"; }
-		{ String _name = "UpdateComplete";		String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์คช็อป..."; }
+		{ String _name = "BeginUpdate";			String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์กชอป..."; }
+		{ String _name = "Updating";			String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์กชอป..."; }
+		{ String _name = "UpdateFailed";		String _text = "มีความผิดพลาดในการอัพเดทส่วนเสริมบนสตีมเวิร์กชอป"; }
+		{ String _name = "UpdateComplete";		String _text = "กำลังอัพโหลด '@0' ไปยังสตีมเวิร์กชอป..."; }
 
-		{ String _name = "FinishedCreate";		String _text = "'@0' ถูกสร้างสำเร็จและอัพโหลดไปยังสตีมเวิร์คช็อปแล้ว~n~nหากต้องการตรวจสอบ หรือแก้ไขรายละเอียดบนสตีมเวิร์คช็อป คลิกด้านล่างนี้"; }
-		{ String _name = "FinishedUpdate";		String _text = "'@0' ได้รับการอัพเดทบนสตีมเวิร์คช็อปแล้ว~n~nหากต้องการตรวจสอบ หรือแก้ไขรายละเอียดบนสตีมเวิร์คช็อป คลิกด้านล่างนี้"; }
+		{ String _name = "FinishedCreate";		String _text = "'@0' ถูกสร้างสำเร็จและอัพโหลดไปยังสตีมเวิร์กชอปแล้ว~n~nหากต้องการตรวจสอบ หรือแก้ไขรายละเอียดบนสตีมเวิร์กชอป คลิกด้านล่างนี้"; }
+		{ String _name = "FinishedUpdate";		String _text = "'@0' ได้รับการอัพเดทบนสตีมเวิร์กชอปแล้ว~n~nหากต้องการตรวจสอบ หรือแก้ไขรายละเอียดบนสตีมเวิร์กชอป คลิกด้านล่างนี้"; }
 	]
 }
 
@@ -111,9 +111,9 @@ StringTable modBrowserSort
 {
 	Entry _strings
 	[
-		{ String _name = "Sort0";			String _text = "เป็นที่นิยม"; }
-		{ String _name = "Sort1";			String _text = "ใหม่ล่าสุด"; }
-		{ String _name = "Sort2";			String _text = "ลงชื่อแล้ว"; }
+		{ String _name = "Sort0";			String _text = "เป็นที่นิยมสูงสุด"; }
+		{ String _name = "Sort1";			String _text = "เพิ่มเข้ามาใหม่ล่าสุด"; }
+		{ String _name = "Sort2";			String _text = "สมัครเป็นสมาชิกแล้ว"; }
 	]
 }
 
@@ -146,18 +146,18 @@ StringTable mainMenu
 		{ String _name = "ModTop";				String _text = "สูงสุด"; 		}
 		{ String _name = "ModDetails";			String _text = "...."; 		}
 		{ String _name = "ModUpload";			String _text = "อัพโหลด"; 		}
-		{ String _name = "ModBrowse";			String _text = "เลือกดูเวิร์คช็อป"; }
+		{ String _name = "ModBrowse";			String _text = "เลือกดูจากเวิร์กชอป"; }
 		{ String _name = "ModAdd";				String _text = "เพิ่ม"; }
-		{ String _name = "ModUpdate";			String _text = "อัพเดทส่วนเสริมบนเวิร์คช็อป"; }
-		{ String _name = "ModCreate";			String _text = "เพิ่มลงเวิร์คช็อป"; }
+		{ String _name = "ModUpdate";			String _text = "อัพเดทส่วนเสริมบนเวิร์กชอป"; }
+		{ String _name = "ModCreate";			String _text = "เพิ่มลงเวิร์กชอป"; }
 		{ String _name = "ModUpdating";			String _text = "กำลังอัพเดทส่วนเสริม @0..."; }
-		{ String _name = "ModInstalled";		String _text = "ส่วนเสริมที่ติดตั้ง"; }
+		{ String _name = "ModInstalled";		String _text = "ส่วนเสริมที่ติดตั้งแล้ว"; }
 		{ String _name = "ModDefaultTip";		String _text = ""; }
 		{ String _name = "ModUpdateAvailable";	String _text = "ส่วนเสริมพร้อมสำหรับการอัพเดท"; }
-		{ String _name = "ModSubscribeTip";		String _text = "ลงชื่อเพื่อดาวน์โหลดส่วนเสริมนี้"; }
+		{ String _name = "ModSubscribeTip";		String _text = "สมัครสมาชิกเพื่อดาวน์โหลดส่วนเสริมนี้"; }
 		{ String _name = "ModSearchError";		String _text = "พบปัญหาในการค้นหา โปรดลองใหม่อีกครั้งในภายหลัง"; }
 		{ String _name = "ModSearchNone";		String _text = "ไม่พบสิ่งที่ค้นหา โปรดลองเปลี่ยนคำค้น"; }
-		{ String _name = "ModUnsubscribeTip";	String _text = "ยกเลิกการลงชื่อส่วนเสริมนี้ หลังจากนี้ส่วนเสริมนจะยังคงทำงานอยู่จนกว่าคุณจะออกจากเกม"; }
+		{ String _name = "ModUnsubscribeTip";	String _text = "ยกเลิกการสมัครสมาชิกส่วนเสริมนี้ หลังจากนี้ส่วนเสริมจะยังคงทำงานอยู่จนกว่าคุณจะออกจากเกม"; }
 		{ String _name = "ModUpdateReload";		String _text = "มีส่วนเสริมบางตัวเพิ่งได้รับการอัพเดทหรือดาวน์โหลดเสร็จสิ้น กดปุ่มนี้เพื่อโหลดเกมใหม่เพื่อให้ส่วนเสริมทำงานได้สมบูรณ์
 																ไม่เช่นนั้นส่วนเสริมใหม่จะไม่ทำงานจนกว่าคุณจะโหลดเกมหรือเมนูหลักอีกครั้ง"; }
 
@@ -174,7 +174,7 @@ StringTable mainMenu
 		{ String _name = "ModUpTip";			String _text = "เพิ่มความสำคัญส่วนเสริมขึ้น"; 		}
 		{ String _name = "ModDownTip";			String _text = "ลดความสำคัญส่วนเสริมลง"; 		}
 		{ String _name = "ModLoadedTip";		String _text = "เปิดหรือปิดการใช้งานส่วนเสริม"; 		}
-		{ String _name = "ModUploadTip";		String _text = "อัพโหลดส่วนเสริมไปยังสตีมเวิร์คช็อป";	}
+		{ String _name = "ModUploadTip";		String _text = "อัพโหลดส่วนเสริมไปยังสตีมเวิร์กชอป";	}
 		
 		{ String _name = "ModCreatedBy";		String _text = "สร้างโดย: @0"; }
 		{ String _name = "ModPath";				String _text = "ไฟล์: @0"; }
