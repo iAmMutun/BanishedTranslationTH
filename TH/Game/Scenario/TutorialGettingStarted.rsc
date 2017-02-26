@@ -2,18 +2,18 @@ StringTable tutorialStrings
 {
 	Entry _strings
 	[
-		{ String _name = "Step_Keys_0_Pre";			String _text = "Welcome to Banished! In this game, you control a group of exiled travelers who decide to restart their lives in a new land. You'll have to help them survive."; }
-		{ String _name = "Step_Keys_0_Post";		String _text = "~nPress the 'Next' button to continue."; }
-		{ String _name = "Step_Keys_1_Pre";			String _text = "At anytime during this tutorial, you can access the options menu by pressing"; }
-		{ String _name = "Step_Keys_1_Post";		String _text = "From the options menu you can save and load your progress, change settings, or exit the game."; }
-		{ String _name = "Step_Keys_2_Pre";			String _text = "First, get familiar with moving around the landscape. You can move the camera around by pressing"; } 
-		{ String _name = "Step_Keys_2_Post";		String _text = "You can also move the mouse to the edges of the screen to move the camera. Try it now."; } 
-		{ String _name = "Step_Keys_3_Pre";			String _text = "You can rotate the view by pressing"; } 
-		{ String _name = "Step_Keys_3_Post";		String _text = "You can also rotate the view by holding the middle mouse button down and dragging the mouse left and right."; } 
-		{ String _name = "Step_Keys_4_Pre";			String _text = "You can zoom the camera in and out by pressing"; } 
-		{ String _name = "Step_Keys_4_Post";		String _text = "Scrolling the mouse wheel will also zoom the camera."; } 
-		{ String _name = "Step_Keys_5_Pre";			String _text = "You can change the pitch of the camera by pressing"; } 
-		{ String _name = "Step_Keys_6_Pre";			String _text = "All the keyboard keys are configurable and can be modified in the options menu."; } 
+		{ String _name = "Step_Keys_0_Pre";			String _text = "ยินดีต้อนรับสู่แบนิช! ในแบนิช คุณมีหน้าที่เป็นผู้ออกคำสั่ง ให้แก่กลุ่มของนักเดินทางผู้ถูกเนรเทศจากประเทศของตัวเอง พวกเขาต้องการเริ่มต้นชีวิตใหม่ และคุณจะต้องช่วยเหลือพวกเขาให้มีชีวิตรอด"; }
+		{ String _name = "Step_Keys_0_Post";		String _text = "~nคลิก 'ต่อไป' เพื่อดำเนินการต่อ"; }
+		{ String _name = "Step_Keys_1_Pre";			String _text = "ในระหว่างแบบฝึกหัดนี้ คุณสามารถเปิดเมนูได้ ด้วยการกด"; }
+		{ String _name = "Step_Keys_1_Post";		String _text = "จากเมนูนี้ คุณสามารถเซฟและโหลดเกมที่คุณเล่น ตั้งค่าตัวเลือกต่างๆ หรือออกจากเกม"; }
+		{ String _name = "Step_Keys_2_Pre";			String _text = "อันดับแรก ทำความคุ้นเคยกับการควบคุมมุมกล้องเพื่อไปยังที่ต่างๆ ด้วยการกด"; } 
+		{ String _name = "Step_Keys_2_Post";		String _text = "นอกจากนี้ คุณยังสามารถเลื่อนเมาส์ไปยังขอบหน้าจอ เพื่อย้ายตำแหน่งมุมกล้องได้เช่นกัน ลองดูเลย"; } 
+		{ String _name = "Step_Keys_3_Pre";			String _text = "คุณสามารถปรับหมุนมุมกล้องด้วยการกด"; } 
+		{ String _name = "Step_Keys_3_Post";		String _text = "คุณยังสามารถใช้การกดปุ่มกลางของเมาส์ และลากเมาส์ไปทางซ้ายหรือขวา เพื่อปรับหมุนมุมกล้องดได้เช่นกัน"; } 
+		{ String _name = "Step_Keys_4_Pre";			String _text = "คุณสามารถซูมกล้องเข้าหรือออกได้ด้วยการกด"; } 
+		{ String _name = "Step_Keys_4_Post";		String _text = "หากเมาส์ของคุณมีลูกล้อ คุณสามารถหมุนมันขึ้นลง เพื่อใช้ในการซูมเข้าออกได้เช่นกัน"; } 
+		{ String _name = "Step_Keys_5_Pre";			String _text = "เพื่อปรับระดับมุมก้มของกล้องได้โดยการกด"; } 
+		{ String _name = "Step_Keys_6_Pre";			String _text = "ปุ่มลัดบนคีย์บอร์ดสามารถปรับแต่งได้จากแท็บอุปกรณ์ในเมนูตัวลือก"; } 
 
 		{ String _name = "Step_FirstHouse_0_Pre";	String _text = "Now that you're familiar with the movement controls, it's time to start playing!~n~nThe people you control need three things to survive. Shelter, food, and a way to keep warm in the winter."; } 
 		{ String _name = "Step_FirstHouse_01_Pre";	String _text = "You might notice that some people have this icon floating above their heads."; } 
