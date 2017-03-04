@@ -4,14 +4,22 @@ BanishedTranslationTH
 
 This is a Thai language translation mod repository for the game [Banished by Shinning Rock Software](http://www.shiningrocksoftware.com/).
 
-Download
-========
-สำหรับเกมเมอร์ คุณสามารถดาวน์โหลดอัพเดทล่าสุดได้จากหน้า [Releases](https://github.com/iAmMutun/BanishedTranslationTH/releases)
+Download ดาวน์โหลด
+=================
+สำหรับเกมเมอร์ คุณสามารถดาวน์โหลดอัพเดทล่าสุดได้จากหน้า [Releases](https://github.com/iAmMutun/BanishedTranslationTH/releases) หรือสมัครเป็นสมาชิกบน [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=865219382) เพื่อความสะดวกต่อการรับการอัพเดทในอนาคตโดยอัตโนมัติ
 
-For normal gamers, you can download the latest release or older releases on the [Releases](https://github.com/iAmMutun/BanishedTranslationTH/releases) page.
+For general gamers, you can download the latest update from the [Releases](https://github.com/iAmMutun/BanishedTranslationTH/releases) page. For convenience, you can also subscribe on [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=865219382) to get future updates automatically.
 
-Contribute
-==========
+Report Issues แจ้งปัญหา
+======================
+หากคุณพบความผิดพลาดในการแปล สะกดผิด รูปประโยคไม่ถูกต้อง เข้าใจยาก หรือต้องการเสนอแนะคำศัพท์ที่ดีกว่า สามารถแจ้งได้ที่หน้า [Issues](https://github.com/iAmMutun/BanishedTranslationTH/issues) ทั้งนี้คุณจะต้องมีบัญชีของ GitHub ก่อน
+
+If you found typos, wrong grammar, hard to understand sentences, or just want to suggest alternative words, please file a report on the [Issues](https://github.com/iAmMutun/BanishedTranslationTH/issues) page. You need a GitHub account to do this.
+
+Contribute ร่วมแปล
+=================
+(ขออนุญาตอธิบายเป็นภาษาอังกฤษเท่านั้น เนื่องจากมีศัพท์เฉพาะจำนวนมาก)
+
 First of all, the current Thai font used in the translation is **TH Bai Jamjuree CP (TH Baijam)**. Get it from [f0nt.com](http://www.f0nt.com/release/13-free-fonts-from-sipa/) and install it on your computer.
  
 Next, you need to properly set up the [**Banished Mod Kit** build 160521](http://www.shiningrocksoftware.com/2016-05-22-quick-fixes/), older or newer version may not work properly. When you extract the downloaded zip, you will get a folder named BanishedKit_1.0.6.160521. Rename it to BanishedKit_1_0_6_160521. This is a known issue of the mod kit where you can not have any dot in the directory name. Install all the prerequisites listed in `README.html`, _except_ the graphics SDKs, they're huge. We're just translating the game, not modding the graphics. Also, study about the modding process, especially the translation example, from `README.html` or [from the developer's blog](http://www.shiningrocksoftware.com/mods/). This will make it easier to understand the next paragraphs.
