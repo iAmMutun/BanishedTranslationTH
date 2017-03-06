@@ -4,11 +4,15 @@ BanishedTranslationTH
 
 This is a Thai language translation mod repository for the game [Banished by Shinning Rock Software](http://www.shiningrocksoftware.com/).
 
+
+
 Download ดาวน์โหลด
 =================
 สำหรับเกมเมอร์ คุณสามารถดาวน์โหลดอัพเดทล่าสุดได้จากหน้า [Releases](https://github.com/iAmMutun/BanishedTranslationTH/releases) หรือสมัครเป็นสมาชิกบน [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=865219382) เพื่อความสะดวกต่อการรับการอัพเดทในอนาคตโดยอัตโนมัติ
 
 For general gamers, you can download the latest update from the [Releases](https://github.com/iAmMutun/BanishedTranslationTH/releases) page. For convenience, you can also subscribe on [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=865219382) to get future updates automatically.
+
+
 
 Report Issues แจ้งปัญหา
 ======================
@@ -16,8 +20,22 @@ Report Issues แจ้งปัญหา
 
 If you found typos, wrong grammar, hard to understand sentences, or just want to suggest alternative words, please file a report on the [Issues](https://github.com/iAmMutun/BanishedTranslationTH/issues) page. You need a GitHub account to do this.
 
+
+
 Contribute ร่วมแปล
 =================
+#### Option 1: Use GitHub แปลอย่างเดียวผ่านหน้าเว็บ
+
+หากคุณมีบัญชีของ GitHub อยู่แล้ว และต้องการร่วมแปลอย่างรวดเร็ว โดยไม่ต้องวุ่นวายกับการติดตั้งเครื่องมือต่างๆ คุณสามารถแปลผ่านทางหน้าเว็บของ GitHub ได้โดยตรง โดยการเข้าไปแก้ไขไฟล์ *.rsc* ที่ต้องการจากในโฟลเดอร์ [TH](https://github.com/iAmMutun/BanishedTranslationTH/tree/master/TH) โปรดทราบว่าด้วยวิธีการนี้คุณจะไม่ได้เห็นผลลัพธ์การแปลของคุณ จนกว่าเราจะทำการปล่อยอัพเดทส่วนเสริมครั้งถัดไป
+
+[อ่านเพิ่มเติมเกี่ยวกับวิธีการแก้ไขไฟล์บน GitHub](https://help.github.com/articles/editing-files-in-another-user-s-repository/)
+
+If you have a GitHub account already, and want to join the translation withou intalling Mod Kit and other dependencies, you can do so by editing the *.rsc* files directly on the web. Please edit the files inside the  [TH](https://github.com/iAmMutun/BanishedTranslationTH/tree/master/TH) folder only. Be informed that with this option, you will not see your actual translation until we release the next update.
+
+[Read more about editing files on GitHub](https://help.github.com/articles/editing-files-in-another-user-s-repository/)
+
+#### Option 2: With Mod Kit แปลและทดสอบด้วย Mod Kit
+
 (ขออนุญาตอธิบายเป็นภาษาอังกฤษเท่านั้น เนื่องจากมีศัพท์เฉพาะจำนวนมาก)
 
 First of all, the current Thai font used in the translation is **TH Bai Jamjuree CP (TH Baijam)**. Get it from [f0nt.com](http://www.f0nt.com/release/13-free-fonts-from-sipa/) and install it on your computer.
