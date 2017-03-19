@@ -1,14 +1,7 @@
 $res = ".\res\"
-Get-ChildItem -Path $res -Include "*.rsc" -Name -Recurse | ForEach-Object{
-	if(Test-Path ".\TH\$_"){
-		Write-Host "Removing $res$_"
-		Remove-Item "$res$_"
-	}
-}
-$Build = "${res}Build"
-if(Test-Path $Build){
-	Write-Host "Removing $Build"
-	Remove-Item -Recurse -Force "$Build"
+if(Test-Path $res){
+	Write-Host "Removing $res"
+	Remove-Item -Recurse -Force "$res"
 }
 $dat = ".\dat"
 if(Test-Path $dat){
