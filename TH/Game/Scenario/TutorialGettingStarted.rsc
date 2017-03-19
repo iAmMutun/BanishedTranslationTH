@@ -15,13 +15,13 @@ StringTable tutorialStrings
 		{ String _name = "Step_Keys_5_Pre";			String _text = "เพื่อปรับระดับมุมก้มของกล้องได้โดยการกด"; } 
 		{ String _name = "Step_Keys_6_Pre";			String _text = "ปุ่มลัดบนคีย์บอร์ดสามารถปรับแต่งได้จากแท็บอุปกรณ์ในเมนูตัวลือก"; } 
 
-		{ String _name = "Step_FirstHouse_0_Pre";	String _text = "Now that you're familiar with the movement controls, it's time to start playing!~n~nThe people you control need three things to survive. Shelter, food, and a way to keep warm in the winter."; } 
-		{ String _name = "Step_FirstHouse_01_Pre";	String _text = "You might notice that some people have this icon floating above their heads."; } 
-		{ String _name = "Step_FirstHouse_01_Post";	String _text = "This means that the townsfolk don't have a place to live. "; } 
-		{ String _name = "Step_FirstHouse_1_Pre";	String _text = "You can provide the townsfolk with places to live by building homes for them. First select the Housing menu on the toolbar."; } 
-		{ String _name = "Step_FirstHouse_2_Pre";	String _text = "Next select the Wooden House on the toolbar."; } 
-		{ String _name = "Step_FirstHouse_3_Pre";	String _text = "Using the mouse, move the house to the highlighted area and press the left mouse button."; } 
-		{ String _name = "Step_FirstHouse_4_Pre";	String _text = "Placing a building will leave a footprint where it will be built. To get the townsfolk to start construction, you'll have to collect wood for the structure and stone for the foundation."; } 
+		{ String _name = "Step_FirstHouse_0_Pre";	String _text = "ตอนนี้คุณได้เรียนรู้การควบคุมมุมกล้องแล้ว ได้เวลาเริ่มเล่นเกม!~n~nชาวเมืองที่คุณคอยดูแลต้องการสามสิ่งเพื่ออยู่รอด ที่อยู่อาศัย อาหาร และความอบอุ่นเพื่อต่อสู้กับฤดูหนาว"; } 
+		{ String _name = "Step_FirstHouse_01_Pre";	String _text = "คุณคงจะสังเกตเห็นว่าชาวเมืองบางคนมีไอคอนนี้อยู่เหนือหัวพวกเขา"; } 
+		{ String _name = "Step_FirstHouse_01_Post";	String _text = "เครื่องหมายนี้หมายความว่าพวกเขาต้องการที่อยู่อาศัย"; } 
+		{ String _name = "Step_FirstHouse_1_Pre";	String _text = "คุณสามารถช่วยพวกเขาได้ด้วยการวางแผนสร้างบ้านให้กับพวกเขา เริ่มจากการกดเข้าไปที่เมนูบ้านและที่อยู่อาศัยในแถบเครื่อมือ"; } 
+		{ String _name = "Step_FirstHouse_2_Pre";	String _text = "เลือกเมนูบ้านไม้จากแถบเครื่องมือ"; } 
+		{ String _name = "Step_FirstHouse_3_Pre";	String _text = "เลื่อนเมาส์ของคุณไปยังจุดที่แสดงไว้และกดเมาส์ปุ่มขวา"; } 
+		{ String _name = "Step_FirstHouse_4_Pre";	String _text = "คุณจะเห็นรอยแผนผังของสิ่งก่อสร้างปรากฏบนบริเวณที่เลือก เพื่อให้ชาวเมืองเริ่มการก่อสร้าง คุณจะต้องการไม้ซุงสำหรับโครงสร้าง และหินสำหรับรากฐาน"; } 
 		
 		{ String _name = "Step_FirstClear_0_Pre";	String _text = "You can cut down trees and remove rocks from the landscape by using the destruction tools. Start by pressing"; } 
 		{ String _name = "Step_FirstClear_1_Pre";	String _text = "Next select Remove Resources by pressing"; } 
