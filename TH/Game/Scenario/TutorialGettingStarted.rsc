@@ -20,17 +20,17 @@ StringTable tutorialStrings
 		{ String _name = "Step_FirstHouse_01_Post";	String _text = "เครื่องหมายนี้หมายความว่าพวกเขาต้องการที่อยู่อาศัย"; } 
 		{ String _name = "Step_FirstHouse_1_Pre";	String _text = "คุณสามารถช่วยพวกเขาได้ด้วยการวางแผนสร้างบ้านให้กับพวกเขา เริ่มจากการกดเข้าไปที่เมนูบ้านและที่อยู่อาศัยในแถบเครื่อมือ"; } 
 		{ String _name = "Step_FirstHouse_2_Pre";	String _text = "เลือกเมนูบ้านไม้จากแถบเครื่องมือ"; } 
-		{ String _name = "Step_FirstHouse_3_Pre";	String _text = "เลื่อนเมาส์ของคุณไปยังจุดที่แสดงไว้และกดเมาส์ปุ่มขวา"; } 
+		{ String _name = "Step_FirstHouse_3_Pre";	String _text = "เลื่อนเมาส์ของคุณไปยังบริเวณที่เน้นสีไว้และกดเมาส์ปุ่มขวา"; } 
 		{ String _name = "Step_FirstHouse_4_Pre";	String _text = "คุณจะเห็นรอยแผนผังของสิ่งก่อสร้างปรากฏบนบริเวณที่เลือก เพื่อให้ชาวเมืองเริ่มการก่อสร้าง คุณจะต้องการไม้ซุงสำหรับโครงสร้าง และหินสำหรับรากฐาน"; } 
 		
-		{ String _name = "Step_FirstClear_0_Pre";	String _text = "You can cut down trees and remove rocks from the landscape by using the destruction tools. Start by pressing"; } 
-		{ String _name = "Step_FirstClear_1_Pre";	String _text = "Next select Remove Resources by pressing"; } 
-		{ String _name = "Step_FirstClear_2_Pre";	String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner."; } 
+		{ String _name = "Step_FirstClear_0_Pre";	String _text = "คุณสามารถตัดโค่นต้นไม้และขุดหินออกจากพื้นที่ได้โดยการใช้เครื่องมือรื้อถอน เริ่มต้นด้วยการคลิกที่ปุ่ม"; } 
+		{ String _name = "Step_FirstClear_1_Pre";	String _text = "จากนั้นเลือกรื้อถอนทรัพยากรที่ปุ่ม"; } 
+		{ String _name = "Step_FirstClear_2_Pre";	String _text = "ใช้เมาส์ของคุณ คลิกไปที่มุมใดมุมหนึ่งของบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกมุมหนึ่ง"; } 
 
-		{ String _name = "Step_FirstPile_0_Pre";	String _text = "The townsfolk will head to that area and start removing rocks and trees. While they are busy you can place a stock pile where the citizens will store logs, stone, iron, and firewood.~nSelect the Storage tools by pressing"; } 
-		{ String _name = "Step_FirstPile_1_Pre";	String _text = "Next, select Stock Pile by pressing"; } 
-		{ String _name = "Step_FirstPile_2_Pre";	String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner."; } 
-		{ String _name = "Step_FirstPile_3_Pre";	String _text = "The townsfolk will move the harvested rocks and trees to the stock pile. Once there are materials in the stock pile, the people will move logs and stone to construction locations."; } 
+		{ String _name = "Step_FirstPile_0_Pre";	String _text = "ชาวเมืองจะเดินทางไปยังบริเวณนั้น และเริ่มการรื้อถอนต้นไม้และกองหิน ตอนนี้พวกเขากำลังยุ่ง คุณสามารถใช้เวลานี้จัดสรรพื้นที่สำหรับเป็นลานเก็บของ เพื่อให้ชาวเมืองใช้เก็บทรัพยากรเช่นไม้ซุง ไม้ฟืน เหล็ก และหิน เลิกไปที่เครื่องมือคลังและการค้า"; } 
+		{ String _name = "Step_FirstPile_1_Pre";	String _text = "ถัดไป เลือกลานเก็บของที่ปุ่ม"; } 
+		{ String _name = "Step_FirstPile_2_Pre";	String _text = "ใช้เมาส์ของคุณ คลิกไปที่มุมใดมุมหนึ่งของบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกมุมหนึ่ง"; } 
+		{ String _name = "Step_FirstPile_3_Pre";	String _text = "ชาวเมืองจะเริ่มทำการขนย้ายหิน และไม้ซุงที่ได้จากการรื้อถอนไปยังลานเก็บของ เมื่อมีวัสดุพร้อมในลานเก็บของแล้ว พวกเขาจะเริ่มขนย้ายหินและไม้ซุงไปยังบริเวณที่ก่อสร้าง"; } 
 
 		{ String _name = "Step_Builders_0_Pre";		String _text = "While any townsperson can cut down a tree or move materials from one place to another, some jobs require specialized workers. In the case of construction, you'll need to assign builders. ~n~nSelect Tools by pressing"; } 
 		{ String _name = "Step_Builders_1_Pre";		String _text = "Next, select Professions by pressing"; } 
