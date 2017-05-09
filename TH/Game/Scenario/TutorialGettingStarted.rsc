@@ -36,14 +36,14 @@ StringTable tutorialStrings
 		{ String _name = "Step_Builders_1_Pre";		String _text = "จากนั้นเลือกอาชีพที่ปุ่ม"; } 
 		{ String _name = "Step_Builders_2_Pre";		String _text = "จัดสรรช่างก่อสร้างจำนวนสองคน โดยการกดที่ลูกศรขึ้นข้างๆ ชื่อตำแหน่งงาน หรือโดยการพิมพ์ตัวเลขใส่ลงไป"; } 
 		
-		{ String _name = "Step_MoreHouses_0_Pre";	String _text = "The builders can now begin construction on the house.~n~nJust one house isn't enough though, you'll need three more houses to give the other families a place to live. Once again, click on the Housing tool by pressing"; } 
-		{ String _name = "Step_MoreHouses_1_Pre";	String _text = "Next, select Wooden House by pressing"; } 
-		{ String _name = "Step_MoreHouses_2_Pre";	String _text = "Using the mouse, move the house to the highlighted area and press the left mouse button. You may need to rotate the houses to get them into place. This can by done by pressing"; } 
-		{ String _name = "Step_MoreHouses_2_Post";	String _text = "Rotate the building until the green display under the house matches the yellow selected area."; } 
-		{ String _name = "Step_MoreHouses_3_Pre";	String _text = "Great! Two more houses to go. Remember, you can rotate buildings by pressing"; } 
-		{ String _name = "Step_MoreHouses_3_Post";	String _text = "Rotate the building until the green display under the house matches the yellow selected area."; } 
-		{ String _name = "Step_MoreHouses_4_Pre";	String _text = "Place one more house. If you want to change the look of a home before you place it, you can press"; } 
-		{ String _name = "Step_MoreHouses_4_Post";	String _text = "Remember you can rotate the building to get it into place."; } 
+		{ String _name = "Step_MoreHouses_0_Pre";	String _text = "ช่างก่อสร้างจะเริ่มดำเนินการก่อสร้างบ้านหลังที่คุณวางแปลนไว้~n~nทว่า บ้านหลังเดียวนั้นไม่พอกับจำนวนชาวเมืองอย่างแน่นอน คุณต้องสร้างบ้านให้พวกเขาเพิ่มอีกสามหลัง เพื่อให้ครอบครัวอื่นๆได้มีที่พักอาศัยเช่นกัน มาลองอีกครั้งหนึ่ง กดเข้าไปที่เมนูบ้านและที่อยู่อาศัยในแถบเครื่อมือ"; } 
+		{ String _name = "Step_MoreHouses_1_Pre";	String _text = "เลือกเมนูบ้านไม้จากแถบเครื่องมือ"; } 
+		{ String _name = "Step_MoreHouses_2_Pre";	String _text = "เลื่อนเมาส์ของคุณไปยังบริเวณที่เน้นสีไว้และกดเมาส์ปุ่มขวา คุณอาจจะต้องหมุนโครงสร้างบ้านเพื่อให้มันพอดีกับพื้นที่ที่แสดงไว้ คุณสามารถหมุนสิ่งก่อสร้างโดยการกดปุ่ม"; } 
+		{ String _name = "Step_MoreHouses_2_Post";	String _text = "หมุนโครงสร้างของบ้านไปเรื่อยๆ จนกว่ากรอบสีเขียวจะพอดีกับกรอบสีเหลืองที่แสดงไว้"; } 
+		{ String _name = "Step_MoreHouses_3_Pre";	String _text = "เยี่ยมเลย! ตอนนี้ยังขาดบ้านอีกสองหลัง จำไว้ว่า คุณสามารถหมุนสิ่งก่อสร้างด้วยการกดปุ่ม"; } 
+		{ String _name = "Step_MoreHouses_3_Post";	String _text = "หมุนโครงสร้างของบ้านไปเรื่อยๆ จนกว่ากรอบสีเขียวจะพอดีกับกรอบสีเหลืองที่แสดงไว้"; } 
+		{ String _name = "Step_MoreHouses_4_Pre";	String _text = "เหลืออีกเพียงหลังเดียว ถ้าคุณอยากจะเลือกรูปลักษณ์ของบ้านหลังนี้ ก่อนจะเริ่มสร้างมัน คุณสามารถทำได้โดยการกดปุ่ม"; } 
+		{ String _name = "Step_MoreHouses_4_Post";	String _text = "จำไว้ว่า คุณสามารถหมุนสิ่งก่อสร้างเพื่อให้มันพอดีกับสถานที่"; } 
 
 		{ String _name = "Step_Speed_0_Pre";		String _text = "Sometimes, it takes a while for the people to do all the jobs that you have assigned. If you're in a hurry, you can change the speed the game runs at.~n~nStart by pressing"; } 
 		{ String _name = "Step_Speed_1_Pre";		String _text = "Press the fast forward button twice to increase the game speed to 5x."; } 
