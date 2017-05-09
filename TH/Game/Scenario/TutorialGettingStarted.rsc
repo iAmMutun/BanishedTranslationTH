@@ -32,9 +32,9 @@ StringTable tutorialStrings
 		{ String _name = "Step_FirstPile_2_Pre";	String _text = "ใช้เมาส์ของคุณ คลิกไปที่มุมใดมุมหนึ่งของบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกมุมหนึ่ง"; } 
 		{ String _name = "Step_FirstPile_3_Pre";	String _text = "ชาวเมืองจะเริ่มทำการขนย้ายหิน และไม้ซุงที่ได้จากการรื้อถอนไปยังลานเก็บของ เมื่อมีวัสดุพร้อมในลานเก็บของแล้ว พวกเขาจะเริ่มขนย้ายหินและไม้ซุงไปยังบริเวณที่ก่อสร้าง"; } 
 
-		{ String _name = "Step_Builders_0_Pre";		String _text = "While any townsperson can cut down a tree or move materials from one place to another, some jobs require specialized workers. In the case of construction, you'll need to assign builders. ~n~nSelect Tools by pressing"; } 
-		{ String _name = "Step_Builders_1_Pre";		String _text = "Next, select Professions by pressing"; } 
-		{ String _name = "Step_Builders_2_Pre";		String _text = "Try to assign two Builders, by pressing the up arrow next to the profession, or by typing in the edit box."; } 
+		{ String _name = "Step_Builders_0_Pre";		String _text = "ไม่ว่าชาวเมืองคนใดก็สามารถทำงานตัดไม้ หรือย้ายวัสดุจากที่หนึ่งไปยังอีกที่หนึ่ง แต่งานหลายๆ อย่างจำเป็นต้องใช้คนงานที่ถูกจัดสรรมา ในกรณีของงานก่อสร้าง คุณจำเป็นต้องจัดสรรช่างก่อสร้าง ~n~nเลือกเครื่องมือและรายงานที่ปุ่ม"; } 
+		{ String _name = "Step_Builders_1_Pre";		String _text = "จากนั้นเลือกอาชีพที่ปุ่ม"; } 
+		{ String _name = "Step_Builders_2_Pre";		String _text = "จัดสรรช่างก่อสร้างจำนวนสองคน โดยการกดที่ลูกศรขึ้นข้างๆ ชื่อตำแหน่งงาน หรือโดยการพิมพ์ตัวเลขใส่ลงไป"; } 
 		
 		{ String _name = "Step_MoreHouses_0_Pre";	String _text = "The builders can now begin construction on the house.~n~nJust one house isn't enough though, you'll need three more houses to give the other families a place to live. Once again, click on the Housing tool by pressing"; } 
 		{ String _name = "Step_MoreHouses_1_Pre";	String _text = "Next, select Wooden House by pressing"; } 
