@@ -9,7 +9,7 @@ $ModKitToolsExe = "$ModKitDir\bin\x$Arch\Tools-x$Arch.exe"
 $ModDirName = Split-Path(Split-Path $MyInvocation.MyCommand.Path) -Leaf
 $ModDirRelToKit = "../../$ModDirName"
 
-Copy-Item src/ -Destination res/ -Recurse
+Copy-Item src/ -Destination res/ -Recurse -ErrorAction SilentlyContinue
 & .\UnicodeFix$Arch.exe TH/ res/
 
 If ($unicodefixonly) { Exit }
