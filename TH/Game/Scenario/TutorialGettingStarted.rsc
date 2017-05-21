@@ -45,9 +45,9 @@ StringTable tutorialStrings
 		{ String _name = "Step_MoreHouses_4_Pre";	String _text = "เหลืออีกเพียงหลังเดียว ถ้าคุณอยากจะเลือกรูปลักษณ์ของบ้านหลังนี้ ก่อนจะเริ่มสร้างมัน คุณสามารถทำได้โดยการกดปุ่ม"; } 
 		{ String _name = "Step_MoreHouses_4_Post";	String _text = "จำไว้ว่า คุณสามารถหมุนสิ่งก่อสร้างเพื่อให้มันพอดีกับสถานที่"; } 
 
-		{ String _name = "Step_Speed_0_Pre";		String _text = "Sometimes, it takes a while for the people to do all the jobs that you have assigned. If you're in a hurry, you can change the speed the game runs at.~n~nStart by pressing"; } 
-		{ String _name = "Step_Speed_1_Pre";		String _text = "Press the fast forward button twice to increase the game speed to 5x."; } 
-		{ String _name = "Step_Speed_2_Pre";		String _text = "Try getting used to modifying the game speed. You can slow down, pause, resume, and speed up the simulation.~n~nOnce all the houses are built, the tutorial will continue."; } 
+		{ String _name = "Step_Speed_0_Pre";		String _text = "บางครั้งมันอาจจะใช้เวลานานสักหน่อย กว่าที่ชาวเมืองจะทำงานจนแล้วเสร็จ ตามที่คุณได้กำหนดไว้ ถ้าคุณไม่อยากรอนาน คุณสามารถเร่งความเร็วของเกมได้~n~nเริ่มโดยการกดที่ปุ่มความเร็ว"; } 
+		{ String _name = "Step_Speed_1_Pre";		String _text = "กดที่ปุ่มเพิ่มความเร็วเกมสองครั้ง เพื่อเร่งความเร็วเกมไปที่ 5 เท่า"; } 
+		{ String _name = "Step_Speed_2_Pre";		String _text = "ลองทำความคุ้นเคยกับเครื่องมือกำหนดความเร็วเกม คุณสามารถลดความเร็วเกม หยุดเวลาเกม ดำเนินเกมต่อ และเพิ่มความเร็วเกมได้จากตัวเลือกเหล่านี้~n~nเมื่อบ้านทุกหลังถูกสร้างเรียบร้อย แบบฝึกหัดจะดำเนินต่อไป"; } 
 
 		{ String _name = "Step_Intermission_0_Pre";	String _text = "Great! You've built houses for the all the townsfolk. That may have seemed like a lot of work for a few houses, but now you know how to build anything.~n~nTo build any structure, place a building footprint. The citizens will clear the area and then collect enough resources to build the structure. As long as there are citizens assigned as Builders, they'll take care of the rest."; } 
 		
