@@ -27,7 +27,7 @@ StringTable tutorialStrings
 		{ String _name = "Step_FirstClear_1_Pre";	String _text = "จากนั้นเลือกรื้อถอนทรัพยากรที่ปุ่ม"; } 
 		{ String _name = "Step_FirstClear_2_Pre";	String _text = "ใช้เมาส์ของคุณ คลิกไปที่มุมใดมุมหนึ่งของบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกมุมหนึ่ง"; } 
 
-		{ String _name = "Step_FirstPile_0_Pre";	String _text = "ชาวเมืองจะเดินทางไปยังบริเวณนั้น และเริ่มการรื้อถอนต้นไม้และกองหิน ตอนนี้พวกเขากำลังยุ่ง คุณสามารถใช้เวลานี้จัดสรรพื้นที่สำหรับเป็นลานเก็บของ เพื่อให้ชาวเมืองใช้เก็บทรัพยากรเช่นไม้ซุง ไม้ฟืน เหล็ก และหิน เลิกไปที่เครื่องมือคลังและการค้า"; } 
+		{ String _name = "Step_FirstPile_0_Pre";	String _text = "ชาวเมืองจะเดินทางไปยังบริเวณนั้น และเริ่มการรื้อถอนต้นไม้และกองหิน ตอนนี้พวกเขากำลังยุ่ง คุณสามารถใช้เวลานี้จัดสรรพื้นที่สำหรับเป็นลานเก็บของ เพื่อให้ชาวเมืองใช้เก็บทรัพยากรเช่นไม้ซุง ไม้ฟืน เหล็ก และหิน เลือกไปที่เครื่องมือคลังและการค้า"; } 
 		{ String _name = "Step_FirstPile_1_Pre";	String _text = "ถัดไป เลือกลานเก็บของที่ปุ่ม"; } 
 		{ String _name = "Step_FirstPile_2_Pre";	String _text = "ใช้เมาส์ของคุณ คลิกไปที่มุมใดมุมหนึ่งของบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกมุมหนึ่ง"; } 
 		{ String _name = "Step_FirstPile_3_Pre";	String _text = "ชาวเมืองจะเริ่มทำการขนย้ายหิน และไม้ซุงที่ได้จากการรื้อถอนไปยังลานเก็บของ เมื่อมีวัสดุพร้อมในลานเก็บของแล้ว พวกเขาจะเริ่มขนย้ายหินและไม้ซุงไปยังบริเวณที่ก่อสร้าง"; } 
@@ -67,14 +67,14 @@ StringTable tutorialStrings
 		{ String _name = "Step_Status_1_Pre";		String _text = "จากนั้นเลือกภาพรวมที่ปุ่ม"; } 
 		{ String _name = "Step_Status_2_Pre";		String _text = "จากหน้าต่างภาพรวม คุณจะเห็นปริมาณของทรัพยากรต่างๆ วัสดุสหำรับการก่อสร้าง อาหาร ไม้ฟืน เสื้อผ้า และเครื่องมือ นอกจากนี้ยังมีจำนวนประชากร สุขภาพของชาวเมืองโดยเฉลี่ย (หัวใจ) และความสุขโดยเฉลี่ย (กาว) รวมทั้งฤดูกาล และสภาพอากาศในปัจจุบัน"; } 
 
-		{ String _name = "Step_StorageBarn_0_Pre";	String _text = "When food and other consumable goods are produced, they need to be stored somewhere. Until now the people have been placing everything in the cart that they arrived with.~n~nYou can place a storage barn that can hold more. Start by selecting Storage tools."; } 
-		{ String _name = "Step_StorageBarn_1_Pre";	String _text = "Now select Storage Barn by pressing."; } 
-		{ String _name = "Step_StorageBarn_2_Pre";	String _text = "Using the mouse, move the storage barn to the highlighted area and press the left mouse button.~n~nYou can rotate the building by pressing"; } 
-		{ String _name = "Step_StorageBarn_2_Post";	String _text = "Rotate the building until the green display under the storage barn matches the yellow selected area."; } 
-		{ String _name = "Step_Cutter_3_Pre";		String _text = "If you look at the Overview tool, you can see that there aren't enough logs left to build the storage barn.~n~nYou'll have to cut down more trees for construction to continue."; }
-		{ String _name = "Step_Cutter_4_Pre";		String _text = "Select Remove Resources by pressing"; } 
-		{ String _name = "Step_Cutter_5_Pre";		String _text = "Next select Harvest Trees Resources by pressing"; } 
-		{ String _name = "Step_Cutter_6_Pre";		String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner."; } 
+		{ String _name = "Step_StorageBarn_0_Pre";	String _text = "เมื่ออาหารและทรัพยากรอื่นๆ ถูกผลิตขึ้นมา พวกมันต้องการพื้นที่สำหรับการจัดเก็บ จนถึงตอนนี้ ชาวเมืองเก็บทุกอย่างไว้ในรถลากที่พวกเขานำมาด้วย~n~nคุณสามารถสรา้งโรงนาที่มีพื้นที่เก็บของได้มากกว่า เริ่มต้นจากการเลือกไปที่เครื่องมือคลังและการค้า"; } 
+		{ String _name = "Step_StorageBarn_1_Pre";	String _text = "ถัดไป เลือกโรงนาที่ปุ่ม"; } 
+		{ String _name = "Step_StorageBarn_2_Pre";	String _text = "ใช้เมาส์ของคุณ เลื่อนไปยังบริเวณที่แสดงไว้ และคลิกเมาส์ปุ่มซ้าย~n~nจำไว้คุณสามารถหมุนสิ่งก่อสร้างได้โดยการกดปุ่ม"; } 
+		{ String _name = "Step_StorageBarn_2_Post";	String _text = "หมุนสิ่งก่อสร้างไปจนกว่าบริเวณสีเขียวใต้โรงนา จะตรงกับบริเวณสีเหลืองที่แสดงไว้"; } 
+		{ String _name = "Step_Cutter_3_Pre";		String _text = "ถ้าคุณดูที่หน้าต่างภาพรวม คุณจะเห็นว่าปริมาณของไม้ซุงมีไม่เพียงพอต่อการก่อสร้างโรงนา~n~nคุณต้องตัดต้นไม้เพิ่มเพื่อจะดำเนินการก่อสร้างต่อไป"; }
+		{ String _name = "Step_Cutter_4_Pre";		String _text = "เริ่มต้นด้วยการคลิกเครื่องมือรื้อถอนที่ปุ่ม"; } 
+		{ String _name = "Step_Cutter_5_Pre";		String _text = "จากนั้นเลือกรื้อถอนต้นไม้ที่ปุ่ม"; } 
+		{ String _name = "Step_Cutter_6_Pre";		String _text = "ใช้เมาส์ของคุณ คลิกไปที่มุมใดมุมหนึ่งของบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกมุมหนึ่ง"; } 
 
 		{ String _name = "Step_Cutter_0_Pre";		String _text = "The people also need a way to stay warm in the winter. The easiest way to do that is to cut logs into fire wood. To do this, you'll need a place for a woodcutter to work.~n~nStart by selection Resource Production."; } 
 		{ String _name = "Step_Cutter_1_Pre";		String _text = "Now select the Wood Cutter by pressing"; } 
