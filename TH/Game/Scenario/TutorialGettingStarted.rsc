@@ -51,17 +51,17 @@ StringTable tutorialStrings
 
 		{ String _name = "Step_Intermission_0_Pre";	String _text = "ยอดเยี่ยม! คุณเพิ่งจะสร้างบ้านให้กับชาวเมืองทุกๆคน อาจจะดูเหมือนเป็นงานที่ยุ่งยาก แต่ตอนนี้คุณได้เรียนรู้วิธีการก่อสร้างแล้ว~n~nการจะสร้างสิ่งก่อสร้างใดๆ เพียงแค่วางมันลงบนบริเวณที่ต้องการ จากนั้นชาวเมืองจะเริ่มทำการรื้อถอนสิ่งกีดขวาง แล้วขนย้ายวัสดุที่จำเป็นไปยังบริเวณก่อสร้าง จากนั้น ตราบเท่าที่มีชาวเมืองที่มีอาชีพเป็นช่างก่อสร้าง พวกเขาจะจัดการงานที่เหลือให้เอง"; } 
 		
-		{ String _name = "Step_Fish_00_Pre";		String _text = "The people are going to need food, otherwise they'll starve. They can acquire food in a variety of ways. They can hunt, gather, and fish, plant crops, grow orchards, or raise livestock.~n~nIf the people are close to starving to death, the hunger icon will appear above their heads."; } 
-		{ String _name = "Step_Fish_0_Pre";			String _text = "Since this town is near a river, the easiest way to quickly generate food is to build a fishing dock. Select food production from the toolbar by pressing"; } 
-		{ String _name = "Step_Fish_1_Pre";			String _text = "Now select the fishing dock by pressing"; } 
-		{ String _name = "Step_Fish_2_Pre";			String _text = "A fishing dock must be placed on a river. Using the mouse, move the fishing dock to the highlighted area and press the left mouse button.~n~nThe circle around the fishing dock defines the area that fishermen will work in. If two fishing docks are placed with overlapping circles, both locations will yield fewer fish due to overfishing the area."; } 
-		{ String _name = "Step_Fish_3_Pre";			String _text = "Most buildings that produce food or other resources require workers. You can assign fisherman in the same way that you assigned builders.~n~nStart by selecting the Tools menu."; } 
-		{ String _name = "Step_Fish_4_Pre";			String _text = "Then select Professions by pressing"; } 
-		{ String _name = "Step_Fish_5_Pre";			String _text = "Assign four fisherman by pressing the up arrow next to the profession, or by typing in the edit box."; } 
-		{ String _name = "Step_Fish_51_Pre";		String _text = "You may notice this icon above some of the citizens heads."; } 
-		{ String _name = "Step_Fish_51_Post";		String _text = "This means that the workers you just assigned don't have a place to work. As soon as the fishing dock is complete, they'll start working there and the icon will disappear."; } 
-		{ String _name = "Step_Fish_6_Pre";			String _text = "Any window in the game can be moved around by clicking on the title bar title bar and dragging it around.~n~nYou can also close any window by pressing the X button."; } 
-		{ String _name = "Step_Fish_7_Pre";			String _text = "Wait while the fishing dock is built. You can use the time tools to change the game speed to your liking. Once the fishing dock is complete, the tutorial will continue."; } 
+		{ String _name = "Step_Fish_00_Pre";		String _text = "ชาวเมืองต้องการอาหาร ไม่เช่นนั้นพวกเขาก็คงจะอดอยาก มีหลายวิธีที่พวกเขาจะได้มาซึ่งอาหาร เช่น การล่า หาของป่า ทำประมง ปลูกพืชไร่ พืชสวน และการทำปศุสัตว์~n~nถ้าพวกเขาอดอยากจนถึงระดับที่เป็นอันตรายต่อชีวิต จะมีไอคอนแสดงความหิว ปรากฏขึ้นเหนือศีรษะของพวกเขา"; } 
+		{ String _name = "Step_Fish_0_Pre";			String _text = "เนื่องจากเมืองตั้งอยู่ใกล้แม่น้ำ วิธีที่ดีที่สุดในการผลิตอาหาร คือการสร้างท่าเรือประมง เลือกสิ่งก่อสร้างเกี่ยวกับอาหารจากแถบเครื่องมือ โดยการกดที่ปุ่ม"; } 
+		{ String _name = "Step_Fish_1_Pre";			String _text = "ต่อไป เลือกท่าเรือประมงจากปุ่ม"; } 
+		{ String _name = "Step_Fish_2_Pre";			String _text = "ท่าเรือประมงจะต้องสร้างอยู่ริมแม่น้ำ ใช้เมาส์ของคุณ เลื่อนไปยังบริเวณที่แสดงไว้ และคลิกเมาส์ปุ่มซ้าย~n~nวงกลมรอบท่าเรือประมงแสดงบริเวณที่ชาวประมงจะทำงาน หากท่าเรือประมงสองท่าอยู่ใกล้ จนวงกลมทับซ้อนกัน ทั้งสองท่าจะให้ผลผลิตน้อยลง เนื่องจากการทำประมงเกินปริมาณในพื้นที่"; } 
+		{ String _name = "Step_Fish_3_Pre";			String _text = "สิ่งก่อสร้างที่ผลิตอาหาร หรือทรัพยากรอื่นๆ ต้องการใช้คนงาน คุณสามารถกำหนดหน้าที่ชาวประมงได้ ด้วยวิธีการเดียวกับที่คุณกำหนดช่างก่อสร้าง~n~nเริ่มต้นโดยการเลือกที่ปุ่มเครื่องมือ"; } 
+		{ String _name = "Step_Fish_4_Pre";			String _text = "จากนั้นเลือกอาชีพที่ปุ่ม"; } 
+		{ String _name = "Step_Fish_5_Pre";			String _text = "จัดสรรชาวประมงจำนวนสี่คน โดยการกดที่ลูกศรขึ้นข้างๆ ชื่อตำแหน่งงาน หรือโดยการพิมพ์ตัวเลขใส่ลงไป"; } 
+		{ String _name = "Step_Fish_51_Pre";		String _text = "คุณคงจะสังเกตเห็นว่าชาวเมืองบางคนมีไอคอนนี้อยู่เหนือหัวพวกเขา"; } 
+		{ String _name = "Step_Fish_51_Post";		String _text = "นั่นหมายความว่า พวกเขามีตำแหน่งงาน แต่ยังไม่มีสถานที่ทำงาน เมื่อท่าเรือประมงถูกสร้างแล้วเสร็จ พวกเขาจะเริ่มย้ายเข้าไปทำงานที่นั่น และไอคอนนี้จะหายไ"; } 
+		{ String _name = "Step_Fish_6_Pre";			String _text = "คุณสามารถเคลื่อนย้ายหน้าต่างควบคุมภายในเกมไปมาบนหน้าจอได้ โดยการคลิกที่ไตเติ้ลของหน้าต่าง และลากเมาส์ไปมา~n~nหากต้องการปิดหน้าต่าง สามารถทำได้โดยการกดที่เครื่องหมาย X"; } 
+		{ String _name = "Step_Fish_7_Pre";			String _text = "รอจนกว่าท่าเรือประมงจะสร้างแล้วเสร็จ อย่าลืมว่าคุณสามารถเร่งความเร็วเกมได้ เมื่อท่าเรือประมงถูกสร้างเรียบร้อย แบบฝึกหัดจะดำเนินต่อไป"; } 
 
 		{ String _name = "Step_Status_0_Pre";		String _text = "As the town grows and workers produce food and other resources from many locations, it's useful to see an overview what the town has available.~n~nThis information can be found using the Overview tool. It can be found in the Tools menu. Open it by pressing"; } 
 		{ String _name = "Step_Status_1_Pre";		String _text = "Next press the Overview button."; } 
