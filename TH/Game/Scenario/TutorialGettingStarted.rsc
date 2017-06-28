@@ -59,13 +59,13 @@ StringTable tutorialStrings
 		{ String _name = "Step_Fish_4_Pre";			String _text = "จากนั้นเลือกอาชีพที่ปุ่ม"; } 
 		{ String _name = "Step_Fish_5_Pre";			String _text = "จัดสรรชาวประมงจำนวนสี่คน โดยการกดที่ลูกศรขึ้นข้างๆ ชื่อตำแหน่งงาน หรือโดยการพิมพ์ตัวเลขใส่ลงไป"; } 
 		{ String _name = "Step_Fish_51_Pre";		String _text = "คุณคงจะสังเกตเห็นว่าชาวเมืองบางคนมีไอคอนนี้อยู่เหนือหัวพวกเขา"; } 
-		{ String _name = "Step_Fish_51_Post";		String _text = "นั่นหมายความว่า พวกเขามีตำแหน่งงาน แต่ยังไม่มีสถานที่ทำงาน เมื่อท่าเรือประมงถูกสร้างแล้วเสร็จ พวกเขาจะเริ่มย้ายเข้าไปทำงานที่นั่น และไอคอนนี้จะหายไ"; } 
+		{ String _name = "Step_Fish_51_Post";		String _text = "นั่นหมายความว่า พวกเขามีตำแหน่งงาน แต่ยังไม่มีสถานที่ทำงาน เมื่อท่าเรือประมงถูกสร้างแล้วเสร็จ พวกเขาจะเริ่มย้ายเข้าไปทำงานที่นั่น และไอคอนนี้จะหายไป"; } 
 		{ String _name = "Step_Fish_6_Pre";			String _text = "คุณสามารถเคลื่อนย้ายหน้าต่างควบคุมภายในเกมไปมาบนหน้าจอได้ โดยการคลิกที่ไตเติ้ลของหน้าต่าง และลากเมาส์ไปมา~n~nหากต้องการปิดหน้าต่าง สามารถทำได้โดยการกดที่เครื่องหมาย X"; } 
 		{ String _name = "Step_Fish_7_Pre";			String _text = "รอจนกว่าท่าเรือประมงจะสร้างแล้วเสร็จ อย่าลืมว่าคุณสามารถเร่งความเร็วเกมได้ เมื่อท่าเรือประมงถูกสร้างเรียบร้อย แบบฝึกหัดจะดำเนินต่อไป"; } 
 
-		{ String _name = "Step_Status_0_Pre";		String _text = "As the town grows and workers produce food and other resources from many locations, it's useful to see an overview what the town has available.~n~nThis information can be found using the Overview tool. It can be found in the Tools menu. Open it by pressing"; } 
-		{ String _name = "Step_Status_1_Pre";		String _text = "Next press the Overview button."; } 
-		{ String _name = "Step_Status_2_Pre";		String _text = "In the overview, you can see the amount of stored construction materials, food, firewood, clothing, and tools. You can also see current population, average health (hearts) and happiness (stars), as well as the current weather."; } 
+		{ String _name = "Step_Status_0_Pre";		String _text = "เมื่อเมืองเริ่มขยาย คนงานเริ่มผลิตอาหาร และทรัพยากรอื่นๆ มากขึ้น คุณคงต้องการความสะดวกในการติดตาม ว่าเมืองของคุณมีอะไรอยู่บ้างโดย~n~nคุณสามารถเข้าถึงข้อมูลแบบคร่าวๆ นี้ได้จากหน้าต่างภาพรวม โดยการเลือกที่ปุ่มเครื่องมือ"; } 
+		{ String _name = "Step_Status_1_Pre";		String _text = "จากนั้นเลือกภาพรวมที่ปุ่ม"; } 
+		{ String _name = "Step_Status_2_Pre";		String _text = "จากหน้าต่างภาพรวม คุณจะเห็นปริมาณของทรัพยากรต่างๆ วัสดุสหำรับการก่อสร้าง อาหาร ไม้ฟืน เสื้อผ้า และเครื่องมือ นอกจากนี้ยังมีจำนวนประชากร สุขภาพของชาวเมืองโดยเฉลี่ย (หัวใจ) และความสุขโดยเฉลี่ย (กาว) รวมทั้งฤดูกาล และสภาพอากาศในปัจจุบัน"; } 
 
 		{ String _name = "Step_StorageBarn_0_Pre";	String _text = "When food and other consumable goods are produced, they need to be stored somewhere. Until now the people have been placing everything in the cart that they arrived with.~n~nYou can place a storage barn that can hold more. Start by selecting Storage tools."; } 
 		{ String _name = "Step_StorageBarn_1_Pre";	String _text = "Now select Storage Barn by pressing."; } 
