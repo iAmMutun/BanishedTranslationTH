@@ -5,7 +5,7 @@ PackageFile translationThai
 	String _description = "Thai language translation mod.~n• ส่วนเสริมแปลภาษาไทย • ผู้แปล: i.am.mutun, Panithan Tangchit • ใช้ฟอนต์ TH Bai Jamjuree CP (TH Baijam) โดยทีม PITA • รายงานข้อผิดพลาด ช่วยเพิ่มคำแปล หรือแวะชมและติดตามการอัพเดทได้ที่ https://git.io/vDHb2";
 	String _icon = "icon.png";
 	String _preview = "preview.jpg";
-	int _userVersion = 8;
+	int _userVersion = 9;
 
 	// all files in resource directory
 	String _includeList
