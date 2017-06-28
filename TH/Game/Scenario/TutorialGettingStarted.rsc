@@ -76,15 +76,15 @@ StringTable tutorialStrings
 		{ String _name = "Step_Cutter_5_Pre";		String _text = "จากนั้นเลือกรื้อถอนต้นไม้ที่ปุ่ม"; } 
 		{ String _name = "Step_Cutter_6_Pre";		String _text = "ใช้เมาส์ของคุณ คลิกไปที่มุมใดมุมหนึ่งของบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกมุมหนึ่ง"; } 
 
-		{ String _name = "Step_Cutter_0_Pre";		String _text = "The people also need a way to stay warm in the winter. The easiest way to do that is to cut logs into fire wood. To do this, you'll need a place for a woodcutter to work.~n~nStart by selection Resource Production."; } 
-		{ String _name = "Step_Cutter_1_Pre";		String _text = "Now select the Wood Cutter by pressing"; } 
-		{ String _name = "Step_Cutter_2_Pre";		String _text = "Using the mouse, move the wood cutter to the highlighted area and press the left mouse button."; } 
-		{ String _name = "Step_Cutter_21_Pre";		String _text = "If the townsfolk are in danger of freezing to death, this icon will appear above their heads. If they are overly cold the people will return home or go to the closest warm building they can find."; } 
-		{ String _name = "Step_Cutter_21_Post";		String _text = "This icon will also appear over homes that don't have any firewood available for heating."; } 
-		{ String _name = "Step_Cutter_7_Pre";		String _text = "Now wait while the storage barn and wood cutter are built. You can use the time tools to change the game speed to your liking. Once the buildings are complete, the tutorial will continue."; } 
-		{ String _name = "Step_Cutter_8_Pre";		String _text = "You can always assign workers by using the professions tool, but you can also change the number of workers when examining the details of a structure. Click on the wood cutter building to view the details."; } 
-		{ String _name = "Step_Cutter_9_Pre";		String _text = "Assign one wood cutter by pressing the up button. This does the same thing as changing the number of workers using the profession tool."; } 
-		{ String _name = "Step_Cutter_10_Pre";		String _text = "A worker will now start producing firewood. He or she will move logs from stock piles to the building and cut them into firewood.~n~nThe rest of the townsfolk will use the firewood to heat their homes."; } 
+		{ String _name = "Step_Cutter_0_Pre";		String _text = "ชาวเมืองต้องการความอบอุ่นในช่วงฤดูหนาว วิธีที่ง่ายที่สุดก็คือการตัดไม้ซุงให้เป็นไม้ฟืน และเผามันเพื่อสร้างความอบอุ่น  คุณสามารถช่วยพวกเขาได้โดยการสร้างพื้นที่สำหรับให้ช่างตัดฟืนทำงาน~n~nเริ่มโดยการเลือกทรัพยากรที่ปุ่ม"; } 
+		{ String _name = "Step_Cutter_1_Pre";		String _text = "ถัดไป เลือกโรงตัดฟืนที่ปุ่ม"; } 
+		{ String _name = "Step_Cutter_2_Pre";		String _text = "ใช้เมาส์ของคุณ เลื่อนไปยังบริเวณที่แสดงไว้ และคลิกเมาส์ปุ่มซ้าย"; } 
+		{ String _name = "Step_Cutter_21_Pre";		String _text = "หากชาวเมืองของคุณอยู่ในภาวะหนาวจัด จนเป็นอันตรายถึงชีวิต ไอคอนนี้จะปรากฏอยู่เหนือศีรษะพวกเขา หากพวกเขาเริ่มรู้สึกหนาว พวกเขาจะเดินทางกลับไปที่บ้านของพวกเขา หรือหาสิ่งก่อสร้างอบอุ่นอื่นๆ ที่ใกล้ที่สุดที่พวกเขาจะหาได้"; } 
+		{ String _name = "Step_Cutter_21_Post";		String _text = "ไอคอนนี้ยังปรากฏเหนือบ้านที่มีไม้ฟืนไม่เพียงพอต่อการให้ความอบอุ่นอีกด้วย"; } 
+		{ String _name = "Step_Cutter_7_Pre";		String _text = "ถัดไป รอจนกว่าโรงนาและโรงตัดฟืนจะสร้างแล้วเสร็จ อย่าลืมว่าคุณสามารถเร่งความเร็วเกมได้ เมื่อการก่อสร้างแล้วเสร็จ แบบฝึกหัดจะดำเนินต่อไป"; } 
+		{ String _name = "Step_Cutter_8_Pre";		String _text = "เหมือนทุกครั้ง คุณสามารถกำหนดงานให้ชาวเมืองได้จากเครื่องมืออาชีพ แต่นอกจากนั้น คุณยังสามารถกำหนดจำนวณคนงานได้จากหน้าต่างรายละเอียดของสิ่งก่อสร้างเช่นกัน คลิกไปที่โรงตัดฟืนเพื่อดูรายละเอียด"; } 
+		{ String _name = "Step_Cutter_9_Pre";		String _text = "เพิ่มคนตัดฟืนหนึ่งคนโดยการคลิกที่ปุ่มลูกศรขึ้น การทำแบบนี้ ให้ผลลัพธ์เดียวกับการแก้ไขตัวเลขจากเครื่องมืออาชีพ"; } 
+		{ String _name = "Step_Cutter_10_Pre";		String _text = "ตอนนี้คนงานจะเริ่มผลิตไม้ฟืน โดยการนำไม้ซุงมาจากลานเก็บของ และตัดมันเป็นท่อนๆ~n~nชาวเมืองที่เหลือก็จะนำไม้ฟืนมาเผาให้ความอบอุ่น"; } 
 
 		{ String _name = "Step_Destroy_0_Pre";		String _text = "Now that the storage barn is built, the cart that the people arrived with is no longer needed. You can remove it, and anything else you build using the destruction tools.~n~nStart by pressing"; } 
 		{ String _name = "Step_Destroy_1_Pre";		String _text = "Select Remove Structure by pressing"; } 
