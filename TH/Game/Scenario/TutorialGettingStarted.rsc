@@ -97,11 +97,11 @@ StringTable tutorialStrings
 		{ String _name = "Step_Road_2_Pre";		    String _text = "ใช้เมาส์ของคุณ คลิกไปที่ปลายด้านหนึ่งของถนนตรงบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกปลายด้านหนึ่ง"; } 
 		{ String _name = "Step_Road_3_Pre";		    String _text = "ช่างก่อสร้างที่คุณเลือกไว้ก่อนหน้านี้จะเป็นคนทำหน้าที่ก่อสร้างถนนให้แล้วเสร็จ เมื่อถนนพร้อมใช้งานแล้ว ชาวเมืองจพสัญจรผ่านเส้นทางนั้นเร็วขึ้นกว่าเดิม"; } 
 
-		{ String _name = "Step_Help_0_Pre";			String _text = "If at any point you need help with something in the game, or a description of how a building or tool works, you can refer to the in-game help.~n~nStart by pressing"; } 
-		{ String _name = "Step_Help_1_Pre";			String _text = "Then select the help and reference tool by pressing"; } 
+		{ String _name = "Step_Help_0_Pre";			String _text = "เมื่อคุณไม่แน่ใจในระหว่างเล่นเกม ว่าเครื่องมือหรือสิ่งก่อสร้างต่างๆ มีไว้ทำอะไร หรือต้องการคำอธิบายเพิ่มเติม คุณสามารถเปิดเครื่องมือช่วยเหลือภายในเกมได้~n~nเริ่มโดยการกดที่ปุ่ม"; } 
+		{ String _name = "Step_Help_1_Pre";			String _text = "จากนั้นเลือกช่วยเหลือที่ปุ่ม"; } 
 
-		{ String _name = "Step_End_0_Pre";			String _text = "With some maintenance and a little luck, a small town like this will survive for many years. The children will grow up, become workers and have children of their own, new houses can be built, and the town can continue to expand."; } 
-		{ String _name = "Step_End_1_Pre";			String _text = "You can read some of the help reference, or press Next to play the next tutorial. It focuses on resource production and survival. Press Quit to return to the main menu."; } 
+		{ String _name = "Step_End_0_Pre";			String _text = "ด้วยความดูแลเอาใจใส่ และโชคช่วยอีกเล็กน้อย เมืองเล็กๆ อย่างนี้จะอยู่รอดไปได้อีกหลายปี เด็กๆ จะเติบโตขึ้น เริ่มทำงาน มีครอบครัวและมีลูกของตนเอง บ้านหลังใหม่ก็พร้อมที่จะถูกสร้าง และเมืองก็จะขยายใหญ่โตต่อไป"; } 
+		{ String _name = "Step_End_1_Pre";			String _text = "ตอนนี้ คุณสามารถจะอ่านเพิ่มเติมจากเครื่องมือช่วยเหลือ หรือกดต่อไป เพื่อเริ่มแบบฝึกหัดถัดไป ซึ่งจะมุ่งเน้นที่การผลิตทรัพยากรและการเอาชีวิตรอด กดที่เลิกทำเพื่อออกสู่หน้าหลัก"; } 
 
 	]	
 }
