@@ -86,10 +86,10 @@ StringTable tutorialStrings
 		{ String _name = "Step_Cutter_9_Pre";		String _text = "เพิ่มคนตัดฟืนหนึ่งคนโดยการคลิกที่ปุ่มลูกศรขึ้น การทำแบบนี้ ให้ผลลัพธ์เดียวกับการแก้ไขตัวเลขจากเครื่องมืออาชีพ"; } 
 		{ String _name = "Step_Cutter_10_Pre";		String _text = "ตอนนี้คนงานจะเริ่มผลิตไม้ฟืน โดยการนำไม้ซุงมาจากลานเก็บของ และตัดมันเป็นท่อนๆ~n~nชาวเมืองที่เหลือก็จะนำไม้ฟืนมาเผาให้ความอบอุ่น"; } 
 
-		{ String _name = "Step_Destroy_0_Pre";		String _text = "Now that the storage barn is built, the cart that the people arrived with is no longer needed. You can remove it, and anything else you build using the destruction tools.~n~nStart by pressing"; } 
-		{ String _name = "Step_Destroy_1_Pre";		String _text = "Select Remove Structure by pressing"; } 
-		{ String _name = "Step_Destroy_2_Pre";		String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner."; } 
-		{ String _name = "Step_Destroy_3_Pre";		String _text = "The workers will remove the inventory from the cart and then move it into the storage barn.~n~nYou can use the time tools to change the game speed to your liking. Once the cart has been removed, the tutorial will continue."; } 
+		{ String _name = "Step_Destroy_0_Pre";		String _text = "ตอนนี้เรามีโรงนาแล้ว รถลากที่พวกเขานำมาก็ไม่จำเป็นอีกต่อไป คุณสามารถจะรื้อถอนมันออก รวมทั้งรื้อถอนสิ่งก่อสร้างอื่นๆ ได้จากเครื่องมือรื้อถอน~n~nเริ่มโดยการกดที่ปุ่ม"; } 
+		{ String _name = "Step_Destroy_1_Pre";		String _text = "เลือกรื้อถอนสิ่งปลูกสร้างที่ปุ่ม"; } 
+		{ String _name = "Step_Destroy_2_Pre";		String _text = "ใช้เมาส์ของคุณ คลิกไปที่มุมใดมุมหนึ่งของบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกมุมหนึ่ง"; } 
+		{ String _name = "Step_Destroy_3_Pre";		String _text = "คนงานจะเริ่มนำทรัพยากรออกจากรถลากไปเก็บไว้ที่โรงนาแทน~n~nอย่าลืมว่าคุณสามารถเร่งความเร็วเกมได้ เมื่อรถลากถูกรื้อถอนเรียบร้อยแล้ว แบบฝึกหัดจะดำเนินต่อไป"; } 
 
 		{ String _name = "Step_Road_0_Pre";			String _text = "ถ้าคุณสร้างถนน ชาวเมืองจะสัญจรไปมาได้เร็วขึ้นอีกเล็กน้อย~n~nคุณสามารถสร้างถนนได้โดยเลือกถนนและสะพานในแถบเครื่องมือที่ปุ่ม"; } 
 		{ String _name = "Step_Road_1_Pre";			String _text = "ถัดไป เลือกถนนลูกรังที่ปุ่ม"; } 
