@@ -65,7 +65,7 @@ StringTable tutorialStrings
 
 		{ String _name = "Step_Status_0_Pre";		String _text = "เมื่อเมืองเริ่มขยาย คนงานเริ่มผลิตอาหาร และทรัพยากรอื่นๆ มากขึ้น คุณคงต้องการความสะดวกในการติดตาม ว่าเมืองของคุณมีอะไรอยู่บ้างโดย~n~nคุณสามารถเข้าถึงข้อมูลแบบคร่าวๆ นี้ได้จากหน้าต่างภาพรวม โดยการเลือกที่ปุ่มเครื่องมือ"; } 
 		{ String _name = "Step_Status_1_Pre";		String _text = "จากนั้นเลือกภาพรวมที่ปุ่ม"; } 
-		{ String _name = "Step_Status_2_Pre";		String _text = "จากหน้าต่างภาพรวม คุณจะเห็นปริมาณของทรัพยากรต่างๆ วัสดุสหำรับการก่อสร้าง อาหาร ไม้ฟืน เสื้อผ้า และเครื่องมือ นอกจากนี้ยังมีจำนวนประชากร สุขภาพของชาวเมืองโดยเฉลี่ย (หัวใจ) และความสุขโดยเฉลี่ย (กาว) รวมทั้งฤดูกาล และสภาพอากาศในปัจจุบัน"; } 
+		{ String _name = "Step_Status_2_Pre";		String _text = "จากหน้าต่างภาพรวม คุณจะเห็นปริมาณของทรัพยากรต่างๆ วัสดุสหำรับการก่อสร้าง อาหาร ไม้ฟืน เสื้อผ้า และเครื่องมือ นอกจากนี้ยังมีจำนวนประชากร สุขภาพของชาวเมืองโดยเฉลี่ย (รูปหัวใจ) และความสุขโดยเฉลี่ย (รูปดาว) รวมทั้งฤดูกาล และสภาพอากาศในปัจจุบัน"; } 
 
 		{ String _name = "Step_StorageBarn_0_Pre";	String _text = "เมื่ออาหารและทรัพยากรอื่นๆ ถูกผลิตขึ้นมา พวกมันต้องการพื้นที่สำหรับการจัดเก็บ จนถึงตอนนี้ ชาวเมืองเก็บทุกอย่างไว้ในรถลากที่พวกเขานำมาด้วย~n~nคุณสามารถสรา้งโรงนาที่มีพื้นที่เก็บของได้มากกว่า เริ่มต้นจากการเลือกไปที่เครื่องมือคลังและการค้า"; } 
 		{ String _name = "Step_StorageBarn_1_Pre";	String _text = "ถัดไป เลือกโรงนาที่ปุ่ม"; } 
@@ -91,11 +91,11 @@ StringTable tutorialStrings
 		{ String _name = "Step_Destroy_2_Pre";		String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner."; } 
 		{ String _name = "Step_Destroy_3_Pre";		String _text = "The workers will remove the inventory from the cart and then move it into the storage barn.~n~nYou can use the time tools to change the game speed to your liking. Once the cart has been removed, the tutorial will continue."; } 
 
-		{ String _name = "Step_Road_0_Pre";			String _text = "If you build roads, people will move slightly faster as they move from place to place.~n~nPlace roads by first selecting Roads and Bridges on the toolbar by pressing"; } 
-		{ String _name = "Step_Road_1_Pre";			String _text = "Next select Dirt Road by pressing."; } 
-		{ String _name = "Step_Road_1_Post";		String _text = "Stone roads provide faster travel, but require a large amount of stone to be built."; } 
-		{ String _name = "Step_Road_2_Pre";		    String _text = "Using the mouse, click and drag from one end of the highlighted road area to the other end of the highlighted road."; } 
-		{ String _name = "Step_Road_3_Pre";		    String _text = "The same builders that construct buildings will prepare the road for use. After they perform construction, the townsfolk will move faster when traveling on roads."; } 
+		{ String _name = "Step_Road_0_Pre";			String _text = "ถ้าคุณสร้างถนน ชาวเมืองจะสัญจรไปมาได้เร็วขึ้นอีกเล็กน้อย~n~nคุณสามารถสร้างถนนได้โดยเลือกถนนและสะพานในแถบเครื่องมือที่ปุ่ม"; } 
+		{ String _name = "Step_Road_1_Pre";			String _text = "ถัดไป เลือกถนนลูกรังที่ปุ่ม"; } 
+		{ String _name = "Step_Road_1_Post";		String _text = "ถนนหินช่วยให้ชาวเมืองสัญจรได้เร็วกว่า แต่ต้องใช้หินปริมาณมากในการสร้าง"; } 
+		{ String _name = "Step_Road_2_Pre";		    String _text = "ใช้เมาส์ของคุณ คลิกไปที่ปลายด้านหนึ่งของถนนตรงบริเวณที่เน้นสีไว้ แล้วลากเมาส์ไปยังอีกปลายด้านหนึ่ง"; } 
+		{ String _name = "Step_Road_3_Pre";		    String _text = "ช่างก่อสร้างที่คุณเลือกไว้ก่อนหน้านี้จะเป็นคนทำหน้าที่ก่อสร้างถนนให้แล้วเสร็จ เมื่อถนนพร้อมใช้งานแล้ว ชาวเมืองจพสัญจรผ่านเส้นทางนั้นเร็วขึ้นกว่าเดิม"; } 
 
 		{ String _name = "Step_Help_0_Pre";			String _text = "If at any point you need help with something in the game, or a description of how a building or tool works, you can refer to the in-game help.~n~nStart by pressing"; } 
 		{ String _name = "Step_Help_1_Pre";			String _text = "Then select the help and reference tool by pressing"; } 
