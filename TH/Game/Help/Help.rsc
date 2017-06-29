@@ -6,7 +6,7 @@ StringTable resource
 		{ String _name = "Title"; String _text = "ช่วยเหลือ"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIToolHelp ^s Help
+		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIToolHelp ^s ช่วยเหลือ
 		^f1 ^n
 		ถ้าคุณกำลังอ่านข้อความนี้ คุณได้พบความช่วยเหลือแล้ว! ^c1 เยี่ยม! ^c0
 	  "; }
