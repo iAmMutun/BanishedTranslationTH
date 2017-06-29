@@ -7,8 +7,8 @@ StringTable resource
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleCemetery
-		^mc	^f3 ^jl ^c0 ^dUIServices ^i0ArrowRight ^dUICemetery ^s Cemetery ^c0 ^f1 ^n
-		^i0Stone x1 (per unit of length) ^me
+		^mc	^f3 ^jl ^c0 ^dUIServices ^i0ArrowRight ^dUICemetery ^s สุสาน ^c0 ^f1 ^n
+		^i0Stone x1 (ต่อหนึ่งหน่วยความยาว) ^me
 
 		^f1 ^c0 ^jl ^vb
 		สุสานเป็นสถานที่พักผ่อนแห่งสุดท้ายสำหรับชาวเมืองที่เสียชีวิต
