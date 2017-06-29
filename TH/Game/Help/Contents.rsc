@@ -18,87 +18,87 @@ StringTable resource
 		เพื่อทดลองฝึกเล่นเกมได้เช่นกัน สำหรับรายละเอียดเพิ่มเติม คลิกที่^c2หัวข้อที่เน้นสี^c0ไว้ จากรายการด้านล่างได้
 		^p
 		^lb
-			^li ^abGettingStarted Gameplay Overview^ae
-			^li ^abNavigation Navigation Controls^ae
-			^li ^abToolbar Main Toolbar^ae
-			^li ^abCitizen Citizens^ae
-			^li ^abResource Resources^ae
-			^li ^abBuildings Buildings and Construction^ae
-			^li ^abDisaster Disasters^ae
-			^li ^abToolbarTime Simulation Speed^ae
-			^li ^abToolbarTools Tools & Reports^ae
+			^li ^abGettingStarted ภาพรวมของเกม^ae
+			^li ^abNavigation การควบคุมมุมกล้อง^ae
+			^li ^abToolbar เมนูหลัก^ae
+			^li ^abCitizen ชาวเมือง^ae
+			^li ^abResource ทรัพยากร^ae
+			^li ^abBuildings การก่อสร้างและสิ่งปลูกสร้าง^ae
+			^li ^abDisaster ภัยพิบัติ^ae
+			^li ^abToolbarTime การควบคุมความเร็วเกม^ae
+			^li ^abToolbarTools เครื่องมือและรายงาน^ae
 			^lb
-				^li ^abStatusBar Status Bar ^ae
-				^li ^abEventLog Event Log ^ae
-				^li ^abMap Area Map ^ae
-				^li ^abProfession Professions ^ae
-				^li ^abLimit Resource Limits ^ae
-				^li ^abPriority Priority Tool ^ae
-				^li ^abPath Path Tool ^ae
-				^li ^abCamera Camera Locations ^ae
-				^li ^abGotoTownHall Town Statistics ^ae
-				^li ^abHelp Help ^ae
+				^li ^abStatusBar ภาพรวมของเมือง ^ae
+				^li ^abEventLog บันทึกเหตุการณ์ ^ae
+				^li ^abMap แผนที่ ^ae
+				^li ^abProfession อาชีพ ^ae
+				^li ^abLimit การจำกัดทรัพยากร ^ae
+				^li ^abPriority เครื่องมือจัดความสำคัญ ^ae
+				^li ^abPath เครื่องมือสำรวจเส้นทาง ^ae
+				^li ^abCamera ตำแหน่งมุมกล้อง ^ae
+				^li ^abGotoTownHall สถิติของเมือง ^ae
+				^li ^abHelp ช่วยเหลือ ^ae
 			^le
-			^li ^abToolbarHousing Homes & Housing^ae
+			^li ^abToolbarHousing บ้านและที่อยู่อาศัย^ae
 			^lb
-				^li ^abWoodHouse Wooden Houses ^ae
-				^li ^abStoneHouse Stone Houses ^ae
-				^li ^abBoardingHouse Boarding Houses ^ae
+				^li ^abWoodHouse บ้านไม้ ^ae
+				^li ^abStoneHouse บ้านหิน ^ae
+				^li ^abBoardingHouse บ้านพักรวม ^ae
 			^le
-			^li ^abToolbarRoads Roads & Bridges ^ae
+			^li ^abToolbarRoads ถนนและสะพาน ^ae
 			^lb
-				^li ^abDirtRoad Dirt Roads ^ae
-				^li ^abStoneRoad Stone Roads ^ae
-				^li ^abBridge Bridges ^ae
-				^li ^abTunnel Tunnels ^ae		
+				^li ^abDirtRoad ถนนลูกรัง ^ae
+				^li ^abStoneRoad ถนนหิน ^ae
+				^li ^abBridge สะพานไม้ ^ae
+				^li ^abTunnel อุโมงค์ ^ae		
 			^le
-			^li ^abToolbarStorage Storage, Markets & Trade ^ae
+			^li ^abToolbarStorage คลังและการค้า ^ae
 			^lb
-				^li ^abStorageBarn Storage Barns ^ae
-				^li ^abStockPile Stock Piles ^ae
-				^li ^abMarket Markets ^ae
-				^li ^abTradingPost Trading Posts ^ae
+				^li ^abStorageBarn โรงนา ^ae
+				^li ^abStockPile ลานเก็บของ ^ae
+				^li ^abMarket ตลาด ^ae
+				^li ^abTradingPost ท่าเรือสินค้า ^ae
 			^le
-			^li ^abToolbarServices Town Services^ae
+			^li ^abToolbarServices เทศบาล^ae
 			^lb
-				^li ^abWell Wells ^ae
-				^li ^abSchool Schools ^ae
-				^li ^abHospital Hospitals ^ae
-				^li ^abTownHall Town Halls ^ae
-				^li ^abChapel Chapels ^ae
-				^li ^abCemetery	Cemeteries ^ae
+				^li ^abWell บ่อน้ำ ^ae
+				^li ^abSchool โรงเรียน ^ae
+				^li ^abHospital โรงพยาบาล ^ae
+				^li ^abTownHall ศาลาเมือง ^ae
+				^li ^abChapel โบสถ์ ^ae
+				^li ^abCemetery	สุสาน ^ae
 			^le
-			^li ^abToolbarFood Food Production ^ae
+			^li ^abToolbarFood การผลิตอาหาร ^ae
 			^lb
-				^li ^abCropField Crop Fields ^ae
-				^li ^abOrchard Orchards ^ae
-				^li ^abPasture Pastures ^ae
-				^li ^abFishingDock Fishing Docks ^ae
-				^li ^abHunterLodge Hunting Cabin ^ae
-				^li ^abGathererHut Gatherers Huts ^ae
+				^li ^abCropField ไร่นา ^ae
+				^li ^abOrchard สวนผลไม้ ^ae
+				^li ^abPasture คอกปศุสัตว์ ^ae
+				^li ^abFishingDock ท่าเรือประมง ^ae
+				^li ^abHunterLodge เรือนนายพราน ^ae
+				^li ^abGathererHut เรือนนักหาของป่า ^ae
 			^le
-			^li ^abToolbarProduction Resource Production^ae
+			^li ^abToolbarProduction การผลิตทรัพยากร^ae
 			^lb 
-				^li ^abWoodcutter Woodcutters ^ae
-				^li ^abForester Foresters ^ae
-				^li ^abHerbalist Herbalists ^ae
-				^li ^abBlacksmith Blacksmiths ^ae
-				^li ^abTailor Tailors ^ae
-				^li ^abTavern Taverns ^ae
-				^li ^abMine Mines ^ae
-				^li ^abQuarry Quarries ^ae
+				^li ^abWoodcutter โรงตัดฟืน ^ae
+				^li ^abForester เรือนผู้ดูแลป่า ^ae
+				^li ^abHerbalist เรือนสมุนไพร ^ae
+				^li ^abBlacksmith โรงตีเหล็ก ^ae
+				^li ^abTailor เรือนช่างตัดเสื้อ ^ae
+				^li ^abTavern โรงเหล้า ^ae
+				^li ^abMine เหมืองแร่ ^ae
+				^li ^abQuarry เหมืองหิน ^ae
 			^le
-			^li ^abToolbarRemoval Destruction & Removal Tools ^ae
+			^li ^abToolbarRemoval การรื้อถอน ^ae
 			^lb 
-				^li ^abRemoveStructure Removing Structures ^ae
-				^li ^abRemoveResource Removing Resources ^ae
-				^li ^abRemoveTree Harvesting Trees ^ae
-				^li ^abRemoveStone Collecting Stone ^ae
-				^li ^abRemoveIron Collecting Iron ^ae
-				^li ^abRemoveRoad Removing Roads ^ae
-				^li ^abRemoveCancel Canceling Removal ^ae
+				^li ^abRemoveStructure รื้อถอนสิ่งปลูกสร้าง ^ae
+				^li ^abRemoveResource รื้อถอนทรัพยากร ^ae
+				^li ^abRemoveTree รื้อถอนต้นไม้ ^ae
+				^li ^abRemoveStone เก็บโลหะ ^ae
+				^li ^abRemoveIron เก็บหิน ^ae
+				^li ^abRemoveRoad รื้อถอนถนน ^ae
+				^li ^abRemoveCancel ยกเลิกการรื้อถอน ^ae
 			^le
-			^li ^abCredits Credits^ae
+			^li ^abCredits เครดิต^ae
 		^le
 	  "; }
 	]
