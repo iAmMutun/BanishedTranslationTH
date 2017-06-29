@@ -3,19 +3,19 @@ StringTable resource
 	Entry _strings
 	[ 
 		{ String _name = "Topic"; String _text = "Main"; }
-		{ String _name = "Title"; String _text = "Contents"; }
+		{ String _name = "Title"; String _text = "เนื้อหา"; }
 		
 		{ String _name = "Text";			
 		  String _text = "
 		^jc ^i3Title
 		^f1 ^jl
-		Welcome to the world of Banished! In this city-building strategy game, you control a group of exiled travelers 
-		who are restarting their lives in a new land. They have only the clothes on their backs and a cart filled 
-		with supplies from their homeland. The objective of the game is to keep the population alive and grow 
-		a successful town. 
+		ยินดีต้อนรับสู่โลกของแบนิช! ในเกมวางแผนสร้างเมืองนี้ คุณมีหน้าที่เป็นผู้ออกคำสั่ง ให้แก่กลุ่มของนักเดินทาง
+		ผู้ถูกเนรเทศจากประเทศของตัวเอง พวกเขาต้องการเริ่มต้นชีวิตใหม่ สิ่งที่พวกเขานำติดตัวมาด้วยมีเพียงเสื้อผ้า
+		กับเสบียงอีกเล็กน้อยจากบ้านเกิดของพวกเขา เป้าหมายของเกมนี้คือ คุณจะต้องช่วยให้พวกเขามีชีวิตรอด
+		และสร้างเมืองที่ยิ่งใหญ่.
 		^p
-		This help reference details all the tools and buildings in game. For an interactive overview of how to play, try out the tutorials.
-		For more detailed information, click on a ^c2 highlighted topic ^c0 from the list below to learn more!
+		คู่มือช่วยเหลือนี้จะอธิบายรายละเอียดของเครื่องมือและสิ่งก่อสร้างต่างๆ ภายในเกม คุณยังสามารถเลือกทำแบบฝึกหัด
+		เพื่อทดลองฝึกเล่นเกมได้เช่นกัน สำหรับรายละเอียดเพิ่มเติม คลิกที่^c2หัวข้อที่เน้นสี^c0ไว้ จากรายการด้านล่างได้
 		^p
 		^lb
 			^li ^abGettingStarted Gameplay Overview^ae
